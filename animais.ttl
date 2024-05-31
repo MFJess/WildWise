@@ -1,0 +1,238 @@
+@prefix : <http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/> .
+
+<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#alimentacao
+:alimentacao rdf:type owl:ObjectProperty ;
+             rdfs:domain :Animal ;
+             rdfs:range :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#coloracao
+:coloracao rdf:type owl:ObjectProperty ;
+           rdfs:domain :Animal ;
+           rdfs:range :Cor .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#existeEm
+:existeEm rdf:type owl:ObjectProperty ;
+          rdfs:domain :Animal ;
+          rdfs:range :Localizacao .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#habitaEm
+:habitaEm rdf:type owl:ObjectProperty ;
+          rdfs:domain :Animal ;
+          rdfs:range :Habitat .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#identificadoPor
+:identificadoPor rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Animal ;
+                 rdfs:range :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#predadorDe
+:predadorDe rdf:type owl:ObjectProperty ;
+            owl:inverseOf :presaDe .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#presaDe
+:presaDe rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animal ;
+         rdfs:range :Animal .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#altura
+:altura rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#classe
+:classe rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#comprimento
+:comprimento rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#dieta
+:dieta rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#familia
+:familia rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#genus
+:genus rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idAnimal
+:idAnimal rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idCor
+:idCor rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Cor .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idDieta
+:idDieta rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idHabitat
+:idHabitat rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Habitat .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idLocalizacao
+:idLocalizacao rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Localizacao .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#idTaxonomia
+:idTaxonomia rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#nomeAnimal
+:nomeAnimal rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#nomeCor
+:nomeCor rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Cor .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#nomeDieta
+:nomeDieta rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#nomeHabitat
+:nomeHabitat rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Habitat .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#nomeLocalizacao
+:nomeLocalizacao rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Localizacao .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#ordem
+:ordem rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#peso
+:peso rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#populationSize
+:populationSize rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#reino
+:reino rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Taxonomia .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#tempoGestacao
+:tempoGestacao rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#tempoVida
+:tempoVida rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Animal .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#tipoPele
+:tipoPele rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Animal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Algivoro
+:Algivoro rdf:type owl:Class ;
+          rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Animal
+:Animal rdf:type owl:Class .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Bactivero
+:Bactivero rdf:type owl:Class ;
+           rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Carnivoro
+:Carnivoro rdf:type owl:Class ;
+           rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Cor
+:Cor rdf:type owl:Class .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Dieta
+:Dieta rdf:type owl:Class .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Fungivoro
+:Fungivoro rdf:type owl:Class ;
+           rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Habitat
+:Habitat rdf:type owl:Class .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Herbivoro
+:Herbivoro rdf:type owl:Class ;
+           rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Localizacao
+:Localizacao rdf:type owl:Class .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Omnivoro
+:Omnivoro rdf:type owl:Class ;
+          rdfs:subClassOf :Dieta .
+
+
+###  http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#Taxonomia
+:Taxonomia rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
