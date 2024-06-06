@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf8"/>
+        <title>WildWise</title>
+        <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}"/>
+    </header>
+    <body>
+        <div>
+            <header>
+                <h1>Consulta</h1>
+            </header>
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="/animais">Animais</a>
+                    </li>
+                    <li>
+                        <a href="/classes">Classes</a>
+                    </li>
+                    <li>
+                        <a href="/familias">Familias</a>
+                    </li>
+                    <li>
+                        <a href="/ordens">Ordens</a>
+                    </li>
+                    <li>
+                        <a href="/geografica">Distribuição Geografica</a>
+                    </li>
+                </ul>
+            </div>
+
+            <footer>
+                <h5>Gerado por RPCW2024 em {{data.data}}</h5>
+            </footer>
+        </div>
+    </body>
+</html>
