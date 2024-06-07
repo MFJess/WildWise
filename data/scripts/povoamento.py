@@ -1,5 +1,4 @@
 import json
-import re
 from aux import *
 from rdflib import Graph, Namespace, Literal, RDF, URIRef
 from rdflib.namespace import RDFS, OWL, XSD
