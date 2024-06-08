@@ -4,14 +4,16 @@
 
 # Características base e taxonómicas de um animal de id especificado
 animal_characteristics = f'''PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
-SELECT ?id ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
+SELECT ?id ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
 WHERE {{
   ?animal ont:idAnimal {id}.
+    OPTIONAL {{ ?animal ont:idAnimal ?id. }}
     OPTIONAL {{ ?animal ont:nomeAnimal ?nome. }}
     OPTIONAL {{ ?animal ont:comprimento ?comprimento. }}
     OPTIONAL {{ ?animal ont:altura ?altura. }}
     OPTIONAL {{ ?animal ont:incubacao ?incubacao. }}
     OPTIONAL {{ ?animal ont:tempoVida ?tempoVida. }}
+    OPTIONAL {{ ?animal ont:dieta ?dieta. }}
     OPTIONAL {{ ?animal ont:presas ?presas. }}
     OPTIONAL {{ ?animal ont:predadores ?predadores. }}
     OPTIONAL {{ ?animal ont:nrEspecies ?nrEspecies. }}
@@ -25,7 +27,6 @@ WHERE {{
     OPTIONAL {{ ?taxonomia ont:classe ?classe. }}
     OPTIONAL {{ ?taxonomia ont:genus ?genus. }}
     OPTIONAL {{ ?taxonomia ont:phylum ?phylum. }}    
-    	
 }} '''
 
 # Localizações onde um animal de id especificado existe
