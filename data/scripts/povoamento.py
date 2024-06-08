@@ -34,7 +34,8 @@ for cls, properties in classes.items():
         g.add((prop_uri, RDFS.range, XSD.string))
 
 # adicionar subclasses da dieta
-diet_types = ["Algivoro", "Bactivero", "Carnivore", "Detritivore", "Folivore", "Frugivore", "Granivore", "Herbivore", "Insectivore", "Molluscivore", "Nectarivore", "Omnivore", "Piscivore", "Planktivore"]
+diet_types = [ "Carnivore",  "Herbivore",  "Omnivore"]
+# "Algivoro", "Bactivero", "Detritivore", "Folivore", "Frugivore", "Granivore", "Insectivore", "Molluscivore", "Nectarivore", "Piscivore", "Planktivore"
 
 for diet in diet_types:
     diet_uri = ont[diet]

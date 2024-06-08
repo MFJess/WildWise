@@ -1,0 +1,885 @@
+@prefix ex: <http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#> .
+@prefix ont: <http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:a1 a ont:Animal ;
+    ont:coloracao ex:c1,
+        ex:c2,
+        ex:c3 ;
+    ont:existeEm ex:l1,
+        ex:l2,
+        ex:l3 ;
+    ont:habitaEm ex:h1,
+        ex:h2,
+        ex:h3,
+        ex:h4 ;
+    ont:idAnimal "a1"^^xsd:string ;
+    ont:identificadoPor ex:t1 ;
+    ont:incubacao "12-13 days"^^xsd:string ;
+    ont:nomeAnimal "Northern-Cardinal"^^xsd:string ;
+    ont:nrEspecies "19"^^xsd:string ;
+    ont:peso "1.58oz"^^xsd:string ;
+    ont:predadores "Birds of prey, snakes, cats"^^xsd:string ;
+    ont:presas " Small insects, worms"^^xsd:string ;
+    ont:tempoVida "Up to 3 years"^^xsd:string ;
+    ont:tipoPele "Feathers"^^xsd:string .
+
+ex:a10 a ont:Animal ;
+    ont:coloracao ex:c13 ;
+    ont:existeEm ex:l19 ;
+    ont:habitaEm ex:h27,
+        ex:h28,
+        ex:h29,
+        ex:h30 ;
+    ont:idAnimal "a10"^^xsd:string ;
+    ont:identificadoPor ex:t10 ;
+    ont:nomeAnimal "Texas-Indigo-Snake"^^xsd:string ;
+    ont:predadores "Birds of prey like hawks and eagles"^^xsd:string ;
+    ont:presas "snakes, small mammals, lizards, birds"^^xsd:string ;
+    ont:tempoVida "Estimated at 15"^^xsd:string ;
+    ont:tipoPele "Scales"^^xsd:string .
+
+ex:a11 a ont:Animal ;
+    ont:coloracao ex:c13,
+        ex:c14,
+        ex:c15 ;
+    ont:existeEm ex:l19 ;
+    ont:idAnimal "a11"^^xsd:string ;
+    ont:identificadoPor ex:t11 ;
+    ont:nomeAnimal "Skye-Terrier"^^xsd:string ;
+    ont:peso "40 lbs"^^xsd:string ;
+    ont:tempoVida "12-15 years"^^xsd:string ;
+    ont:tipoPele "Hair"^^xsd:string .
+
+ex:a12 a ont:Animal ;
+    ont:coloracao ex:c15 ;
+    ont:existeEm ex:l19,
+        ex:l20,
+        ex:l21 ;
+    ont:gestacao "1-2 weeks (from laying eggs to hatching)"^^xsd:string ;
+    ont:habitaEm ex:h31,
+        ex:h32,
+        ex:h33,
+        ex:h34,
+        ex:h35 ;
+    ont:idAnimal "a12"^^xsd:string ;
+    ont:identificadoPor ex:t12 ;
+    ont:nomeAnimal "Japanese-Beetle"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "0.0825 grams"^^xsd:string ;
+    ont:predadores "Wild birds, raccoons, moles, spiders, other insects."^^xsd:string ;
+    ont:tempoVida "Approximately 1 year (varies by temperature)"^^xsd:string ;
+    ont:tipoPele "Exoskeleton"^^xsd:string .
+
+ex:a13 a ont:Animal ;
+    ont:coloracao ex:c16 ;
+    ont:existeEm ex:l22 ;
+    ont:habitaEm ex:h36,
+        ex:h37 ;
+    ont:idAnimal "a13"^^xsd:string ;
+    ont:identificadoPor ex:t13 ;
+    ont:nomeAnimal "Pheasant"^^xsd:string ;
+    ont:peso "0.9kg - 1.5kg (1.9lbs - 3.3lbs)"^^xsd:string ;
+    ont:predadores "Fox, Dog, Human"^^xsd:string ;
+    ont:tempoVida "7 - 10 years"^^xsd:string ;
+    ont:tipoPele "Feathers"^^xsd:string .
+
+ex:a14 a ont:Animal ;
+    ont:coloracao ex:c17 ;
+    ont:existeEm ex:l22 ;
+    ont:idAnimal "a14"^^xsd:string ;
+    ont:identificadoPor ex:t14 ;
+    ont:nomeAnimal "Huntaway"^^xsd:string ;
+    ont:tempoVida "12-14 years"^^xsd:string ;
+    ont:tipoPele "Hair"^^xsd:string .
+
+ex:a15 a ont:Animal ;
+    ont:coloracao ex:c17 ;
+    ont:existeEm ex:l22 ;
+    ont:idAnimal "a15"^^xsd:string ;
+    ont:identificadoPor ex:t15 ;
+    ont:nomeAnimal "Miniature-Pinscher"^^xsd:string ;
+    ont:tempoVida "15 years."^^xsd:string ;
+    ont:tipoPele "Hair"^^xsd:string .
+
+ex:a2 a ont:Animal ;
+    ont:altura "4.5mm"^^xsd:string ;
+    ont:coloracao ex:c4 ;
+    ont:existeEm ex:l10,
+        ex:l11,
+        ex:l4,
+        ex:l5,
+        ex:l6,
+        ex:l7,
+        ex:l8,
+        ex:l9 ;
+    ont:gestacao "1-2 weeks"^^xsd:string ;
+    ont:habitaEm ex:h5,
+        ex:h6,
+        ex:h7,
+        ex:h8 ;
+    ont:idAnimal "a2"^^xsd:string ;
+    ont:identificadoPor ex:t2 ;
+    ont:nomeAnimal "Bed-Bugs"^^xsd:string ;
+    ont:nrEspecies "90"^^xsd:string ;
+    ont:predadores "American cockroaches, cone-nosed insects, pharaoh ants"^^xsd:string ;
+    ont:presas " Humans"^^xsd:string ;
+    ont:tempoVida "10-12 months"^^xsd:string .
+
+ex:a3 a ont:Animal ;
+    ont:coloracao ex:c4,
+        ex:c5,
+        ex:c6 ;
+    ont:existeEm ex:l11,
+        ex:l12,
+        ex:l13 ;
+    ont:gestacao "8-10 weeks"^^xsd:string ;
+    ont:habitaEm ex:h10,
+        ex:h11,
+        ex:h9 ;
+    ont:idAnimal "a3"^^xsd:string ;
+    ont:identificadoPor ex:t3 ;
+    ont:nomeAnimal "Eastern-Fence-Lizard"^^xsd:string ;
+    ont:nrEspecies "7"^^xsd:string ;
+    ont:peso "15g"^^xsd:string ;
+    ont:predadores "snakes, birds, larger lizards, cats"^^xsd:string ;
+    ont:presas "insects, arachnids, and arthropods"^^xsd:string ;
+    ont:tempoVida "2-5 years"^^xsd:string ;
+    ont:tipoPele "Scales"^^xsd:string .
+
+ex:a4 a ont:Animal ;
+    ont:coloracao ex:c7 ;
+    ont:existeEm ex:l13,
+        ex:l14,
+        ex:l15 ;
+    ont:gestacao "Between nine and 30 days"^^xsd:string ;
+    ont:habitaEm ex:h11,
+        ex:h12 ;
+    ont:idAnimal "a4"^^xsd:string ;
+    ont:identificadoPor ex:t4 ;
+    ont:nomeAnimal "Wood-Frog"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "0.28 ounces"^^xsd:string ;
+    ont:predadores "Larger frogs, snakes, raccoons, herons, skunks, and mink."^^xsd:string ;
+    ont:presas "Insects, slugs, worms, arachnids, and snails"^^xsd:string ;
+    ont:tempoVida "Three years"^^xsd:string ;
+    ont:tipoPele "Permeable"^^xsd:string .
+
+ex:a5 a ont:Animal ;
+    ont:coloracao ex:c8 ;
+    ont:existeEm ex:l15 ;
+    ont:gestacao "4.5 to 5 months"^^xsd:string ;
+    ont:habitaEm ex:h13,
+        ex:h14 ;
+    ont:idAnimal "a5"^^xsd:string ;
+    ont:identificadoPor ex:t5 ;
+    ont:nomeAnimal "Bonnethead-Shark"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "6.6 to 8.8 pounds"^^xsd:string ;
+    ont:predadores "Humans, larger sharks"^^xsd:string ;
+    ont:presas "Crustaceans, cephalopods"^^xsd:string ;
+    ont:tipoPele "Rough"^^xsd:string .
+
+ex:a6 a ont:Animal ;
+    ont:coloracao ex:c8 ;
+    ont:existeEm ex:l16 ;
+    ont:habitaEm ex:h15,
+        ex:h16 ;
+    ont:idAnimal "a6"^^xsd:string ;
+    ont:identificadoPor ex:t6 ;
+    ont:incubacao "8 months"^^xsd:string ;
+    ont:nomeAnimal "Aldabra-Giant-Tortoise"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "150kg - 250kg (330lbs - 550lbs)"^^xsd:string ;
+    ont:predadores "Giant Crab, Humans, Cats"^^xsd:string ;
+    ont:presas "Grasses, Leaves, Flowers"^^xsd:string ;
+    ont:tempoVida "80 - 255 years"^^xsd:string ;
+    ont:tipoPele "Scales"^^xsd:string .
+
+ex:a7 a ont:Animal ;
+    ont:altura "10cm - 18cm (4in - 7in)"^^xsd:string ;
+    ont:coloracao ex:c10,
+        ex:c9 ;
+    ont:existeEm ex:l17 ;
+    ont:habitaEm ex:h17,
+        ex:h18 ;
+    ont:idAnimal "a7"^^xsd:string ;
+    ont:identificadoPor ex:t7 ;
+    ont:nomeAnimal "Chipmunk"^^xsd:string ;
+    ont:peso "57g - 113g (2oz - 4oz)"^^xsd:string ;
+    ont:predadores "Human, Hawks, Raccoon"^^xsd:string ;
+    ont:tempoVida "4 - 8 years"^^xsd:string ;
+    ont:tipoPele "Fur"^^xsd:string .
+
+ex:a8 a ont:Animal ;
+    ont:coloracao ex:c11,
+        ex:c12,
+        ex:c13 ;
+    ont:existeEm ex:l17,
+        ex:l18,
+        ex:l19 ;
+    ont:gestacao "35 days"^^xsd:string ;
+    ont:habitaEm ex:h19,
+        ex:h20,
+        ex:h21,
+        ex:h22,
+        ex:h23 ;
+    ont:idAnimal "a8"^^xsd:string ;
+    ont:identificadoPor ex:t8 ;
+    ont:nomeAnimal "Eastern-Chipmunk"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "2.33 to 5.30 ounces"^^xsd:string ;
+    ont:predadores "Foxes, bobcats, birds of prey, coyotes, dogs and cats, raccoons, red squirrels, mustelids"^^xsd:string ;
+    ont:presas "Insects and worms"^^xsd:string ;
+    ont:tempoVida "two to eight years"^^xsd:string ;
+    ont:tipoPele "Fur"^^xsd:string .
+
+ex:a9 a ont:Animal ;
+    ont:coloracao ex:c13 ;
+    ont:existeEm ex:l19 ;
+    ont:habitaEm ex:h24,
+        ex:h25,
+        ex:h26 ;
+    ont:idAnimal "a9"^^xsd:string ;
+    ont:identificadoPor ex:t9 ;
+    ont:incubacao "11-19 days"^^xsd:string ;
+    ont:nomeAnimal "Tree-swallow"^^xsd:string ;
+    ont:nrEspecies "1"^^xsd:string ;
+    ont:peso "17-25g"^^xsd:string ;
+    ont:predadores "Snakes, raccoons, weasels, cats, chipmunks, falcons, hawks, owls, and magpies"^^xsd:string ;
+    ont:presas "Insects, berries, and seeds"^^xsd:string ;
+    ont:tipoPele "Feathers"^^xsd:string .
+
+ont:Algivoro a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Bactivero a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Carnivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Detritivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Folivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Frugivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Granivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Herbivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Insectivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Molluscivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Nectarivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Omnivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Piscivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:Planktivore a owl:Class ;
+    rdfs:subClassOf ont:Diet .
+
+ont:alimentacao a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range ont:Diet .
+
+ont:altura a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:classe a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:coloracao a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range ont:Cor .
+
+ont:comprimento a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:existeEm a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range ont:Localizacao .
+
+ont:familia a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:filo a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:genero a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:gestacao a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:habitaEm a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range ont:Habitat .
+
+ont:idAnimal a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:idCor a rdf:Property ;
+    rdfs:domain ont:Cor ;
+    rdfs:range xsd:string .
+
+ont:idDieta a rdf:Property ;
+    rdfs:domain ont:Dieta ;
+    rdfs:range xsd:string .
+
+ont:idHabitat a rdf:Property ;
+    rdfs:domain ont:Habitat ;
+    rdfs:range xsd:string .
+
+ont:idLocalizacao a rdf:Property ;
+    rdfs:domain ont:Localizacao ;
+    rdfs:range xsd:string .
+
+ont:idTaxonomia a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:identificadoPor a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range ont:Taxonomia .
+
+ont:incubacao a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:nomeAnimal a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:nomeCientifico a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:nomeCor a rdf:Property ;
+    rdfs:domain ont:Cor ;
+    rdfs:range xsd:string .
+
+ont:nomeDieta a rdf:Property ;
+    rdfs:domain ont:Dieta ;
+    rdfs:range xsd:string .
+
+ont:nomeHabitat a rdf:Property ;
+    rdfs:domain ont:Habitat ;
+    rdfs:range xsd:string .
+
+ont:nomeLocalizacao a rdf:Property ;
+    rdfs:domain ont:Localizacao ;
+    rdfs:range xsd:string .
+
+ont:nrEspecies a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:ordem a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:predadores a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:presas a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:reino a rdf:Property ;
+    rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:tempoVida a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ont:tipoPele a rdf:Property ;
+    rdfs:domain ont:Animal ;
+    rdfs:range xsd:string .
+
+ex:c1 a ont:Cor ;
+    ont:idCor "c1"^^xsd:string ;
+    ont:nomeCor "Brown"^^xsd:string .
+
+ex:c10 a ont:Cor ;
+    ont:idCor "c10"^^xsd:string ;
+    ont:nomeCor "Beige"^^xsd:string .
+
+ex:c11 a ont:Cor ;
+    ont:idCor "c11"^^xsd:string ;
+    ont:nomeCor "White"^^xsd:string .
+
+ex:c12 a ont:Cor ;
+    ont:idCor "c12"^^xsd:string ;
+    ont:nomeCor "Dark"^^xsd:string .
+
+ex:c14 a ont:Cor ;
+    ont:idCor "c14"^^xsd:string ;
+    ont:nomeCor "Light"^^xsd:string .
+
+ex:c16 a ont:Cor ;
+    ont:idCor "c16"^^xsd:string ;
+    ont:nomeCor "Orange"^^xsd:string .
+
+ex:c2 a ont:Cor ;
+    ont:idCor "c2"^^xsd:string ;
+    ont:nomeCor "Red"^^xsd:string .
+
+ex:c3 a ont:Cor ;
+    ont:idCor "c3"^^xsd:string ;
+    ont:nomeCor "Olive"^^xsd:string .
+
+ex:c5 a ont:Cor ;
+    ont:idCor "c5"^^xsd:string ;
+    ont:nomeCor "Blue"^^xsd:string .
+
+ex:c6 a ont:Cor ;
+    ont:idCor "c6"^^xsd:string ;
+    ont:nomeCor "Black"^^xsd:string .
+
+ex:c7 a ont:Cor ;
+    ont:idCor "c7"^^xsd:string ;
+    ont:nomeCor "Green"^^xsd:string .
+
+ex:c9 a ont:Cor ;
+    ont:idCor "c9"^^xsd:string ;
+    ont:nomeCor "Yellow"^^xsd:string .
+
+ex:h1 a ont:Habitat ;
+    ont:idHabitat "h1"^^xsd:string ;
+    ont:nomeHabitat "Wetlands"^^xsd:string .
+
+ex:h10 a ont:Habitat ;
+    ont:idHabitat "h10"^^xsd:string ;
+    ont:nomeHabitat "grassland"^^xsd:string .
+
+ex:h12 a ont:Habitat ;
+    ont:idHabitat "h12"^^xsd:string ;
+    ont:nomeHabitat "vernal pools."^^xsd:string .
+
+ex:h13 a ont:Habitat ;
+    ont:idHabitat "h13"^^xsd:string ;
+    ont:nomeHabitat "Warm"^^xsd:string .
+
+ex:h14 a ont:Habitat ;
+    ont:idHabitat "h14"^^xsd:string ;
+    ont:nomeHabitat "offshore waters"^^xsd:string .
+
+ex:h15 a ont:Habitat ;
+    ont:idHabitat "h15"^^xsd:string ;
+    ont:nomeHabitat "Grasslands"^^xsd:string .
+
+ex:h16 a ont:Habitat ;
+    ont:idHabitat "h16"^^xsd:string ;
+    ont:nomeHabitat "swamps"^^xsd:string .
+
+ex:h17 a ont:Habitat ;
+    ont:idHabitat "h17"^^xsd:string ;
+    ont:nomeHabitat "Forest"^^xsd:string .
+
+ex:h18 a ont:Habitat ;
+    ont:idHabitat "h18"^^xsd:string ;
+    ont:nomeHabitat "thick woodland"^^xsd:string .
+
+ex:h19 a ont:Habitat ;
+    ont:idHabitat "h19"^^xsd:string ;
+    ont:nomeHabitat "Urban"^^xsd:string .
+
+ex:h2 a ont:Habitat ;
+    ont:idHabitat "h2"^^xsd:string ;
+    ont:nomeHabitat "shrublands"^^xsd:string .
+
+ex:h20 a ont:Habitat ;
+    ont:idHabitat "h20"^^xsd:string ;
+    ont:nomeHabitat "suburban parks"^^xsd:string .
+
+ex:h21 a ont:Habitat ;
+    ont:idHabitat "h21"^^xsd:string ;
+    ont:nomeHabitat "backyards"^^xsd:string .
+
+ex:h22 a ont:Habitat ;
+    ont:idHabitat "h22"^^xsd:string ;
+    ont:nomeHabitat "human habitations"^^xsd:string .
+
+ex:h23 a ont:Habitat ;
+    ont:idHabitat "h23"^^xsd:string ;
+    ont:nomeHabitat "deciduous woods"^^xsd:string .
+
+ex:h24 a ont:Habitat ;
+    ont:idHabitat "h24"^^xsd:string ;
+    ont:nomeHabitat "Meadows"^^xsd:string .
+
+ex:h25 a ont:Habitat ;
+    ont:idHabitat "h25"^^xsd:string ;
+    ont:nomeHabitat "marshes"^^xsd:string .
+
+ex:h26 a ont:Habitat ;
+    ont:idHabitat "h26"^^xsd:string ;
+    ont:nomeHabitat "shorelines"^^xsd:string .
+
+ex:h27 a ont:Habitat ;
+    ont:idHabitat "h27"^^xsd:string ;
+    ont:nomeHabitat "brush"^^xsd:string .
+
+ex:h28 a ont:Habitat ;
+    ont:idHabitat "h28"^^xsd:string ;
+    ont:nomeHabitat "forests in Texas"^^xsd:string .
+
+ex:h29 a ont:Habitat ;
+    ont:idHabitat "h29"^^xsd:string ;
+    ont:nomeHabitat "from San Antonio south"^^xsd:string .
+
+ex:h3 a ont:Habitat ;
+    ont:idHabitat "h3"^^xsd:string ;
+    ont:nomeHabitat "gardens"^^xsd:string .
+
+ex:h30 a ont:Habitat ;
+    ont:idHabitat "h30"^^xsd:string ;
+    ont:nomeHabitat "into northern Mexico as far south as Veracruz."^^xsd:string .
+
+ex:h31 a ont:Habitat ;
+    ont:idHabitat "h31"^^xsd:string ;
+    ont:nomeHabitat "Forests"^^xsd:string .
+
+ex:h32 a ont:Habitat ;
+    ont:idHabitat "h32"^^xsd:string ;
+    ont:nomeHabitat "grasslands"^^xsd:string .
+
+ex:h33 a ont:Habitat ;
+    ont:idHabitat "h33"^^xsd:string ;
+    ont:nomeHabitat "farms"^^xsd:string .
+
+ex:h34 a ont:Habitat ;
+    ont:idHabitat "h34"^^xsd:string ;
+    ont:nomeHabitat "cities"^^xsd:string .
+
+ex:h35 a ont:Habitat ;
+    ont:idHabitat "h35"^^xsd:string ;
+    ont:nomeHabitat "anywhere they can eat."^^xsd:string .
+
+ex:h36 a ont:Habitat ;
+    ont:idHabitat "h36"^^xsd:string ;
+    ont:nomeHabitat "fields"^^xsd:string .
+
+ex:h37 a ont:Habitat ;
+    ont:idHabitat "h37"^^xsd:string ;
+    ont:nomeHabitat "wetlands"^^xsd:string .
+
+ex:h4 a ont:Habitat ;
+    ont:idHabitat "h4"^^xsd:string ;
+    ont:nomeHabitat "woodlands"^^xsd:string .
+
+ex:h5 a ont:Habitat ;
+    ont:idHabitat "h5"^^xsd:string ;
+    ont:nomeHabitat "Beds"^^xsd:string .
+
+ex:h6 a ont:Habitat ;
+    ont:idHabitat "h6"^^xsd:string ;
+    ont:nomeHabitat "furniture"^^xsd:string .
+
+ex:h7 a ont:Habitat ;
+    ont:idHabitat "h7"^^xsd:string ;
+    ont:nomeHabitat "buildings"^^xsd:string .
+
+ex:h8 a ont:Habitat ;
+    ont:idHabitat "h8"^^xsd:string ;
+    ont:nomeHabitat "fabrics"^^xsd:string .
+
+ex:h9 a ont:Habitat ;
+    ont:idHabitat "h9"^^xsd:string ;
+    ont:nomeHabitat "forest"^^xsd:string .
+
+ex:l1 a ont:Localizacao ;
+    ont:idLocalizacao "l1"^^xsd:string ;
+    ont:nomeLocalizacao "Central-America"^^xsd:string .
+
+ex:l10 a ont:Localizacao ;
+    ont:idLocalizacao "l10"^^xsd:string ;
+    ont:nomeLocalizacao "Eurasia"^^xsd:string .
+
+ex:l12 a ont:Localizacao ;
+    ont:idLocalizacao "l12"^^xsd:string ;
+    ont:nomeLocalizacao "Mexico"^^xsd:string .
+
+ex:l14 a ont:Localizacao ;
+    ont:idLocalizacao "l14"^^xsd:string ;
+    ont:nomeLocalizacao "into-the-Arctic-Circle"^^xsd:string .
+
+ex:l16 a ont:Localizacao ;
+    ont:idLocalizacao "l16"^^xsd:string ;
+    ont:nomeLocalizacao "Aldabra-atoll-in-the-Indian-Ocean"^^xsd:string .
+
+ex:l18 a ont:Localizacao ;
+    ont:idLocalizacao "l18"^^xsd:string ;
+    ont:nomeLocalizacao "southern-Canada"^^xsd:string .
+
+ex:l2 a ont:Localizacao ;
+    ont:idLocalizacao "l2"^^xsd:string ;
+    ont:nomeLocalizacao "South-America"^^xsd:string .
+
+ex:l20 a ont:Localizacao ;
+    ont:idLocalizacao "l20"^^xsd:string ;
+    ont:nomeLocalizacao "United-States"^^xsd:string .
+
+ex:l21 a ont:Localizacao ;
+    ont:idLocalizacao "l21"^^xsd:string ;
+    ont:nomeLocalizacao "Native-to-Asia"^^xsd:string .
+
+ex:l3 a ont:Localizacao ;
+    ont:idLocalizacao "l3"^^xsd:string ;
+    ont:nomeLocalizacao "North-America"^^xsd:string .
+
+ex:l4 a ont:Localizacao ;
+    ont:idLocalizacao "l4"^^xsd:string ;
+    ont:nomeLocalizacao ""^^xsd:string .
+
+ex:l5 a ont:Localizacao ;
+    ont:idLocalizacao "l5"^^xsd:string ;
+    ont:nomeLocalizacao "Europe"^^xsd:string .
+
+ex:l6 a ont:Localizacao ;
+    ont:idLocalizacao "l6"^^xsd:string ;
+    ont:nomeLocalizacao "Asia"^^xsd:string .
+
+ex:l7 a ont:Localizacao ;
+    ont:idLocalizacao "l7"^^xsd:string ;
+    ont:nomeLocalizacao "Antarctica"^^xsd:string .
+
+ex:l8 a ont:Localizacao ;
+    ont:idLocalizacao "l8"^^xsd:string ;
+    ont:nomeLocalizacao "Oceania"^^xsd:string .
+
+ex:l9 a ont:Localizacao ;
+    ont:idLocalizacao "l9"^^xsd:string ;
+    ont:nomeLocalizacao "Africa"^^xsd:string .
+
+ex:t1 a ont:Taxonomy ;
+    ont:classe "Aves"^^xsd:string ;
+    ont:familia "Cardinalidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Cardinalis"^^xsd:string ;
+    ont:idTaxonomia "t1"^^xsd:string ;
+    ont:nomeCientifico "Cardinalis cardinalis"^^xsd:string ;
+    ont:ordem "Passeriformes"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t10 a ont:Taxonomy ;
+    ont:classe "Reptilia"^^xsd:string ;
+    ont:familia "Colubridae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Drymarchon"^^xsd:string ;
+    ont:idTaxonomia "t10"^^xsd:string ;
+    ont:nomeCientifico "Drymarchon melanurus erebennus"^^xsd:string ;
+    ont:ordem "Squamata"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t11 a ont:Taxonomy ;
+    ont:classe "Mammalia"^^xsd:string ;
+    ont:familia "Canidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Canis"^^xsd:string ;
+    ont:idTaxonomia "t11"^^xsd:string ;
+    ont:nomeCientifico "Canis lupus"^^xsd:string ;
+    ont:ordem "Carnivora"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t12 a ont:Taxonomy ;
+    ont:classe "Insecta"^^xsd:string ;
+    ont:familia "Scarabaeidae"^^xsd:string ;
+    ont:filo "Arthropoda"^^xsd:string ;
+    ont:genero "Popillia"^^xsd:string ;
+    ont:idTaxonomia "t12"^^xsd:string ;
+    ont:nomeCientifico "Popillia japonica"^^xsd:string ;
+    ont:ordem "Coleoptera"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t13 a ont:Taxonomy ;
+    ont:classe "Aves"^^xsd:string ;
+    ont:familia "Phasianidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Phasianus"^^xsd:string ;
+    ont:idTaxonomia "t13"^^xsd:string ;
+    ont:nomeCientifico "Phasianus Colchicus"^^xsd:string ;
+    ont:ordem "Galliformes"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t14 a ont:Taxonomy ;
+    ont:classe "Mammalia"^^xsd:string ;
+    ont:familia "Canidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Canis"^^xsd:string ;
+    ont:idTaxonomia "t14"^^xsd:string ;
+    ont:nomeCientifico "Canis lupus"^^xsd:string ;
+    ont:ordem "Carnivora"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t15 a ont:Taxonomy ;
+    ont:classe "Mammalia"^^xsd:string ;
+    ont:familia "Canidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Canis"^^xsd:string ;
+    ont:idTaxonomia "t15"^^xsd:string ;
+    ont:nomeCientifico "Canis lupus"^^xsd:string ;
+    ont:ordem "Carnivora"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t2 a ont:Taxonomy ;
+    ont:classe "Insecta"^^xsd:string ;
+    ont:familia "Cimicidae"^^xsd:string ;
+    ont:filo "Arthropoda"^^xsd:string ;
+    ont:genero "Cimex"^^xsd:string ;
+    ont:idTaxonomia "t2"^^xsd:string ;
+    ont:nomeCientifico "Cimex lectularius"^^xsd:string ;
+    ont:ordem "Hemiptera"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t3 a ont:Taxonomy ;
+    ont:classe "Reptilia"^^xsd:string ;
+    ont:familia "Phyrnosomatidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Sceloporus"^^xsd:string ;
+    ont:idTaxonomia "t3"^^xsd:string ;
+    ont:nomeCientifico "Sceloporus undulatas"^^xsd:string ;
+    ont:ordem "Squamata"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t4 a ont:Taxonomy ;
+    ont:classe "Amphibia"^^xsd:string ;
+    ont:familia "Ranidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Lithobates"^^xsd:string ;
+    ont:idTaxonomia "t4"^^xsd:string ;
+    ont:nomeCientifico "Lithobates sylvaticus"^^xsd:string ;
+    ont:ordem "Anura"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t5 a ont:Taxonomy ;
+    ont:classe "Chondrichthyes"^^xsd:string ;
+    ont:familia "Sphyrnidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Sphyrna"^^xsd:string ;
+    ont:idTaxonomia "t5"^^xsd:string ;
+    ont:nomeCientifico "Sphyrna tiburo"^^xsd:string ;
+    ont:ordem "Carcharhiniformes"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t6 a ont:Taxonomy ;
+    ont:classe "Reptilia"^^xsd:string ;
+    ont:familia "Testudinidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Geochelone"^^xsd:string ;
+    ont:idTaxonomia "t6"^^xsd:string ;
+    ont:nomeCientifico "Geochelone gigantea"^^xsd:string ;
+    ont:ordem "Testudines"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t7 a ont:Taxonomy ;
+    ont:classe "Mammalia"^^xsd:string ;
+    ont:familia "Sciuridae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:idTaxonomia "t7"^^xsd:string ;
+    ont:ordem "Rodentia"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t8 a ont:Taxonomy ;
+    ont:classe "Mammalia"^^xsd:string ;
+    ont:familia "Sciuridae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Tamias"^^xsd:string ;
+    ont:idTaxonomia "t8"^^xsd:string ;
+    ont:nomeCientifico "Tamias striatus"^^xsd:string ;
+    ont:ordem "Rodentia"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:t9 a ont:Taxonomy ;
+    ont:classe "Aves"^^xsd:string ;
+    ont:familia "Hirundinidae"^^xsd:string ;
+    ont:filo "Chordata"^^xsd:string ;
+    ont:genero "Tachycineta"^^xsd:string ;
+    ont:idTaxonomia "t9"^^xsd:string ;
+    ont:nomeCientifico "Tachycineta bicolor"^^xsd:string ;
+    ont:ordem "Passeriformes"^^xsd:string ;
+    ont:reino "Animalia"^^xsd:string .
+
+ex:c15 a ont:Cor ;
+    ont:idCor "c15"^^xsd:string ;
+    ont:nomeCor "Golden"^^xsd:string .
+
+ex:c17 a ont:Cor ;
+    ont:idCor "c17"^^xsd:string ;
+    ont:nomeCor "Chocolate"^^xsd:string .
+
+ex:c4 a ont:Cor ;
+    ont:idCor "c4"^^xsd:string ;
+    ont:nomeCor "Grey"^^xsd:string .
+
+ex:c8 a ont:Cor ;
+    ont:idCor "c8"^^xsd:string ;
+    ont:nomeCor "Tan"^^xsd:string .
+
+ex:h11 a ont:Habitat ;
+    ont:idHabitat "h11"^^xsd:string ;
+    ont:nomeHabitat "Woodlands"^^xsd:string .
+
+ex:l11 a ont:Localizacao ;
+    ont:idLocalizacao "l11"^^xsd:string ;
+    ont:nomeLocalizacao "parts-of-the-United-States"^^xsd:string .
+
+ex:l13 a ont:Localizacao ;
+    ont:idLocalizacao "l13"^^xsd:string ;
+    ont:nomeLocalizacao "the-Southern-U.S."^^xsd:string .
+
+ex:l15 a ont:Localizacao ;
+    ont:idLocalizacao "l15"^^xsd:string ;
+    ont:nomeLocalizacao "Ocean"^^xsd:string .
+
+ex:l17 a ont:Localizacao ;
+    ont:idLocalizacao "l17"^^xsd:string ;
+    ont:nomeLocalizacao "United-States-east-of-the-Mississippi-River"^^xsd:string .
+
+ont:Dieta a owl:Class .
+
+ex:c13 a ont:Cor ;
+    ont:idCor "c13"^^xsd:string ;
+    ont:nomeCor "Fawn"^^xsd:string .
+
+ex:l19 a ont:Localizacao ;
+    ont:idLocalizacao "l19"^^xsd:string ;
+    ont:nomeLocalizacao "but-also-found-in-Canada"^^xsd:string .
+
+ont:Taxonomia a owl:Class .
+
+ont:Cor a owl:Class .
+
+ont:Localizacao a owl:Class .
+
+ont:Animal a owl:Class .
+
+ont:Habitat a owl:Class .
+

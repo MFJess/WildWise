@@ -1,0 +1,540 @@
+[
+    {
+        "name": "Northern Cardinal",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Passeriformes",
+            "family": "Cardinalidae",
+            "genus": "Cardinalis",
+            "scientific_name": "Cardinalis cardinalis"
+        },
+        "locations": [
+            "Central-America",
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": " Small insects, worms",
+            "estimated_population_size": "Unknown",
+            "biggest_threat": "Insecticides, cats",
+            "most_distinctive_feature": "Raised crest",
+            "other_name(s)": "redbird, common cardinal",
+            "wingspan": "9.8-12.2 inches",
+            "incubation_period": "12-13 days",
+            "habitat": "Wetlands, shrublands, gardens, woodlands",
+            "predators": "Birds of prey, snakes, cats",
+            "diet": "Omnivore",
+            "type": "Passerine",
+            "common_name": "Cardinal, red cardinal",
+            "number_of_species": "19",
+            "location": "North America and South America",
+            "nesting_location": "Trees, shrubs",
+            "age_of_molting": "Unknown",
+            "color": "BrownRedOlive",
+            "skin_type": "Feathers",
+            "top_speed": "37 mph",
+            "lifespan": "Up to 3 years",
+            "weight": "1.58oz",
+            "length": "8.3-9.3 inches"
+        }
+    },
+    {
+        "name": "Bed Bugs",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Insecta",
+            "order": "Hemiptera",
+            "family": "Cimicidae",
+            "genus": "Cimex",
+            "scientific_name": "Cimex lectularius"
+        },
+        "locations": [
+            "Africa",
+            "Antarctica",
+            "Asia",
+            "Central-America",
+            "Eurasia",
+            "Europe",
+            "North-America",
+            "Oceania",
+            "South-America"
+        ],
+        "characteristics": {
+            "prey": " Humans",
+            "name_of_young": "Nymphs",
+            "gestation_period": "1-2 weeks",
+            "habitat": "Beds, furniture, buildings, fabrics",
+            "predators": "American cockroaches, cone-nosed insects, pharaoh ants",
+            "diet": "Omnivore",
+            "type": "insect",
+            "common_name": "bed bugs",
+            "number_of_species": "90",
+            "color": "BrownRed",
+            "lifespan": "10-12 months",
+            "height": "4.5mm",
+            "length": "5-7mm",
+            "age_of_sexual_maturity": "21-35 days"
+        }
+    },
+    {
+        "name": "Eastern Fence Lizard",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Reptilia",
+            "order": "Squamata",
+            "family": "Phyrnosomatidae",
+            "genus": "Sceloporus",
+            "scientific_name": "Sceloporus undulatas"
+        },
+        "locations": [
+            "Central-America",
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": "insects, arachnids, and arthropods",
+            "name_of_young": "hatchling",
+            "group_behavior": "Solitary",
+            "estimated_population_size": "over 1,000,000",
+            "biggest_threat": "habitat loss",
+            "most_distinctive_feature": "spiny scales, wavelike markings",
+            "other_name(s)": "fence lizard, plateau lizard, prairie lizard",
+            "gestation_period": "8-10 weeks",
+            "litter_size": "3-16",
+            "habitat": "forest, grassland, and shrublands",
+            "predators": "snakes, birds, larger lizards, cats",
+            "diet": "Carnivore",
+            "lifestyle": "Diurnal",
+            "type": "reptile",
+            "common_name": "Eastern fence lizard",
+            "number_of_species": "7",
+            "location": "parts of the United States, Mexico",
+            "group": "lounge",
+            "color": "BrownGreyBlueBlack",
+            "skin_type": "Scales",
+            "lifespan": "2-5 years",
+            "weight": "15g",
+            "length": "4-7 inches",
+            "age_of_sexual_maturity": "1-2 years"
+        }
+    },
+    {
+        "name": "Wood Frog",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Amphibia",
+            "order": "Anura",
+            "family": "Ranidae",
+            "genus": "Lithobates",
+            "scientific_name": "Lithobates sylvaticus"
+        },
+        "locations": [
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": "Insects, slugs, worms, arachnids, and snails",
+            "name_of_young": "Tadpoles",
+            "estimated_population_size": "While there are no estimates of the global population size, the overall population is stable.",
+            "biggest_threat": "Habitat fragmentation and loss due to anthropogenic causes and natural changes in habitat.",
+            "most_distinctive_feature": "Black marking across its eyes",
+            "gestation_period": "Between nine and 30 days",
+            "litter_size": "Females typically lay between 1,000 and 3,000 eggs.",
+            "habitat": "Woodlands and vernal pools.",
+            "predators": "Larger frogs, snakes, raccoons, herons, skunks, and mink.",
+            "diet": "Carnivore",
+            "type": "Amphibian",
+            "common_name": "Wood frog",
+            "number_of_species": "1",
+            "location": "North America, into the Arctic Circle and the Southern U.S.",
+            "color": "BrownGreyRedGreen",
+            "skin_type": "Permeable",
+            "lifespan": "Three years",
+            "weight": "0.28 ounces",
+            "length": "1.5 to three inches",
+            "age_of_sexual_maturity": "One to two years"
+        }
+    },
+    {
+        "name": "Bonnethead Shark",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Chondrichthyes",
+            "order": "Carcharhiniformes",
+            "family": "Sphyrnidae",
+            "genus": "Sphyrna",
+            "scientific_name": "Sphyrna tiburo"
+        },
+        "locations": [
+            "Ocean"
+        ],
+        "characteristics": {
+            "prey": "Crustaceans, cephalopods",
+            "group_behavior": "School",
+            "estimated_population_size": "Unknown, but the shark is abundant where it is found",
+            "biggest_threat": "Humans",
+            "most_distinctive_feature": "Its head",
+            "other_name(s)": "Bonnet shark, shovelhead shark, Bonnetnose shark, bonnet hammerhead",
+            "gestation_period": "4.5 to 5 months",
+            "water_type": "Brackish",
+            "habitat": "Warm, offshore waters",
+            "predators": "Humans, larger sharks",
+            "diet": "Omnivore",
+            "type": "Fish",
+            "common_name": "Bonnethead shark",
+            "number_of_species": "1",
+            "color": "GreyBlack-BrownGrey-Brown",
+            "skin_type": "Rough",
+            "top_speed": "0.7 mph",
+            "weight": "6.6 to 8.8 pounds",
+            "length": "20 to 39 inches in length. Females are larger."
+        }
+    },
+    {
+        "name": "Aldabra Giant Tortoise",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Reptilia",
+            "order": "Testudines",
+            "family": "Testudinidae",
+            "genus": "Geochelone",
+            "scientific_name": "Geochelone gigantea"
+        },
+        "locations": [
+            "Ocean"
+        ],
+        "characteristics": {
+            "prey": "Grasses, Leaves, Flowers",
+            "name_of_young": "Hatchling",
+            "group_behavior": "Herd",
+            "estimated_population_size": "200,000",
+            "biggest_threat": "Habitat loss",
+            "most_distinctive_feature": "Large, high-domed shell",
+            "other_name(s)": "Giant Tortoise",
+            "incubation_period": "8 months",
+            "age_of_independence": "3 - 6 months",
+            "habitat": "Grasslands and swamps",
+            "predators": "Giant Crab, Humans, Cats",
+            "diet": "Herbivore",
+            "lifestyle": "Diurnal",
+            "common_name": "Aldabra Giant Tortoise",
+            "number_of_species": "1",
+            "location": "Aldabra atoll in the Indian Ocean",
+            "average_clutch_size": "15",
+            "slogan": "One got to be 255 years old!",
+            "group": "Reptile",
+            "color": "BrownBlackTan",
+            "skin_type": "Scales",
+            "top_speed": "0.3 mph",
+            "lifespan": "80 - 255 years",
+            "weight": "150kg - 250kg (330lbs - 550lbs)",
+            "length": "90cm - 120cm (3ft - 4ft)",
+            "age_of_sexual_maturity": "20 - 30 years"
+        }
+    },
+    {
+        "name": "Chipmunk",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Rodentia",
+            "family": "Sciuridae"
+        },
+        "locations": [
+            "Eurasia",
+            "North-America"
+        ],
+        "characteristics": {
+            "main_prey": "Nuts, Fruit, Seeds, Berries",
+            "distinctive_feature": "Stripes on fur and large front teeth",
+            "habitat": "Forest and thick woodland",
+            "predators": "Human, Hawks, Raccoon",
+            "diet": "Omnivore",
+            "average_litter_size": "5",
+            "lifestyle": "Solitary",
+            "favorite_food": "Nuts",
+            "type": "Mammal",
+            "slogan": "There are 25 different species!",
+            "color": "BrownYellowBlackBeige",
+            "skin_type": "Fur",
+            "top_speed": "21 mph",
+            "lifespan": "4 - 8 years",
+            "weight": "57g - 113g (2oz - 4oz)",
+            "height": "10cm - 18cm (4in - 7in)"
+        }
+    },
+    {
+        "name": "Eastern Chipmunk",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Rodentia",
+            "family": "Sciuridae",
+            "genus": "Tamias",
+            "scientific_name": "Tamias striatus"
+        },
+        "locations": [
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": "Insects and worms",
+            "name_of_young": "pup",
+            "group_behavior": "Solitary",
+            "biggest_threat": "Predators",
+            "most_distinctive_feature": "The dark brown and white stripes down the back",
+            "gestation_period": "35 days",
+            "litter_size": "two to five",
+            "habitat": "Urban and suburban parks, backyards, human habitations, deciduous woods",
+            "predators": "Foxes, bobcats, birds of prey, coyotes, dogs and cats, raccoons, red squirrels, mustelids",
+            "diet": "Herbivore",
+            "type": "mammal",
+            "common_name": "Eastern Chipmunk",
+            "number_of_species": "1",
+            "location": "United States east of the Mississippi River and southern Canada",
+            "group": "solitary",
+            "color": "YellowWhiteDark BrownGrey-Brown",
+            "skin_type": "Fur",
+            "top_speed": "18 mph",
+            "lifespan": "two to eight years",
+            "weight": "2.33 to 5.30 ounces",
+            "length": "10 to 12 inches",
+            "age_of_sexual_maturity": "six months for females, eight months for males",
+            "age_of_weaning": "40 days"
+        }
+    },
+    {
+        "name": "Tree swallow",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Passeriformes",
+            "family": "Hirundinidae",
+            "genus": "Tachycineta",
+            "scientific_name": "Tachycineta bicolor"
+        },
+        "locations": [
+            "Central-America",
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": "Insects, berries, and seeds",
+            "estimated_population_size": "20 million",
+            "biggest_threat": "Loss of nesting sites",
+            "most_distinctive_feature": "The iridescent greenish-blue plumage",
+            "wingspan": "12-14in",
+            "incubation_period": "11-19 days",
+            "habitat": "Meadows, marshes, and shorelines",
+            "predators": "Snakes, raccoons, weasels, cats, chipmunks, falcons, hawks, owls, and magpies",
+            "diet": "Omnivore",
+            "type": "Bird",
+            "common_name": "Tree Swallow",
+            "number_of_species": "1",
+            "location": "North America",
+            "nesting_location": "Hollows and holes",
+            "age_of_molting": "15-25 days",
+            "migratory": "1",
+            "color": "BlueBlackWhite",
+            "skin_type": "Feathers",
+            "top_speed": "30 mph",
+            "weight": "17-25g",
+            "length": "4.7-5.5 inches"
+        }
+    },
+    {
+        "name": "Texas Indigo Snake",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Reptilia",
+            "order": "Squamata",
+            "family": "Colubridae",
+            "genus": "Drymarchon",
+            "scientific_name": "Drymarchon melanurus erebennus"
+        },
+        "locations": [
+            "Central-America",
+            "North-America"
+        ],
+        "characteristics": {
+            "prey": "snakes, small mammals, lizards, birds",
+            "main_prey": "All native venomous snakes",
+            "name_of_young": "Hatchlings",
+            "group_behavior": "Solitary",
+            "biggest_threat": "Birds of Prey, Human encroachment",
+            "most_distinctive_feature": "Iridescent blueish sheen in the light.",
+            "other_name(s)": "Texas blue indigo, blue indigo snake, indigo snake",
+            "temperament": "Mostly docile unless harassed",
+            "litter_size": "3-12",
+            "habitat": "Grasslands, brush, forests in Texas, from San Antonio south, and into northern Mexico as far south as Veracruz.",
+            "predators": "Birds of prey like hawks and eagles",
+            "diet": "Carnivore",
+            "lifestyle": "Diurnalterrestrial",
+            "common_name": "Texas Indigo Snake",
+            "color": "BrownBlackBlack-Brown",
+            "skin_type": "Scales",
+            "lifespan": "Estimated at 15",
+            "age_of_sexual_maturity": "2-3 years"
+        }
+    },
+    {
+        "name": "Skye Terrier",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Carnivora",
+            "family": "Canidae",
+            "genus": "Canis",
+            "scientific_name": "Canis lupus"
+        },
+        "locations": [
+            "Europe"
+        ],
+        "characteristics": {
+            "temperament": "Intelligent, Gay, Friendly, Fearless, Loyal, Good-tempered",
+            "diet": "Omnivore",
+            "color": "FawnBlueBlackLight GreyDark Grey",
+            "skin_type": "Hair",
+            "lifespan": "12-15 years",
+            "weight": "40 lbs"
+        }
+    },
+    {
+        "name": "Japanese Beetle",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Arthropoda",
+            "class": "Insecta",
+            "order": "Coleoptera",
+            "family": "Scarabaeidae",
+            "genus": "Popillia",
+            "scientific_name": "Popillia japonica"
+        },
+        "locations": [
+            "Asia",
+            "Europe",
+            "North-America"
+        ],
+        "characteristics": {
+            "name_of_young": "Larvae or grubs",
+            "group_behavior": "Swarm",
+            "estimated_population_size": "Millions (unknown population)",
+            "biggest_threat": "Natural predators and insecticide.",
+            "most_distinctive_feature": "Metallic green and copper body.",
+            "gestation_period": "1-2 weeks (from laying eggs to hatching)",
+            "litter_size": "1-5 eggs",
+            "habitat": "Forests, grasslands, farms, cities, and anywhere they can eat.",
+            "predators": "Wild birds, raccoons, moles, spiders, other insects.",
+            "diet": "Herbivore",
+            "favorite_food": "Plant life and fruits",
+            "type": "Insect",
+            "common_name": "Japanese beetle",
+            "number_of_species": "1",
+            "location": "Native to Asia, but also found in Canada and United States",
+            "group": "Large groups and swarms",
+            "color": "GreenGolden",
+            "skin_type": "Exoskeleton",
+            "lifespan": "Approximately 1 year (varies by temperature)",
+            "weight": "0.0825 grams",
+            "length": "15 mm",
+            "age_of_sexual_maturity": "2 weeks after hatching"
+        }
+    },
+    {
+        "name": "Pheasant",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Aves",
+            "order": "Galliformes",
+            "family": "Phasianidae",
+            "genus": "Phasianus",
+            "scientific_name": "Phasianus Colchicus"
+        },
+        "locations": [
+            "Africa",
+            "Asia",
+            "Central-America",
+            "Eurasia",
+            "Europe",
+            "North-America",
+            "Oceania",
+            "South-America"
+        ],
+        "characteristics": {
+            "main_prey": "Insects, Berries, Seeds",
+            "distinctive_feature": "Brightly coloured feathers and long tail of the male",
+            "wingspan": "71cm - 86cm (28in - 34in)",
+            "habitat": "Grasslands, fields and wetlands",
+            "predators": "Fox, Dog, Human",
+            "diet": "Omnivore",
+            "lifestyle": "Solitary",
+            "favorite_food": "Insects",
+            "type": "Bird",
+            "average_clutch_size": "10",
+            "slogan": "Females lay between 8 and 12 eggs per clutch!",
+            "color": "BrownYellowRedBlackTanGreenOrange",
+            "skin_type": "Feathers",
+            "top_speed": "18 mph",
+            "lifespan": "7 - 10 years",
+            "weight": "0.9kg - 1.5kg (1.9lbs - 3.3lbs)",
+            "length": "53cm - 84cm (21in - 33in)"
+        }
+    },
+    {
+        "name": "Huntaway",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Carnivora",
+            "family": "Canidae",
+            "genus": "Canis",
+            "scientific_name": "Canis lupus"
+        },
+        "locations": [
+            "Oceania"
+        ],
+        "characteristics": {
+            "name_of_young": "Puppy",
+            "litter_size": "5-7 puppies",
+            "diet": "Omnivore",
+            "origin": "New Zealand",
+            "color": "BlackTan",
+            "skin_type": "Hair",
+            "lifespan": "12-14 years"
+        }
+    },
+    {
+        "name": "Miniature Pinscher",
+        "taxonomy": {
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "class": "Mammalia",
+            "order": "Carnivora",
+            "family": "Canidae",
+            "genus": "Canis",
+            "scientific_name": "Canis lupus"
+        },
+        "locations": [
+            "Europe"
+        ],
+        "characteristics": {
+            "most_distinctive_feature": "Its high stepping, hackney gait.",
+            "temperament": "High energy, brave and intelligent.",
+            "diet": "Omnivore",
+            "average_litter_size": "3-6 puppies.",
+            "color": "GreyFawnRedBlueBlackChocolate",
+            "skin_type": "Hair",
+            "top_speed": "15 mph",
+            "lifespan": "15 years."
+        }
+    }
+]
