@@ -16,10 +16,9 @@ f.close()
 
 # adicionar classes da ontologia
 classes = {
-    "Animal": ["idAnimal", "nomeAnimal", "comprimento", "altura", "gestacao", "incubacao","tempoVida", "presas", "predadores", "nrEspecies", "tipoPele"],
+    "Animal": ["idAnimal", "nomeAnimal", "comprimento", "altura", "gestacao", "incubacao","tempoVida", "dieta", "presas", "predadores", "nrEspecies", "tipoPele"],
     "Taxonomia": ["idTaxonomia", "nomeCientifico", "reino", "familia", "ordem", "classe", "genero", "filo"],
     "Cor": ["idCor", "nomeCor"],
-    "Dieta": ["idDieta", "nomeDieta"], # unica classe com subclasses
     "Habitat": ["idHabitat", "nomeHabitat"],
     "Localizacao": ["idLocalizacao", "nomeLocalizacao"]
 }
@@ -33,22 +32,12 @@ for cls, properties in classes.items():
         g.add((prop_uri, RDFS.domain, cls_uri))
         g.add((prop_uri, RDFS.range, XSD.string))
 
-# adicionar subclasses da dieta
-diet_types = [ "Carnivore",  "Herbivore",  "Omnivore"]
-# "Algivoro", "Bactivero", "Detritivore", "Folivore", "Frugivore", "Granivore", "Insectivore", "Molluscivore", "Nectarivore", "Piscivore", "Planktivore"
-
-for diet in diet_types:
-    diet_uri = ont[diet]
-    g.add((diet_uri, RDF.type, OWL.Class))
-    g.add((diet_uri, RDFS.subClassOf, ont.Diet))
-
 # adicionar relações
 
 relations = {
     "coloracao": ("Animal", "Cor"),
     "habitaEm": ("Animal", "Habitat"),
     "existeEm": ("Animal", "Localizacao"),
-    "alimentacao": ("Animal", "Diet"),
     "identificadoPor": ("Animal", "Taxonomia")
 }
 
@@ -62,7 +51,6 @@ def populate_ontology(graph, data):
     numero_animal = 1
     numero_taxonomia = 1
     numero_cor = 1
-    numero_dieta = 1
     numero_habitat = 1
     numero_localizacao = 1
 
@@ -70,7 +58,6 @@ def populate_ontology(graph, data):
     existing_colors = set()
     existing_locations = set()
     existing_habitats = set()
-    existing_dietas = set()
     existing_taxonomias = set()
 
     
@@ -99,48 +86,101 @@ def populate_ontology(graph, data):
 
                 if 'scientific_name' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.nomeCientifico, Literal(animal['taxonomy']['scientific_name'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'kingdom' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.reino, Literal(animal['taxonomy']['kingdom'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'family' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.familia, Literal(animal['taxonomy']['family'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'order' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.ordem, Literal(animal['taxonomy']['order'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'class' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.classe, Literal(animal['taxonomy']['class'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'genus' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.genero, Literal(animal['taxonomy']['genus'], datatype=XSD.string)))
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+                
                 if 'phylum' in animal['taxonomy']:
                     graph.add((taxonomy_uri, ont.filo, Literal(animal['taxonomy']['phylum'], datatype=XSD.string)))            
-                
+                else:
+                    graph.add((taxonomy_uri, ont.nomeCientifico, Literal("Unknown", datatype=XSD.string)))
+
                 existing_taxonomias.add(id_taxonomia) # adicionar nas taxonomias existentes
 
             graph.add((animal_uri, ont.identificadoPor, taxonomy_uri)) # adicionar a relacao da taxonomia com o animal à ontologia
 
         # tratar das caracteristicas do animal
         if animal['characteristics']: # verificar se o animal tem as caracteristicas presentes
-            print (animal['characteristics'])
             # tratar caracteristicas simples que serao atributos do animal
             if 'lenght' in animal['characteristics']:
                 graph.add((animal_uri, ont.comprimento, Literal(animal['characteristics']['length'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.comprimento, Literal("Unknown", datatype=XSD.string)))
+
             if 'height' in animal['characteristics']:
                 graph.add((animal_uri, ont.altura, Literal(animal['characteristics']['height'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.altura, Literal("Unknown", datatype=XSD.string)))
+
             if 'weight' in animal['characteristics']:    
                 graph.add((animal_uri, ont.peso, Literal(animal['characteristics']['weight'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.peso, Literal("Unknown", datatype=XSD.string)))
+
             if 'gestation_period' in animal['characteristics']:
                 graph.add((animal_uri, ont.gestacao, Literal(animal['characteristics']['gestation_period'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.gestacao, Literal("Unknown", datatype=XSD.string)))
+
             if 'incubation_period' in animal['characteristics']:
                 graph.add((animal_uri, ont.incubacao, Literal(animal['characteristics']['incubation_period'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.incubacao, Literal("Unknown", datatype=XSD.string)))
+
             if 'lifespan' in animal['characteristics']:
                 graph.add((animal_uri, ont.tempoVida, Literal(animal['characteristics']['lifespan'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.tempoVida, Literal("Unknown", datatype=XSD.string)))
+            
+            if 'diet' in animal['characteristics']:
+                graph.add((animal_uri, ont.dieta, Literal(animal['characteristics']['diet'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.tempoVida, Literal("Unknown", datatype=XSD.string)))
+
             if 'predators' in animal['characteristics']:    
                 graph.add((animal_uri, ont.predadores, Literal(animal['characteristics']['predators'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.predadores, Literal("Unknown", datatype=XSD.string)))
+
             if 'prey' in animal['characteristics']:
                 graph.add((animal_uri, ont.presas, Literal(animal['characteristics']['prey'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.predadores, Literal("Unknown", datatype=XSD.string)))
+
             if 'number_of_species' in animal['characteristics']:
                 graph.add((animal_uri, ont.nrEspecies, Literal(animal['characteristics']['number_of_species'], datatype=XSD.string)))
+            else:
+                graph.add((animal_uri, ont.predadores, Literal("Unknown", datatype=XSD.string)))
+            
             if 'skin_type' in animal['characteristics']:
                 graph.add((animal_uri, ont.tipoPele, Literal(animal['characteristics']['skin_type'], datatype=XSD.string)))
-
+            else:
+                graph.add((animal_uri, ont.predadores, Literal("Unknown", datatype=XSD.string)))
+            
             # tratar caracteristicas que serao classes
 
             # tratar cores
@@ -156,17 +196,6 @@ def populate_ontology(graph, data):
                         graph.add((color_uri, ont.idCor, Literal(id_cor, datatype=XSD.string))) # adicionar id
                         existing_colors.add(color_name)
                     graph.add((animal_uri, ont.coloracao, color_uri))
-            
-            # tratar dietas
-            if 'diet' in animal:
-                dieta = animal['diet']
-                id_dieta = "d" + str(numero_dieta)
-                dieta_uri = URIRef(f"http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#{id_dieta}")
-                if dieta not in existing_dietas:
-                    graph.add((dieta_uri, ont.nomeDieta, Literal(dieta, datatype=XSD.string)))
-                    graph.add(dieta_uri, ont.idDieta, Literal(id_dieta, datatype=XSD.string)) # adicionar id
-                    existing_dietas.add(dieta)
-                graph.add((animal_uri, ont.alimentacao, dieta_uri))
 
             # tratar habitats
             if 'habitat' in animal['characteristics']:
@@ -185,16 +214,12 @@ def populate_ontology(graph, data):
             
             # pegar nas localizacoes das caracteristicas (location)
             locations_from_characteristics = animal.get('characteristics', {}).get('location', '')
-            #print(locations_from_characteristics)
             locations_from_characteristics = split_locations_habitats(locations_from_characteristics)
-            #print(locations_from_characteristics)
 
         # tratar localizacoes 
         locations = animal.get('locations', []) # buscar localizacoes do locations
-        #print(locations)
         combined_locations = locations + locations_from_characteristics # juntar ambas sem repetidos
         combined_locations = set([x.replace(' ', '-') for x in combined_locations])
-        #print(combined_locations)
 
         for location_name in combined_locations:
             id_localizacao = "l" + str(numero_localizacao)
