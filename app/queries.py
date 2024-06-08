@@ -2,12 +2,24 @@
 ########## ANIMAIS ##########
 #############################
 
+# Todos os animais
+def all_animals(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT ?idAnimal ?nome
+WHERE {{
+  ?a a ont:Animal.
+  ?a ont:idAnimal ?idAnimal .
+  ?a ont:nomeAnimal ?nome.
+}}
+'''
+
 # Características base e taxonómicas de um animal de id especificado
-animal_characteristics = f'''PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
-SELECT ?id ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
+def animal_characteristics(id): return f'''PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+SELECT ?idAnimal ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
 WHERE {{
   ?animal ont:idAnimal {id}.
-    OPTIONAL {{ ?animal ont:idAnimal ?id. }}
+    OPTIONAL {{ ?animal ont:idAnimal ?idAnimal. }}
     OPTIONAL {{ ?animal ont:nomeAnimal ?nome. }}
     OPTIONAL {{ ?animal ont:comprimento ?comprimento. }}
     OPTIONAL {{ ?animal ont:altura ?altura. }}
@@ -29,36 +41,42 @@ WHERE {{
     OPTIONAL {{ ?taxonomia ont:phylum ?phylum. }}    
 }} '''
 
-# Localizações onde um animal de id especificado existe
-animal_locations = f'''
+# Animais por localizaçao
+def animal_locations(local): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT ?localizacoes
+SELECT ?idAnimal ?nome
 WHERE {{
-  ?animal ont:idAnimal {id}.
-  ?animal ont:existeEm/ont:nomeLocalizacao ?localizacoes.
+  ?a a ont:Animal.
+  ?animal ont:existeEm/ont:nomeLocalizacao {local}.
+  ?a ont:idAnimal ?idAnimal .
+  ?a ont:nomeAnimal ?nome.
 }}
 '''
 
-# Habitat onde um animal de id especificado habita
-animal_habitats = f'''
+# Animais que habitam
+def animal_habitats(habitat): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT ?habitats
+SELECT ?idAnimal ?nome
 WHERE {{
-  ?animal ont:idAnimal {id}.
-  ?animal ont:habitaEm/ont:nomeHabitat ?habitats.
+  ?a a ont:Animal.
+  ?a ont:habitaEm/ont:nomeHabitat {habitat}.
+  ?a ont:idAnimal ?idAnimal .
+  ?a ont:nomeAnimal ?nome.
 }}
 '''
 
-# Colors of an animal de id especificado
-animal_colors = f'''
+# Animais com certa cor
+def animal_colors(color): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT ?cores
+SELECT ?idAnimal ?nome
 WHERE {{
-  ?animal ont:idAnimal {id}.
-  ?animal ont:coloracao/ont:nomeCor ?cores.
+  ?a a ont:Animal.
+  ?a ont:coloracao/ont:nomeCor {color}.
+  ?a ont:idAnimal ?idAnimal .
+  ?a ont:nomeAnimal ?nome.
 }}
 '''
 
@@ -67,7 +85,7 @@ WHERE {{
 #############################
 
 # All kingdoms
-all_kingdoms = f'''
+def all_kingdoms(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?reinos
@@ -78,7 +96,7 @@ WHERE {{
 '''
 
 # All phylums
-all_phylums = f'''
+def all_phylums(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?phylums
@@ -89,7 +107,7 @@ WHERE {{
 '''
 
 # All classes
-all_classes = f'''
+def all_classes(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?classes
@@ -100,7 +118,7 @@ WHERE {{
 '''
 
 # All orders
-all_orders = f'''
+def all_orders(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?ordens
@@ -111,7 +129,7 @@ WHERE {{
 '''
 
 # All families
-all_families = f'''
+def all_families(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?families
@@ -122,7 +140,7 @@ WHERE {{
 '''
 
 # All genus 
-all_genus = f'''
+def all_genus(): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?genus
@@ -138,67 +156,73 @@ WHERE {{
 ######################################
 
 # All animals that belong to a specified kingdom
-animal_by_kingdom = f'''
+def animal_by_kingdom(kingdom): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:reino {kingdom};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
 
 # All animals that belong to a specified phylum
-animal_by_phylums = f'''
+def animal_by_phylums(phylum): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:filo {phylum};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
 
 # All animals that belong to a specified class
-animal_by_classes = f'''
+def animal_by_classes(classe): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:classe {classe};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
 
 # All animals that belong to a specified order
-animal_by_orders = f'''
+def animal_by_orders(order): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:ordem {order};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
 
 # All animals that belong to a specified family
-animal_by_families = f'''
+def animal_by_families(family): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:familia {family};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
 
 # All animals that belong to a specified genus
-animal_by_genus = f'''
+def animal_by_genus(genus): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
-SELECT DISTINCT ?names
+SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
   ?animals ont:identificadoPor/ont:genus {genus};
-  ont:nomeAnimal ?names.
+  ont:idAnimal ?idAnimal;
+  ont:nomeAnimal ?nome.
 }}
 '''
