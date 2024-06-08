@@ -9,23 +9,21 @@
         <div>
             <header>
                 <h1>WildWise</h1>
-                <h2>Animais ({{data.tag}})</h2>
+                <h2>Ordens</h2>
             </header>
 
             <div>
                 <table>
                     <tr>
-                        <th>ID</th>
                         <th>Nome</th>
                     </tr>
                     {% for entry in data.dados %}
                     <tr>
                         <td>
-                            <a href="{{url_for('animal', id=entry.idAnimal.value)}}">
-                                {{entry.idAnimal.value}}
+                            <a href="{{url_for('ordem', ordem=entry.ordens.value)}}">
+                                {{entry.ordens.value}}
                             </a>
                         </td>
-                        <td>{{entry.nome.value}}</td>
                     </tr>
                     {% endfor %}
                 </table>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf8"/>
+        <title>WildWise</title>
+        <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}"/>
+    </header>
+    <body>
+        <div>
+            <header>
+                <h1>WildWise</h1>
+                <h2>Animal: {{data.tag}}</h2>
+            </header>
+
+            <div>
+                <table>
+                    <tr>
+                        <th>Campo</th>
+                        <th>Valor</th>
+                    </tr>
+                    {%for k,v in data.info%}
+                        <tr>
+                            <td>{{k}}</td>
+                            <td>{{v}}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <footer class="w3-container w3-purple">
+                <h5>Gerado por RPCW2024 {{data.data}}</h5>
+            </footer>
+        </div>
+    </body>
+</html>

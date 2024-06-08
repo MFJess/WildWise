@@ -18,7 +18,7 @@ WHERE {{
 def animal_characteristics(id): return f'''PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 SELECT ?idAnimal ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
 WHERE {{
-  ?animal ont:idAnimal {id}.
+  ?animal ont:idAnimal '{id}'.
     OPTIONAL {{ ?animal ont:idAnimal ?idAnimal. }}
     OPTIONAL {{ ?animal ont:nomeAnimal ?nome. }}
     OPTIONAL {{ ?animal ont:comprimento ?comprimento. }}
@@ -41,6 +41,17 @@ WHERE {{
     OPTIONAL {{ ?taxonomia ont:phylum ?phylum. }}    
 }} '''
 
+# Todas localizacoes
+def all_locals(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT ?localizacoes
+WHERE {{
+  ?l a ont:Localizacao.
+  ?l ont:nomeLocalizacao ?localizacoes .
+}}
+'''
+
 # Animais por localizaçao
 def animal_locations(local): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
@@ -48,9 +59,20 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 SELECT ?idAnimal ?nome
 WHERE {{
   ?a a ont:Animal.
-  ?animal ont:existeEm/ont:nomeLocalizacao {local}.
+  ?a ont:existeEm/ont:nomeLocalizacao '{local}'.
   ?a ont:idAnimal ?idAnimal .
   ?a ont:nomeAnimal ?nome.
+}}
+'''
+
+# Todos os habitats
+def all_habitat(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT ?habitats
+WHERE {{
+  ?h a ont:Habitat.
+  ?h ont:nomeHabitat ?habitats .
 }}
 '''
 
@@ -61,9 +83,20 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 SELECT ?idAnimal ?nome
 WHERE {{
   ?a a ont:Animal.
-  ?a ont:habitaEm/ont:nomeHabitat {habitat}.
+  ?a ont:habitaEm/ont:nomeHabitat '{habitat}'.
   ?a ont:idAnimal ?idAnimal .
   ?a ont:nomeAnimal ?nome.
+}}
+'''
+
+# Todas as cores
+def all_colors(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT ?cores
+WHERE {{
+  ?c a ont:Cor.
+  ?c ont:nomeCor ?cores .
 }}
 '''
 
@@ -74,7 +107,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 SELECT ?idAnimal ?nome
 WHERE {{
   ?a a ont:Animal.
-  ?a ont:coloracao/ont:nomeCor {color}.
+  ?a ont:coloracao/ont:nomeCor '{color}'.
   ?a ont:idAnimal ?idAnimal .
   ?a ont:nomeAnimal ?nome.
 }}
@@ -161,7 +194,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:reino {kingdom};
+  ?animals ont:identificadoPor/ont:reino '{kingdom}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
@@ -173,7 +206,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:filo {phylum};
+  ?animals ont:identificadoPor/ont:filo '{phylum}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
@@ -185,7 +218,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:classe {classe};
+  ?animals ont:identificadoPor/ont:classe '{classe}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
@@ -197,7 +230,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:ordem {order};
+  ?animals ont:identificadoPor/ont:ordem '{order}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
@@ -209,7 +242,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:familia {family};
+  ?animals ont:identificadoPor/ont:familia '{family}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
@@ -221,7 +254,7 @@ PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 SELECT DISTINCT ?idAnimal ?nome
 WHERE {{
-  ?animals ont:identificadoPor/ont:genus {genus};
+  ?animals ont:identificadoPor/ont:genero '{genus}';
   ont:idAnimal ?idAnimal;
   ont:nomeAnimal ?nome.
 }}
