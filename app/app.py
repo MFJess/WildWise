@@ -17,5 +17,10 @@ def index():
 def consulta():
     return render_template('consulta.html', data = {"data": data_formatada})
 
+# Animais
+@app.route('/animais')
+def animais():
+    return render_template('animais.html', data = {"data": data_formatada})
+
 if __name__ == '__main__':
     app.run(debug=True)
