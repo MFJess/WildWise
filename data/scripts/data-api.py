@@ -6,7 +6,7 @@ import json
 load_dotenv()
 __KEY = os.getenv('API_KEY')
 
-f = open("../text_files/animals-test.txt", "r")
+f = open("../text_files/animals.txt", "r")
 
 result = list()
 
