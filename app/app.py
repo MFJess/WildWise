@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, url_for
 from datetime import datetime
 from queries import *
+from SPARQLWrapper import SPARQLWrapper, JSON
 import requests
 import re
 
@@ -389,12 +390,38 @@ def cor(cor):
         return render_template('empty.html', data = {"data": data_formatada})
 
 ###############AUMENTAR################### 
-  
+
+def sparql_query(query):
+    sparql = SPARQLWrapper(f"{graphdb_endpoint}/statements")
+    sparql.setMethod('POST')
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    return sparql.query().convert()
+
+def get_animal_count():
+    sparql_query = animal_count()
+
+    resposta = requests.get(graphdb_endpoint,
+                            params={"query": sparql_query}, 
+                            headers={'Accept': 'application/sparql-results+json'})
+    
+    if resposta.status_code == 200:
+        dados = resposta.json()['results']['bindings']
+        total = int(dados[0]['animals']['value'])
+        return f"a{total+1}"
+    else:
+        return 'a1'  
+
 # Aumentar
 @app.route('/aumentar', methods=['POST','GET'])
 def aumentar():
     if request.method == 'POST':
+        id = get_animal_count()
         forms = dict(request.form)
+
+        query = animal_insert(id,forms)
+
+        sparql_query(query)
 
         return render_template('success.html', data = {"data": data_formatada,"name":forms['name']})
     else:

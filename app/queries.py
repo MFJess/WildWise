@@ -259,3 +259,22 @@ WHERE {{
   ont:nomeAnimal ?nome.
 }}
 '''
+
+def animal_count(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT (COUNT (?a) as ?animals)
+WHERE {{
+  ?a a ont:Animal.
+}}
+'''
+
+def animal_insert(id,forms): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+INSERT DATA{{
+  ont:{id} a ont:Animal ;
+  ont:IdAnimal "{id}" ;
+  ont:nomeAnimal "{forms['name']}" .
+}}
+'''
