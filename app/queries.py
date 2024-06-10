@@ -269,12 +269,28 @@ WHERE {{
 }}
 '''
 
-def animal_insert(id,forms): return f'''
+def taxo_match(forms): return f'''
 PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT ?t
+WHERE {{
+  ?t a ont:Taxonomy;
+  ont:reino '{forms['kingdom']}';
+  ont:nomeCientifico '{forms['sciname']}';
+  ont:familia '{forms['family']}';
+  ont:filo '{forms['phylum']}';
+  ont:classe '{forms['classe']}';
+  ont:genero '{forms['genus']}'.
+}}
+'''
+
+def animal_insert(id,name, taxo): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#>
 
 INSERT DATA{{
   ont:{id} a ont:Animal ;
   ont:IdAnimal "{id}" ;
-  ont:nomeAnimal "{forms['name']}" .
+  ont:nomeAnimal "{name}" ;
+  ont:identificadoPor ont:{taxo} .
 }}
 '''

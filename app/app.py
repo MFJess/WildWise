@@ -412,18 +412,39 @@ def get_animal_count():
     else:
         return 'a1'  
 
+def get_taxo(forms):
+    sparql_query = taxo_match(forms)
+
+    resposta = requests.get(graphdb_endpoint,
+                            params={"query": sparql_query}, 
+                            headers={'Accept': 'application/sparql-results+json'})
+    
+    if resposta.status_code == 200:
+        dados = resposta.json()['results']['bindings']
+        if dados:
+            result = dados[0]['t']['value'].split('#')[-1]
+            return result
+        else:
+            return 'ERROR'
+    else:
+        return 'ERROR'  
+
 # Aumentar
 @app.route('/aumentar', methods=['POST','GET'])
 def aumentar():
     if request.method == 'POST':
         id = get_animal_count()
         forms = dict(request.form)
+        name = forms['name']
+        taxo = get_taxo(forms)
 
-        query = animal_insert(id,forms)
+        if not taxo == 'ERROR':
+            query = animal_insert(id,name,taxo)
+            sparql_query(query)
 
-        sparql_query(query)
-
-        return render_template('success.html', data = {"data": data_formatada,"name":forms['name']})
+            return render_template('success.html', data = {"data": data_formatada,"name":name})
+        else:
+            return render_template('error.html', data = {"data": data_formatada,"name":name})
     else:
         return render_template('aumentar.html', data = {"data": data_formatada}) 
 
