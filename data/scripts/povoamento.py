@@ -16,7 +16,7 @@ f.close()
 
 # adicionar classes da ontologia
 classes = {
-    "Animal": ["idAnimal", "nomeAnimal", "comprimento", "altura", "gestacao", "incubacao","tempoVida", "dieta", "presas", "predadores", "nrEspecies", "tipoPele"],
+    "Animal": ["idAnimal", "nomeAnimal", "comprimento", "altura", "peso", "gestacao", "incubacao","tempoVida", "dieta", "presas", "predadores", "nrEspecies", "tipoPele"],
     "Taxonomia": ["idTaxonomia", "nomeCientifico", "reino", "familia", "ordem", "classe", "genero", "filo"],
     "Cor": ["idCor", "nomeCor"],
     "Habitat": ["idHabitat", "nomeHabitat"],
