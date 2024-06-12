@@ -491,7 +491,8 @@ ex:a1024 a ont:Animal ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l322,
         ex:l323,
-        ex:l324 ;
+        ex:l324,
+        ex:l325 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h829 ;
     ont:idAnimal "a1024"^^xsd:string ;
@@ -819,8 +820,7 @@ ex:a1040 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l326,
-        ex:l327 ;
+    ont:existeEm ex:l326 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h845 ;
     ont:idAnimal "a1040"^^xsd:string ;
@@ -855,7 +855,8 @@ ex:a1042 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l327 ;
+    ont:existeEm ex:l327,
+        ex:l328 ;
     ont:gestacao "45 to 80 days"^^xsd:string ;
     ont:habitaEm ex:h845 ;
     ont:idAnimal "a1042"^^xsd:string ;
@@ -1527,8 +1528,7 @@ ex:a1075 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l334,
-        ex:l335 ;
+    ont:existeEm ex:l334 ;
     ont:gestacao "34 days"^^xsd:string ;
     ont:idAnimal "a1075"^^xsd:string ;
     ont:identificadoPor ex:t1075 ;
@@ -1601,8 +1601,7 @@ ex:a1079 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l335,
-        ex:l336 ;
+    ont:existeEm ex:l335 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h869,
         ex:h870,
@@ -2068,8 +2067,7 @@ ex:a1101 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l336,
-        ex:l337 ;
+    ont:existeEm ex:l336 ;
     ont:gestacao "Three to four weeks, depending on the weather"^^xsd:string ;
     ont:habitaEm ex:h881,
         ex:h882 ;
@@ -2502,7 +2500,8 @@ ex:a1123 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l342 ;
+    ont:existeEm ex:l342,
+        ex:l343 ;
     ont:gestacao "5-6 months"^^xsd:string ;
     ont:habitaEm ex:h898 ;
     ont:idAnimal "a1123"^^xsd:string ;
@@ -2540,7 +2539,8 @@ ex:a1125 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l343 ;
+    ont:existeEm ex:l343,
+        ex:l344 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h898 ;
     ont:idAnimal "a1125"^^xsd:string ;
@@ -3158,8 +3158,7 @@ ex:a1155 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l364,
-        ex:l365 ;
+    ont:existeEm ex:l364 ;
     ont:gestacao "40 days"^^xsd:string ;
     ont:habitaEm ex:h918,
         ex:h919 ;
@@ -3218,8 +3217,7 @@ ex:a1158 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l365,
-        ex:l366 ;
+    ont:existeEm ex:l365 ;
     ont:gestacao "11 months"^^xsd:string ;
     ont:habitaEm ex:h921 ;
     ont:idAnimal "a1158"^^xsd:string ;
@@ -3707,7 +3705,8 @@ ex:a1182 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l367 ;
+    ont:existeEm ex:l367,
+        ex:l368 ;
     ont:gestacao "two month"^^xsd:string ;
     ont:habitaEm ex:h933 ;
     ont:idAnimal "a1182"^^xsd:string ;
@@ -3935,7 +3934,8 @@ ex:a1194 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l369,
-        ex:l370 ;
+        ex:l370,
+        ex:l371 ;
     ont:gestacao "10-11 months"^^xsd:string ;
     ont:habitaEm ex:h941,
         ex:h942,
@@ -4197,8 +4197,7 @@ ex:a1207 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l373,
-        ex:l374 ;
+    ont:existeEm ex:l373 ;
     ont:gestacao "66-105 days"^^xsd:string ;
     ont:habitaEm ex:h949 ;
     ont:idAnimal "a1207"^^xsd:string ;
@@ -4313,8 +4312,7 @@ ex:a1213 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l374,
-        ex:l375 ;
+    ont:existeEm ex:l374 ;
     ont:gestacao "3-6 weeks"^^xsd:string ;
     ont:habitaEm ex:h949 ;
     ont:idAnimal "a1213"^^xsd:string ;
@@ -4767,8 +4765,7 @@ ex:a1236 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l377,
-        ex:l378 ;
+    ont:existeEm ex:l377 ;
     ont:gestacao "390 - 410 days"^^xsd:string ;
     ont:habitaEm ex:h965,
         ex:h966 ;
@@ -5179,7 +5176,8 @@ ex:a1257 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l381 ;
+    ont:existeEm ex:l381,
+        ex:l382 ;
     ont:gestacao "64 days"^^xsd:string ;
     ont:habitaEm ex:h972 ;
     ont:idAnimal "a1257"^^xsd:string ;
@@ -5550,8 +5548,7 @@ ex:a1275 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l385,
-        ex:l386 ;
+    ont:existeEm ex:l385 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h983 ;
     ont:idAnimal "a1275"^^xsd:string ;
@@ -5885,7 +5882,8 @@ ex:a1292 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l386,
-        ex:l387 ;
+        ex:l387,
+        ex:l388 ;
     ont:gestacao "28 days"^^xsd:string ;
     ont:habitaEm ex:h987,
         ex:h988 ;
@@ -6468,7 +6466,8 @@ ex:a1322 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l389 ;
+    ont:existeEm ex:l389,
+        ex:l390 ;
     ont:gestacao "11 months"^^xsd:string ;
     ont:habitaEm ex:h999 ;
     ont:idAnimal "a1322"^^xsd:string ;
@@ -6611,7 +6610,8 @@ ex:a133 a ont:Animal ;
     ont:coloracao ex:c26 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l59 ;
+    ont:existeEm ex:l59,
+        ex:l60 ;
     ont:gestacao "23 days"^^xsd:string ;
     ont:habitaEm ex:h132 ;
     ont:idAnimal "a133"^^xsd:string ;
@@ -6810,7 +6810,8 @@ ex:a134 a ont:Animal ;
     ont:altura "Unknown"^^xsd:string ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l60 ;
+    ont:existeEm ex:l60,
+        ex:l61 ;
     ont:gestacao "90-105 days"^^xsd:string ;
     ont:habitaEm ex:h133 ;
     ont:idAnimal "a134"^^xsd:string ;
@@ -8324,7 +8325,8 @@ ex:a1416 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l404 ;
+    ont:existeEm ex:l404,
+        ex:l405 ;
     ont:gestacao "2 weeks"^^xsd:string ;
     ont:habitaEm ex:h1037 ;
     ont:idAnimal "a1416"^^xsd:string ;
@@ -8454,8 +8456,7 @@ ex:a1422 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l405,
-        ex:l406,
-        ex:l407 ;
+        ex:l406 ;
     ont:gestacao "Females brood eggs for a couple of weeks before releasing them into the sea."^^xsd:string ;
     ont:habitaEm ex:h1038 ;
     ont:idAnimal "a1422"^^xsd:string ;
@@ -9752,7 +9753,8 @@ ex:a149 a ont:Animal ;
         ex:l70,
         ex:l71,
         ex:l72,
-        ex:l73 ;
+        ex:l73,
+        ex:l74 ;
     ont:gestacao "3 to 8 days for eggs to hatch after they are laid"^^xsd:string ;
     ont:habitaEm ex:h154,
         ex:h155,
@@ -10351,8 +10353,7 @@ ex:a152 a ont:Animal ;
     ont:existeEm ex:l75,
         ex:l76,
         ex:l77,
-        ex:l78,
-        ex:l79 ;
+        ex:l78 ;
     ont:gestacao "5 – 8 months"^^xsd:string ;
     ont:habitaEm ex:h158 ;
     ont:idAnimal "a152"^^xsd:string ;
@@ -10396,7 +10397,8 @@ ex:a1521 a ont:Animal ;
         ex:l422,
         ex:l423,
         ex:l424,
-        ex:l425 ;
+        ex:l425,
+        ex:l426 ;
     ont:gestacao "28-35 days"^^xsd:string ;
     ont:habitaEm ex:h1086 ;
     ont:idAnimal "a1521"^^xsd:string ;
@@ -10498,7 +10500,8 @@ ex:a1527 a ont:Animal ;
     ont:altura "Unknown"^^xsd:string ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l426 ;
+    ont:existeEm ex:l426,
+        ex:l427 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h1088 ;
     ont:idAnimal "a1527"^^xsd:string ;
@@ -10548,7 +10551,8 @@ ex:a153 a ont:Animal ;
     ont:coloracao ex:c27 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l79 ;
+    ont:existeEm ex:l79,
+        ex:l80 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:idAnimal "a153"^^xsd:string ;
     ont:identificadoPor ex:t153 ;
@@ -11075,8 +11079,7 @@ ex:a1557 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l433,
-        ex:l434 ;
+    ont:existeEm ex:l433 ;
     ont:gestacao "1 to 3 weeks"^^xsd:string ;
     ont:idAnimal "a1557"^^xsd:string ;
     ont:identificadoPor ex:t1557 ;
@@ -11568,7 +11571,8 @@ ex:a175 a ont:Animal ;
     ont:coloracao ex:c27 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l82 ;
+    ont:existeEm ex:l82,
+        ex:l83 ;
     ont:gestacao "Perhaps two months"^^xsd:string ;
     ont:habitaEm ex:h177,
         ex:h178 ;
@@ -11714,8 +11718,7 @@ ex:a182 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l83,
-        ex:l84,
-        ex:l85 ;
+        ex:l84 ;
     ont:gestacao "44-45 days"^^xsd:string ;
     ont:habitaEm ex:h184,
         ex:h185 ;
@@ -11828,8 +11831,7 @@ ex:a188 a ont:Animal ;
     ont:dieta "Herbivore"^^xsd:string ;
     ont:existeEm ex:l88,
         ex:l89,
-        ex:l90,
-        ex:l91 ;
+        ex:l90 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:idAnimal "a188"^^xsd:string ;
     ont:identificadoPor ex:t188 ;
@@ -12194,8 +12196,7 @@ ex:a205 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l91,
-        ex:l92,
-        ex:l93 ;
+        ex:l92 ;
     ont:gestacao "3-4 days"^^xsd:string ;
     ont:habitaEm ex:h194,
         ex:h195 ;
@@ -12274,7 +12275,8 @@ ex:a209 a ont:Animal ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l95,
         ex:l96,
-        ex:l97 ;
+        ex:l97,
+        ex:l98 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h199,
         ex:h200 ;
@@ -12413,8 +12415,7 @@ ex:a216 a ont:Animal ;
     ont:coloracao ex:c29 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l101,
-        ex:l102 ;
+    ont:existeEm ex:l101 ;
     ont:gestacao "Three months"^^xsd:string ;
     ont:habitaEm ex:h200 ;
     ont:idAnimal "a216"^^xsd:string ;
@@ -12779,8 +12780,7 @@ ex:a234 a ont:Animal ;
     ont:coloracao ex:c29 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l109,
-        ex:l110 ;
+    ont:existeEm ex:l109 ;
     ont:gestacao "74 days"^^xsd:string ;
     ont:habitaEm ex:h216 ;
     ont:idAnimal "a234"^^xsd:string ;
@@ -12875,8 +12875,7 @@ ex:a239 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l111,
-        ex:l112,
-        ex:l113 ;
+        ex:l112 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:idAnimal "a239"^^xsd:string ;
     ont:identificadoPor ex:t239 ;
@@ -13118,8 +13117,7 @@ ex:a250 a ont:Animal ;
     ont:coloracao ex:c30 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l118,
-        ex:l119 ;
+    ont:existeEm ex:l118 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h227,
         ex:h228 ;
@@ -13192,8 +13190,7 @@ ex:a254 a ont:Animal ;
     ont:coloracao ex:c30 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l119,
-        ex:l120 ;
+    ont:existeEm ex:l119 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h229 ;
     ont:idAnimal "a254"^^xsd:string ;
@@ -13446,8 +13443,7 @@ ex:a267 a ont:Animal ;
     ont:coloracao ex:c30 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l124,
-        ex:l125 ;
+    ont:existeEm ex:l124 ;
     ont:gestacao "28-35 days"^^xsd:string ;
     ont:habitaEm ex:h236 ;
     ont:idAnimal "a267"^^xsd:string ;
@@ -13505,7 +13501,8 @@ ex:a27 a ont:Animal ;
         ex:c21 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l19 ;
+    ont:existeEm ex:l19,
+        ex:l20 ;
     ont:gestacao "Two weeks, possibly"^^xsd:string ;
     ont:habitaEm ex:h33,
         ex:h34 ;
@@ -13880,8 +13877,7 @@ ex:a289 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l126,
-        ex:l127 ;
+    ont:existeEm ex:l126 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h250,
         ex:h251 ;
@@ -14177,8 +14173,7 @@ ex:a302 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l129,
-        ex:l130 ;
+    ont:existeEm ex:l129 ;
     ont:gestacao "165 to 205 days"^^xsd:string ;
     ont:habitaEm ex:h262 ;
     ont:idAnimal "a302"^^xsd:string ;
@@ -14344,8 +14339,7 @@ ex:a311 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l130,
-        ex:l131 ;
+    ont:existeEm ex:l130 ;
     ont:gestacao "177 days"^^xsd:string ;
     ont:habitaEm ex:h265 ;
     ont:idAnimal "a311"^^xsd:string ;
@@ -14733,7 +14727,8 @@ ex:a330 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l144,
-        ex:l145 ;
+        ex:l145,
+        ex:l146 ;
     ont:gestacao "About nine months"^^xsd:string ;
     ont:habitaEm ex:h280,
         ex:h281,
@@ -14756,8 +14751,7 @@ ex:a331 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l146,
-        ex:l147,
-        ex:l148 ;
+        ex:l147 ;
     ont:gestacao "11.5 months"^^xsd:string ;
     ont:habitaEm ex:h284 ;
     ont:idAnimal "a331"^^xsd:string ;
@@ -14776,8 +14770,7 @@ ex:a332 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l148,
-        ex:l149 ;
+    ont:existeEm ex:l148 ;
     ont:gestacao "9 months"^^xsd:string ;
     ont:habitaEm ex:h285,
         ex:h286 ;
@@ -15111,8 +15104,7 @@ ex:a349 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l155,
-        ex:l156,
-        ex:l157 ;
+        ex:l156 ;
     ont:gestacao "A few months"^^xsd:string ;
     ont:habitaEm ex:h303,
         ex:h304 ;
@@ -15149,8 +15141,7 @@ ex:a350 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l157,
-        ex:l158 ;
+    ont:existeEm ex:l157 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:idAnimal "a350"^^xsd:string ;
     ont:identificadoPor ex:t350 ;
@@ -15186,7 +15177,8 @@ ex:a352 a ont:Animal ;
     ont:coloracao ex:c32 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l158 ;
+    ont:existeEm ex:l158,
+        ex:l159 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h305 ;
     ont:idAnimal "a352"^^xsd:string ;
@@ -15326,8 +15318,7 @@ ex:a36 a ont:Animal ;
     ont:coloracao ex:c21 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l20,
-        ex:l21 ;
+    ont:existeEm ex:l20 ;
     ont:gestacao "15 Days"^^xsd:string ;
     ont:habitaEm ex:h39 ;
     ont:idAnimal "a36"^^xsd:string ;
@@ -16059,7 +16050,8 @@ ex:a395 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l167 ;
+    ont:existeEm ex:l167,
+        ex:l168 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h346 ;
     ont:idAnimal "a395"^^xsd:string ;
@@ -16265,8 +16257,7 @@ ex:a404 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l170,
-        ex:l171 ;
+    ont:existeEm ex:l170 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h353,
         ex:h354 ;
@@ -16345,8 +16336,7 @@ ex:a408 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l171,
-        ex:l172 ;
+    ont:existeEm ex:l171 ;
     ont:gestacao "10 days"^^xsd:string ;
     ont:habitaEm ex:h358,
         ex:h359,
@@ -16731,8 +16721,7 @@ ex:a426 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l181,
-        ex:l182 ;
+    ont:existeEm ex:l181 ;
     ont:gestacao "100 - 145 days"^^xsd:string ;
     ont:habitaEm ex:h382,
         ex:h383 ;
@@ -16816,8 +16805,7 @@ ex:a43 a ont:Animal ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l29,
         ex:l30,
-        ex:l31,
-        ex:l32 ;
+        ex:l31 ;
     ont:gestacao "40 to 210 days before eggs hatch"^^xsd:string ;
     ont:idAnimal "a43"^^xsd:string ;
     ont:identificadoPor ex:t43 ;
@@ -16852,8 +16840,7 @@ ex:a431 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l183,
-        ex:l184 ;
+    ont:existeEm ex:l183 ;
     ont:gestacao "166 days"^^xsd:string ;
     ont:habitaEm ex:h392,
         ex:h393 ;
@@ -16968,8 +16955,7 @@ ex:a437 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l185,
-        ex:l186 ;
+    ont:existeEm ex:l185 ;
     ont:gestacao "10 months"^^xsd:string ;
     ont:habitaEm ex:h401,
         ex:h402 ;
@@ -17206,8 +17192,7 @@ ex:a45 a ont:Animal ;
     ont:coloracao ex:c22 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l32,
-        ex:l33 ;
+    ont:existeEm ex:l32 ;
     ont:gestacao "3 - 8 months"^^xsd:string ;
     ont:habitaEm ex:h46,
         ex:h47 ;
@@ -17227,8 +17212,7 @@ ex:a450 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l186,
-        ex:l187 ;
+    ont:existeEm ex:l186 ;
     ont:gestacao "Three months"^^xsd:string ;
     ont:habitaEm ex:h407,
         ex:h408 ;
@@ -17316,8 +17300,7 @@ ex:a455 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l187,
-        ex:l188 ;
+    ont:existeEm ex:l187 ;
     ont:gestacao "15 months"^^xsd:string ;
     ont:habitaEm ex:h410,
         ex:h411,
@@ -17519,8 +17502,7 @@ ex:a465 a ont:Animal ;
     ont:coloracao ex:c33 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l192,
-        ex:l193 ;
+    ont:existeEm ex:l192 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h417,
         ex:h418,
@@ -17669,7 +17651,8 @@ ex:a472 a ont:Animal ;
     ont:dieta "Herbivore"^^xsd:string ;
     ont:existeEm ex:l195,
         ex:l196,
-        ex:l197 ;
+        ex:l197,
+        ex:l198 ;
     ont:gestacao "242-345 days"^^xsd:string ;
     ont:habitaEm ex:h424 ;
     ont:idAnimal "a472"^^xsd:string ;
@@ -18489,8 +18472,7 @@ ex:a515 a ont:Animal ;
     ont:coloracao ex:c34 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l200,
-        ex:l201 ;
+    ont:existeEm ex:l200 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h443,
         ex:h444,
@@ -18511,8 +18493,7 @@ ex:a516 a ont:Animal ;
     ont:coloracao ex:c34 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l201,
-        ex:l202 ;
+    ont:existeEm ex:l201 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h446,
         ex:h447 ;
@@ -18775,8 +18756,7 @@ ex:a53 a ont:Animal ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l34,
         ex:l35,
-        ex:l36,
-        ex:l37 ;
+        ex:l36 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h57,
         ex:h58 ;
@@ -18834,8 +18814,7 @@ ex:a532 a ont:Animal ;
     ont:coloracao ex:c34 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l202,
-        ex:l203 ;
+    ont:existeEm ex:l202 ;
     ont:gestacao "16 days"^^xsd:string ;
     ont:habitaEm ex:h463,
         ex:h464 ;
@@ -18986,8 +18965,7 @@ ex:a54 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l37,
-        ex:l38,
-        ex:l39 ;
+        ex:l38 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h58,
         ex:h59,
@@ -19691,8 +19669,7 @@ ex:a575 a ont:Animal ;
     ont:altura "40cm - 75cm (16in - 30in)"^^xsd:string ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l211,
-        ex:l212 ;
+    ont:existeEm ex:l211 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h495,
         ex:h496 ;
@@ -19788,7 +19765,8 @@ ex:a58 a ont:Animal ;
     ont:coloracao ex:c23 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l40 ;
+    ont:existeEm ex:l40,
+        ex:l41 ;
     ont:gestacao "12 months"^^xsd:string ;
     ont:habitaEm ex:h62 ;
     ont:idAnimal "a58"^^xsd:string ;
@@ -20046,8 +20024,7 @@ ex:a592 a ont:Animal ;
     ont:coloracao ex:c34 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l214,
-        ex:l215 ;
+    ont:existeEm ex:l214 ;
     ont:gestacao "48-72 hours"^^xsd:string ;
     ont:habitaEm ex:h507 ;
     ont:idAnimal "a592"^^xsd:string ;
@@ -20069,8 +20046,7 @@ ex:a593 a ont:Animal ;
     ont:existeEm ex:l215,
         ex:l216,
         ex:l217,
-        ex:l218,
-        ex:l219 ;
+        ex:l218 ;
     ont:gestacao "28 days"^^xsd:string ;
     ont:habitaEm ex:h508,
         ex:h509,
@@ -20287,7 +20263,8 @@ ex:a603 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l219,
-        ex:l220 ;
+        ex:l220,
+        ex:l221 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h513 ;
     ont:idAnimal "a603"^^xsd:string ;
@@ -21118,7 +21095,8 @@ ex:a643 a ont:Animal ;
     ont:altura "Unknown"^^xsd:string ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l235 ;
+    ont:existeEm ex:l235,
+        ex:l236 ;
     ont:gestacao "4 months"^^xsd:string ;
     ont:habitaEm ex:h557 ;
     ont:idAnimal "a643"^^xsd:string ;
@@ -21472,8 +21450,7 @@ ex:a661 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l238,
-        ex:l239 ;
+    ont:existeEm ex:l238 ;
     ont:gestacao "92 days"^^xsd:string ;
     ont:habitaEm ex:h566 ;
     ont:idAnimal "a661"^^xsd:string ;
@@ -21950,8 +21927,7 @@ ex:a685 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l244,
-        ex:l245 ;
+    ont:existeEm ex:l244 ;
     ont:gestacao "Varies"^^xsd:string ;
     ont:habitaEm ex:h590 ;
     ont:idAnimal "a685"^^xsd:string ;
@@ -22008,7 +21984,8 @@ ex:a688 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l246 ;
+    ont:existeEm ex:l246,
+        ex:l247 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h594,
         ex:h595 ;
@@ -22047,7 +22024,8 @@ ex:a69 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l41,
-        ex:l42 ;
+        ex:l42,
+        ex:l43 ;
     ont:gestacao "a few days or weeks"^^xsd:string ;
     ont:habitaEm ex:h69 ;
     ont:idAnimal "a69"^^xsd:string ;
@@ -22761,8 +22739,7 @@ ex:a725 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l250,
-        ex:l251 ;
+    ont:existeEm ex:l250 ;
     ont:gestacao "63 days"^^xsd:string ;
     ont:habitaEm ex:h616 ;
     ont:idAnimal "a725"^^xsd:string ;
@@ -22858,7 +22835,8 @@ ex:a73 a ont:Animal ;
     ont:coloracao ex:c23 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l45 ;
+    ont:existeEm ex:l45,
+        ex:l46 ;
     ont:gestacao "103 days"^^xsd:string ;
     ont:habitaEm ex:h71,
         ex:h72 ;
@@ -23600,8 +23578,7 @@ ex:a765 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l253,
-        ex:l254 ;
+    ont:existeEm ex:l253 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h651 ;
     ont:idAnimal "a765"^^xsd:string ;
@@ -23897,7 +23874,8 @@ ex:a78 a ont:Animal ;
     ont:coloracao ex:c23 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l47 ;
+    ont:existeEm ex:l47,
+        ex:l48 ;
     ont:gestacao "270 days"^^xsd:string ;
     ont:habitaEm ex:h79 ;
     ont:idAnimal "a78"^^xsd:string ;
@@ -24007,8 +23985,7 @@ ex:a785 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l258,
-        ex:l259 ;
+    ont:existeEm ex:l258 ;
     ont:gestacao "90 - 105 days"^^xsd:string ;
     ont:habitaEm ex:h665 ;
     ont:idAnimal "a785"^^xsd:string ;
@@ -24141,8 +24118,7 @@ ex:a791 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l259,
-        ex:l260 ;
+    ont:existeEm ex:l259 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h673,
         ex:h674,
@@ -24623,8 +24599,7 @@ ex:a814 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l261,
-        ex:l262 ;
+    ont:existeEm ex:l261 ;
     ont:gestacao "Possibly as long as 42 months"^^xsd:string ;
     ont:habitaEm ex:h694 ;
     ont:idAnimal "a814"^^xsd:string ;
@@ -24681,8 +24656,7 @@ ex:a817 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l262,
-        ex:l263 ;
+    ont:existeEm ex:l262 ;
     ont:gestacao "Eight to 18 years"^^xsd:string ;
     ont:habitaEm ex:h696,
         ex:h697,
@@ -24912,7 +24886,8 @@ ex:a828 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l265 ;
+    ont:existeEm ex:l265,
+        ex:l266 ;
     ont:gestacao " 2-4 months"^^xsd:string ;
     ont:habitaEm ex:h711,
         ex:h712 ;
@@ -24932,8 +24907,7 @@ ex:a829 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l266,
-        ex:l267 ;
+    ont:existeEm ex:l266 ;
     ont:gestacao "90 days"^^xsd:string ;
     ont:habitaEm ex:h713,
         ex:h714,
@@ -24971,8 +24945,7 @@ ex:a830 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l267,
-        ex:l268,
-        ex:l269 ;
+        ex:l268 ;
     ont:gestacao "16 days"^^xsd:string ;
     ont:habitaEm ex:h716,
         ex:h717,
@@ -25102,8 +25075,7 @@ ex:a837 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l270,
-        ex:l271,
-        ex:l272 ;
+        ex:l271 ;
     ont:gestacao "90-92 days"^^xsd:string ;
     ont:habitaEm ex:h721,
         ex:h722,
@@ -25193,7 +25165,8 @@ ex:a841 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l273 ;
+    ont:existeEm ex:l273,
+        ex:l274 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h725 ;
     ont:idAnimal "a841"^^xsd:string ;
@@ -25397,7 +25370,8 @@ ex:a851 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l277 ;
+    ont:existeEm ex:l277,
+        ex:l278 ;
     ont:gestacao "one to two weeks"^^xsd:string ;
     ont:habitaEm ex:h733 ;
     ont:idAnimal "a851"^^xsd:string ;
@@ -25485,8 +25459,7 @@ ex:a856 a ont:Animal ;
     ont:coloracao ex:c36 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Carnivore"^^xsd:string ;
-    ont:existeEm ex:l278,
-        ex:l279 ;
+    ont:existeEm ex:l278 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h737,
         ex:h738 ;
@@ -25963,8 +25936,7 @@ ex:a88 a ont:Animal ;
     ont:existeEm ex:l52,
         ex:l53,
         ex:l54,
-        ex:l55,
-        ex:l56 ;
+        ex:l55 ;
     ont:gestacao "6 - 8 months"^^xsd:string ;
     ont:habitaEm ex:h83 ;
     ont:idAnimal "a88"^^xsd:string ;
@@ -26183,8 +26155,7 @@ ex:a890 a ont:Animal ;
     ont:dieta "Herbivore"^^xsd:string ;
     ont:existeEm ex:l281,
         ex:l282,
-        ex:l283,
-        ex:l284 ;
+        ex:l283 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:idAnimal "a890"^^xsd:string ;
     ont:identificadoPor ex:t890 ;
@@ -26433,8 +26404,7 @@ ex:a901 a ont:Animal ;
     ont:dieta "Carnivore"^^xsd:string ;
     ont:existeEm ex:l297,
         ex:l298,
-        ex:l299,
-        ex:l300 ;
+        ex:l299 ;
     ont:gestacao "Unknown"^^xsd:string ;
     ont:habitaEm ex:h773 ;
     ont:idAnimal "a901"^^xsd:string ;
@@ -26472,8 +26442,7 @@ ex:a903 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l300,
-        ex:l301 ;
+    ont:existeEm ex:l300 ;
     ont:gestacao "107 days"^^xsd:string ;
     ont:habitaEm ex:h775 ;
     ont:idAnimal "a903"^^xsd:string ;
@@ -26662,8 +26631,7 @@ ex:a913 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Herbivore"^^xsd:string ;
-    ont:existeEm ex:l301,
-        ex:l302 ;
+    ont:existeEm ex:l301 ;
     ont:gestacao "8 months"^^xsd:string ;
     ont:habitaEm ex:h778,
         ex:h779 ;
@@ -26878,8 +26846,7 @@ ex:a923 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l308,
-        ex:l309 ;
+    ont:existeEm ex:l308 ;
     ont:gestacao "22 to 27 days"^^xsd:string ;
     ont:habitaEm ex:h788 ;
     ont:idAnimal "a923"^^xsd:string ;
@@ -26978,8 +26945,7 @@ ex:a928 a ont:Animal ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
     ont:existeEm ex:l309,
-        ex:l310,
-        ex:l311 ;
+        ex:l310 ;
     ont:gestacao "6-8 weeks"^^xsd:string ;
     ont:habitaEm ex:h795,
         ex:h796 ;
@@ -27639,8 +27605,7 @@ ex:a961 a ont:Animal ;
     ont:coloracao ex:c37 ;
     ont:comprimento "Unknown"^^xsd:string ;
     ont:dieta "Omnivore"^^xsd:string ;
-    ont:existeEm ex:l317,
-        ex:l318 ;
+    ont:existeEm ex:l317 ;
     ont:gestacao "8 months"^^xsd:string ;
     ont:habitaEm ex:h812,
         ex:h813 ;
@@ -28472,6 +28437,10 @@ ont:nrEspecies a rdf:Property ;
 
 ont:ordem a rdf:Property ;
     rdfs:domain ont:Taxonomia ;
+    rdfs:range xsd:string .
+
+ont:peso a rdf:Property ;
+    rdfs:domain ont:Animal ;
     rdfs:range xsd:string .
 
 ont:predadores a rdf:Property ;
@@ -31792,11 +31761,15 @@ ex:l1 a ont:Localizacao ;
 
 ex:l10 a ont:Localizacao ;
     ont:idLocalizacao "l10"^^xsd:string ;
-    ont:nomeLocalizacao "South-America"^^xsd:string .
+    ont:nomeLocalizacao "North-America"^^xsd:string .
 
 ex:l100 a ont:Localizacao ;
     ont:idLocalizacao "l100"^^xsd:string ;
-    ont:nomeLocalizacao "Georgia"^^xsd:string .
+    ont:nomeLocalizacao "south-to-Missouri"^^xsd:string .
+
+ex:l102 a ont:Localizacao ;
+    ont:idLocalizacao "l102"^^xsd:string ;
+    ont:nomeLocalizacao "Australia:-Victoria"^^xsd:string .
 
 ex:l103 a ont:Localizacao ;
     ont:idLocalizacao "l103"^^xsd:string ;
@@ -31808,27 +31781,31 @@ ex:l104 a ont:Localizacao ;
 
 ex:l106 a ont:Localizacao ;
     ont:idLocalizacao "l106"^^xsd:string ;
-    ont:nomeLocalizacao "the-Middle-East"^^xsd:string .
+    ont:nomeLocalizacao "-Asia"^^xsd:string .
 
 ex:l11 a ont:Localizacao ;
     ont:idLocalizacao "l11"^^xsd:string ;
-    ont:nomeLocalizacao "Central-America"^^xsd:string .
+    ont:nomeLocalizacao "South-America"^^xsd:string .
 
 ex:l112 a ont:Localizacao ;
     ont:idLocalizacao "l112"^^xsd:string ;
     ont:nomeLocalizacao "central-Africa"^^xsd:string .
 
+ex:l113 a ont:Localizacao ;
+    ont:idLocalizacao "l113"^^xsd:string ;
+    ont:nomeLocalizacao "U.S."^^xsd:string .
+
 ex:l114 a ont:Localizacao ;
     ont:idLocalizacao "l114"^^xsd:string ;
-    ont:nomeLocalizacao "U.S."^^xsd:string .
+    ont:nomeLocalizacao "Brazil"^^xsd:string .
 
 ex:l116 a ont:Localizacao ;
     ont:idLocalizacao "l116"^^xsd:string ;
-    ont:nomeLocalizacao "southern-Africa"^^xsd:string .
+    ont:nomeLocalizacao "central"^^xsd:string .
 
 ex:l121 a ont:Localizacao ;
     ont:idLocalizacao "l121"^^xsd:string ;
-    ont:nomeLocalizacao "Critically-Endangered"^^xsd:string .
+    ont:nomeLocalizacao "Vulnerable"^^xsd:string .
 
 ex:l13 a ont:Localizacao ;
     ont:idLocalizacao "l13"^^xsd:string ;
@@ -31836,23 +31813,23 @@ ex:l13 a ont:Localizacao ;
 
 ex:l132 a ont:Localizacao ;
     ont:idLocalizacao "l132"^^xsd:string ;
-    ont:nomeLocalizacao "El-Salvador"^^xsd:string .
+    ont:nomeLocalizacao "Belize"^^xsd:string .
 
 ex:l133 a ont:Localizacao ;
     ont:idLocalizacao "l133"^^xsd:string ;
-    ont:nomeLocalizacao "Miquelon"^^xsd:string .
+    ont:nomeLocalizacao "Saint-Pierre"^^xsd:string .
 
 ex:l134 a ont:Localizacao ;
     ont:idLocalizacao "l134"^^xsd:string ;
-    ont:nomeLocalizacao "Costa-Rica"^^xsd:string .
+    ont:nomeLocalizacao "Bahamas"^^xsd:string .
 
 ex:l135 a ont:Localizacao ;
     ont:idLocalizacao "l135"^^xsd:string ;
-    ont:nomeLocalizacao "Saint-Pierre"^^xsd:string .
+    ont:nomeLocalizacao "Costa-Rica"^^xsd:string .
 
 ex:l136 a ont:Localizacao ;
     ont:idLocalizacao "l136"^^xsd:string ;
-    ont:nomeLocalizacao "Turks"^^xsd:string .
+    ont:nomeLocalizacao "Miquelon"^^xsd:string .
 
 ex:l137 a ont:Localizacao ;
     ont:idLocalizacao "l137"^^xsd:string ;
@@ -31860,11 +31837,11 @@ ex:l137 a ont:Localizacao ;
 
 ex:l138 a ont:Localizacao ;
     ont:idLocalizacao "l138"^^xsd:string ;
-    ont:nomeLocalizacao "Guatemala"^^xsd:string .
+    ont:nomeLocalizacao "Turks"^^xsd:string .
 
 ex:l139 a ont:Localizacao ;
     ont:idLocalizacao "l139"^^xsd:string ;
-    ont:nomeLocalizacao "Bahamas"^^xsd:string .
+    ont:nomeLocalizacao "Guatemala"^^xsd:string .
 
 ex:l14 a ont:Localizacao ;
     ont:idLocalizacao "l14"^^xsd:string ;
@@ -31876,19 +31853,23 @@ ex:l142 a ont:Localizacao ;
 
 ex:l143 a ont:Localizacao ;
     ont:idLocalizacao "l143"^^xsd:string ;
-    ont:nomeLocalizacao "Least-Concern"^^xsd:string .
+    ont:nomeLocalizacao "Arctic"^^xsd:string .
 
 ex:l145 a ont:Localizacao ;
     ont:idLocalizacao "l145"^^xsd:string ;
     ont:nomeLocalizacao "eastern-Asia"^^xsd:string .
 
-ex:l146 a ont:Localizacao ;
-    ont:idLocalizacao "l146"^^xsd:string ;
-    ont:nomeLocalizacao "North-Atlantic"^^xsd:string .
-
 ex:l147 a ont:Localizacao ;
     ont:idLocalizacao "l147"^^xsd:string ;
-    ont:nomeLocalizacao "Arctic-Oceans"^^xsd:string .
+    ont:nomeLocalizacao "North-Atlantic"^^xsd:string .
+
+ex:l148 a ont:Localizacao ;
+    ont:idLocalizacao "l148"^^xsd:string ;
+    ont:nomeLocalizacao "Northwestern-Hawaiian-Islands"^^xsd:string .
+
+ex:l149 a ont:Localizacao ;
+    ont:idLocalizacao "l149"^^xsd:string ;
+    ont:nomeLocalizacao "Around-Labrador"^^xsd:string .
 
 ex:l15 a ont:Localizacao ;
     ont:idLocalizacao "l15"^^xsd:string ;
@@ -31896,39 +31877,43 @@ ex:l15 a ont:Localizacao ;
 
 ex:l150 a ont:Localizacao ;
     ont:idLocalizacao "l150"^^xsd:string ;
-    ont:nomeLocalizacao "Around-Labrador"^^xsd:string .
+    ont:nomeLocalizacao "Alaska."^^xsd:string .
 
 ex:l151 a ont:Localizacao ;
     ont:idLocalizacao "l151"^^xsd:string ;
-    ont:nomeLocalizacao "Alaska."^^xsd:string .
+    ont:nomeLocalizacao "sometimes-Maine"^^xsd:string .
 
 ex:l153 a ont:Localizacao ;
     ont:idLocalizacao "l153"^^xsd:string ;
-    ont:nomeLocalizacao "Bering-Sea"^^xsd:string .
+    ont:nomeLocalizacao "Sea-of-Okhotsk"^^xsd:string .
 
 ex:l154 a ont:Localizacao ;
     ont:idLocalizacao "l154"^^xsd:string ;
-    ont:nomeLocalizacao "Sea-of-Okhotsk"^^xsd:string .
+    ont:nomeLocalizacao "Northern-Pacific"^^xsd:string .
 
 ex:l156 a ont:Localizacao ;
     ont:idLocalizacao "l156"^^xsd:string ;
-    ont:nomeLocalizacao "North-Pacific"^^xsd:string .
+    ont:nomeLocalizacao "The-Southern-Hemisphere"^^xsd:string .
+
+ex:l157 a ont:Localizacao ;
+    ont:idLocalizacao "l157"^^xsd:string ;
+    ont:nomeLocalizacao "Southern-oceans"^^xsd:string .
 
 ex:l162 a ont:Localizacao ;
     ont:idLocalizacao "l162"^^xsd:string ;
-    ont:nomeLocalizacao "Native-to-Asia"^^xsd:string .
+    ont:nomeLocalizacao "but-also-found-in-Canada"^^xsd:string .
 
 ex:l164 a ont:Localizacao ;
     ont:idLocalizacao "l164"^^xsd:string ;
     ont:nomeLocalizacao "British-Columbia"^^xsd:string .
 
-ex:l168 a ont:Localizacao ;
-    ont:idLocalizacao "l168"^^xsd:string ;
-    ont:nomeLocalizacao "From-southern-Canada-through-northern-South-America"^^xsd:string .
-
 ex:l17 a ont:Localizacao ;
     ont:idLocalizacao "l17"^^xsd:string ;
     ont:nomeLocalizacao "Indonesia"^^xsd:string .
+
+ex:l172 a ont:Localizacao ;
+    ont:idLocalizacao "l172"^^xsd:string ;
+    ont:nomeLocalizacao "The-tropical-regions-of-Africa"^^xsd:string .
 
 ex:l173 a ont:Localizacao ;
     ont:idLocalizacao "l173"^^xsd:string ;
@@ -31940,23 +31925,27 @@ ex:l177 a ont:Localizacao ;
 
 ex:l178 a ont:Localizacao ;
     ont:idLocalizacao "l178"^^xsd:string ;
-    ont:nomeLocalizacao "Indonesia-"^^xsd:string .
+    ont:nomeLocalizacao "Puerto-Rico-"^^xsd:string .
 
 ex:l179 a ont:Localizacao ;
     ont:idLocalizacao "l179"^^xsd:string ;
-    ont:nomeLocalizacao "Puerto-Rico-"^^xsd:string .
+    ont:nomeLocalizacao "Oceans-around-the-United-States-(including-Hawaii-)-"^^xsd:string .
 
 ex:l180 a ont:Localizacao ;
     ont:idLocalizacao "l180"^^xsd:string ;
-    ont:nomeLocalizacao "Oceans-around-the-United-States-(including-Hawaii-)-"^^xsd:string .
+    ont:nomeLocalizacao "Indonesia-"^^xsd:string .
 
 ex:l189 a ont:Localizacao ;
     ont:idLocalizacao "l189"^^xsd:string ;
-    ont:nomeLocalizacao "southern-Europe"^^xsd:string .
+    ont:nomeLocalizacao "Americas"^^xsd:string .
 
 ex:l19 a ont:Localizacao ;
     ont:idLocalizacao "l19"^^xsd:string ;
     ont:nomeLocalizacao "Tasmania"^^xsd:string .
+
+ex:l193 a ont:Localizacao ;
+    ont:idLocalizacao "l193"^^xsd:string ;
+    ont:nomeLocalizacao "Indian-Oceans"^^xsd:string .
 
 ex:l194 a ont:Localizacao ;
     ont:idLocalizacao "l194"^^xsd:string ;
@@ -31964,23 +31953,39 @@ ex:l194 a ont:Localizacao ;
 
 ex:l196 a ont:Localizacao ;
     ont:idLocalizacao "l196"^^xsd:string ;
-    ont:nomeLocalizacao "Andes-Mountains-of-Peru"^^xsd:string .
+    ont:nomeLocalizacao "Bolivia"^^xsd:string .
 
 ex:l197 a ont:Localizacao ;
     ont:idLocalizacao "l197"^^xsd:string ;
-    ont:nomeLocalizacao "Ecuador"^^xsd:string .
+    ont:nomeLocalizacao "Andes-Mountains-of-Peru"^^xsd:string .
 
 ex:l2 a ont:Localizacao ;
     ont:idLocalizacao "l2"^^xsd:string ;
     ont:nomeLocalizacao "Africa"^^xsd:string .
 
+ex:l201 a ont:Localizacao ;
+    ont:idLocalizacao "l201"^^xsd:string ;
+    ont:nomeLocalizacao "south-central-region-of-the-United-States"^^xsd:string .
+
 ex:l205 a ont:Localizacao ;
     ont:idLocalizacao "l205"^^xsd:string ;
-    ont:nomeLocalizacao "Northeastern"^^xsd:string .
+    ont:nomeLocalizacao "east-central-China"^^xsd:string .
 
 ex:l206 a ont:Localizacao ;
     ont:idLocalizacao "l206"^^xsd:string ;
-    ont:nomeLocalizacao "east-central-China"^^xsd:string .
+    ont:nomeLocalizacao "Northeastern"^^xsd:string .
+
+ex:l21 a ont:Localizacao ;
+    ont:idLocalizacao "l21"^^xsd:string ;
+    ont:nomeLocalizacao "Everywhere-save-the-North"^^xsd:string .
+
+ex:l212 a ont:Localizacao ;
+    ont:idLocalizacao "l212"^^xsd:string ;
+    ont:nomeLocalizacao "south-west-African-coast"^^xsd:string .
+
+ex:l215 a ont:Localizacao ;
+    ont:idLocalizacao "l215"^^xsd:string ;
+    ont:nomeLocalizacao "Utah"^^xsd:string .
 
 ex:l216 a ont:Localizacao ;
     ont:idLocalizacao "l216"^^xsd:string ;
@@ -31988,23 +31993,19 @@ ex:l216 a ont:Localizacao ;
 
 ex:l217 a ont:Localizacao ;
     ont:idLocalizacao "l217"^^xsd:string ;
-    ont:nomeLocalizacao "Idaho"^^xsd:string .
+    ont:nomeLocalizacao "Montana"^^xsd:string .
 
 ex:l218 a ont:Localizacao ;
     ont:idLocalizacao "l218"^^xsd:string ;
-    ont:nomeLocalizacao "Utah"^^xsd:string .
+    ont:nomeLocalizacao "Idaho"^^xsd:string .
 
 ex:l22 a ont:Localizacao ;
     ont:idLocalizacao "l22"^^xsd:string ;
-    ont:nomeLocalizacao "South-poles"^^xsd:string .
+    ont:nomeLocalizacao "including-Hawaii"^^xsd:string .
 
 ex:l220 a ont:Localizacao ;
     ont:idLocalizacao "l220"^^xsd:string ;
     ont:nomeLocalizacao "Near-Threatened"^^xsd:string .
-
-ex:l221 a ont:Localizacao ;
-    ont:idLocalizacao "l221"^^xsd:string ;
-    ont:nomeLocalizacao "Nicobar-Islands"^^xsd:string .
 
 ex:l222 a ont:Localizacao ;
     ont:idLocalizacao "l222"^^xsd:string ;
@@ -32012,15 +32013,15 @@ ex:l222 a ont:Localizacao ;
 
 ex:l223 a ont:Localizacao ;
     ont:idLocalizacao "l223"^^xsd:string ;
-    ont:nomeLocalizacao "Solomon-Islands"^^xsd:string .
+    ont:nomeLocalizacao "Palau"^^xsd:string .
 
 ex:l224 a ont:Localizacao ;
     ont:idLocalizacao "l224"^^xsd:string ;
-    ont:nomeLocalizacao "Palau"^^xsd:string .
+    ont:nomeLocalizacao "islands-in-the-Malay-Archipelago"^^xsd:string .
 
 ex:l225 a ont:Localizacao ;
     ont:idLocalizacao "l225"^^xsd:string ;
-    ont:nomeLocalizacao "islands-in-the-Malay-Archipelago"^^xsd:string .
+    ont:nomeLocalizacao "Solomon-Islands"^^xsd:string .
 
 ex:l226 a ont:Localizacao ;
     ont:idLocalizacao "l226"^^xsd:string ;
@@ -32032,7 +32033,7 @@ ex:l228 a ont:Localizacao ;
 
 ex:l229 a ont:Localizacao ;
     ont:idLocalizacao "l229"^^xsd:string ;
-    ont:nomeLocalizacao "New-Mexico"^^xsd:string .
+    ont:nomeLocalizacao "Arizona"^^xsd:string .
 
 ex:l23 a ont:Localizacao ;
     ont:idLocalizacao "l23"^^xsd:string ;
@@ -32044,7 +32045,7 @@ ex:l235 a ont:Localizacao ;
 
 ex:l24 a ont:Localizacao ;
     ont:idLocalizacao "l24"^^xsd:string ;
-    ont:nomeLocalizacao "including-Hawaii"^^xsd:string .
+    ont:nomeLocalizacao "South-poles"^^xsd:string .
 
 ex:l240 a ont:Localizacao ;
     ont:idLocalizacao "l240"^^xsd:string ;
@@ -32056,15 +32057,15 @@ ex:l250 a ont:Localizacao ;
 
 ex:l26 a ont:Localizacao ;
     ont:idLocalizacao "l26"^^xsd:string ;
-    ont:nomeLocalizacao "Indian"^^xsd:string .
+    ont:nomeLocalizacao "Pacific-Oceans"^^xsd:string .
 
 ex:l264 a ont:Localizacao ;
     ont:idLocalizacao "l264"^^xsd:string ;
-    ont:nomeLocalizacao "Australian-waters-mostly"^^xsd:string .
+    ont:nomeLocalizacao "USA"^^xsd:string .
 
-ex:l266 a ont:Localizacao ;
-    ont:idLocalizacao "l266"^^xsd:string ;
-    ont:nomeLocalizacao "southeastern-United-States"^^xsd:string .
+ex:l267 a ont:Localizacao ;
+    ont:idLocalizacao "l267"^^xsd:string ;
+    ont:nomeLocalizacao "Turkey"^^xsd:string .
 
 ex:l268 a ont:Localizacao ;
     ont:idLocalizacao "l268"^^xsd:string ;
@@ -32074,29 +32075,33 @@ ex:l271 a ont:Localizacao ;
     ont:idLocalizacao "l271"^^xsd:string ;
     ont:nomeLocalizacao "West-India"^^xsd:string .
 
+ex:l272 a ont:Localizacao ;
+    ont:idLocalizacao "l272"^^xsd:string ;
+    ont:nomeLocalizacao "Komodo-National-Park"^^xsd:string .
+
 ex:l275 a ont:Localizacao ;
     ont:idLocalizacao "l275"^^xsd:string ;
     ont:nomeLocalizacao "northern-parts-of-South-America"^^xsd:string .
 
 ex:l28 a ont:Localizacao ;
     ont:idLocalizacao "l28"^^xsd:string ;
-    ont:nomeLocalizacao "Hawaii"^^xsd:string .
+    ont:nomeLocalizacao "Extinct-in-the-Wild"^^xsd:string .
 
 ex:l282 a ont:Localizacao ;
     ont:idLocalizacao "l282"^^xsd:string ;
-    ont:nomeLocalizacao "Panama"^^xsd:string .
+    ont:nomeLocalizacao "southwestern-US"^^xsd:string .
 
 ex:l283 a ont:Localizacao ;
     ont:idLocalizacao "l283"^^xsd:string ;
-    ont:nomeLocalizacao "southwestern-US"^^xsd:string .
+    ont:nomeLocalizacao "southern-Canada"^^xsd:string .
 
 ex:l285 a ont:Localizacao ;
     ont:idLocalizacao "l285"^^xsd:string ;
-    ont:nomeLocalizacao "Bali"^^xsd:string .
+    ont:nomeLocalizacao "small-parts-of-Sulawesi"^^xsd:string .
 
 ex:l286 a ont:Localizacao ;
     ont:idLocalizacao "l286"^^xsd:string ;
-    ont:nomeLocalizacao "can-be-found-from-eastern-India-through-Vietnam"^^xsd:string .
+    ont:nomeLocalizacao "southern-China.-Can-also-be-found-in-the-islands-of-Java"^^xsd:string .
 
 ex:l287 a ont:Localizacao ;
     ont:idLocalizacao "l287"^^xsd:string ;
@@ -32104,11 +32109,11 @@ ex:l287 a ont:Localizacao ;
 
 ex:l288 a ont:Localizacao ;
     ont:idLocalizacao "l288"^^xsd:string ;
-    ont:nomeLocalizacao "small-parts-of-Sulawesi"^^xsd:string .
+    ont:nomeLocalizacao "can-be-found-from-eastern-India-through-Vietnam"^^xsd:string .
 
 ex:l289 a ont:Localizacao ;
     ont:idLocalizacao "l289"^^xsd:string ;
-    ont:nomeLocalizacao "southern-China.-Can-also-be-found-in-the-islands-of-Java"^^xsd:string .
+    ont:nomeLocalizacao "Bali"^^xsd:string .
 
 ex:l29 a ont:Localizacao ;
     ont:idLocalizacao "l29"^^xsd:string ;
@@ -32116,23 +32121,23 @@ ex:l29 a ont:Localizacao ;
 
 ex:l292 a ont:Localizacao ;
     ont:idLocalizacao "l292"^^xsd:string ;
-    ont:nomeLocalizacao "Oregon"^^xsd:string .
+    ont:nomeLocalizacao "Washington-State"^^xsd:string .
 
 ex:l294 a ont:Localizacao ;
     ont:idLocalizacao "l294"^^xsd:string ;
-    ont:nomeLocalizacao "-Southeastern"^^xsd:string .
+    ont:nomeLocalizacao "New-York-state-to-as-far-south-as-central-Florida"^^xsd:string .
 
 ex:l295 a ont:Localizacao ;
     ont:idLocalizacao "l295"^^xsd:string ;
-    ont:nomeLocalizacao "from-southern-Illinois"^^xsd:string .
+    ont:nomeLocalizacao "Midwestern-United-States"^^xsd:string .
 
 ex:l296 a ont:Localizacao ;
     ont:idLocalizacao "l296"^^xsd:string ;
-    ont:nomeLocalizacao "Midwestern-United-States"^^xsd:string .
+    ont:nomeLocalizacao "-Southeastern"^^xsd:string .
 
 ex:l298 a ont:Localizacao ;
     ont:idLocalizacao "l298"^^xsd:string ;
-    ont:nomeLocalizacao "north"^^xsd:string .
+    ont:nomeLocalizacao "the-Mediterranean."^^xsd:string .
 
 ex:l299 a ont:Localizacao ;
     ont:idLocalizacao "l299"^^xsd:string ;
@@ -32140,7 +32145,7 @@ ex:l299 a ont:Localizacao ;
 
 ex:l3 a ont:Localizacao ;
     ont:idLocalizacao "l3"^^xsd:string ;
-    ont:nomeLocalizacao "sub-Saharan-Africa"^^xsd:string .
+    ont:nomeLocalizacao "Asia"^^xsd:string .
 
 ex:l30 a ont:Localizacao ;
     ont:idLocalizacao "l30"^^xsd:string ;
@@ -32148,11 +32153,11 @@ ex:l30 a ont:Localizacao ;
 
 ex:l304 a ont:Localizacao ;
     ont:idLocalizacao "l304"^^xsd:string ;
-    ont:nomeLocalizacao "Most-countries-in-the-northern-hemisphere"^^xsd:string .
+    ont:nomeLocalizacao "including-most-of-North-America"^^xsd:string .
 
 ex:l305 a ont:Localizacao ;
     ont:idLocalizacao "l305"^^xsd:string ;
-    ont:nomeLocalizacao "including-most-of-North-America"^^xsd:string .
+    ont:nomeLocalizacao "north-Africa"^^xsd:string .
 
 ex:l306 a ont:Localizacao ;
     ont:idLocalizacao "l306"^^xsd:string ;
@@ -32160,7 +32165,7 @@ ex:l306 a ont:Localizacao ;
 
 ex:l307 a ont:Localizacao ;
     ont:idLocalizacao "l307"^^xsd:string ;
-    ont:nomeLocalizacao "north-Africa"^^xsd:string .
+    ont:nomeLocalizacao "Most-countries-in-the-northern-hemisphere"^^xsd:string .
 
 ex:l31 a ont:Localizacao ;
     ont:idLocalizacao "l31"^^xsd:string ;
@@ -32168,7 +32173,11 @@ ex:l31 a ont:Localizacao ;
 
 ex:l310 a ont:Localizacao ;
     ont:idLocalizacao "l310"^^xsd:string ;
-    ont:nomeLocalizacao "Portugal"^^xsd:string .
+    ont:nomeLocalizacao "Spain"^^xsd:string .
+
+ex:l318 a ont:Localizacao ;
+    ont:idLocalizacao "l318"^^xsd:string ;
+    ont:nomeLocalizacao "Texas"^^xsd:string .
 
 ex:l323 a ont:Localizacao ;
     ont:idLocalizacao "l323"^^xsd:string ;
@@ -32176,27 +32185,27 @@ ex:l323 a ont:Localizacao ;
 
 ex:l324 a ont:Localizacao ;
     ont:idLocalizacao "l324"^^xsd:string ;
-    ont:nomeLocalizacao "Guyana"^^xsd:string .
+    ont:nomeLocalizacao "Venezuela"^^xsd:string .
 
 ex:l329 a ont:Localizacao ;
     ont:idLocalizacao "l329"^^xsd:string ;
-    ont:nomeLocalizacao "possibly-in-northern-Greece"^^xsd:string .
+    ont:nomeLocalizacao "Kosovo"^^xsd:string .
 
 ex:l330 a ont:Localizacao ;
     ont:idLocalizacao "l330"^^xsd:string ;
-    ont:nomeLocalizacao "North-Macedonia"^^xsd:string .
+    ont:nomeLocalizacao "Croatia"^^xsd:string .
 
 ex:l331 a ont:Localizacao ;
     ont:idLocalizacao "l331"^^xsd:string ;
-    ont:nomeLocalizacao "Montenegro"^^xsd:string .
+    ont:nomeLocalizacao "North-Macedonia"^^xsd:string .
 
 ex:l332 a ont:Localizacao ;
     ont:idLocalizacao "l332"^^xsd:string ;
-    ont:nomeLocalizacao "Croatia"^^xsd:string .
+    ont:nomeLocalizacao "Albania"^^xsd:string .
 
 ex:l333 a ont:Localizacao ;
     ont:idLocalizacao "l333"^^xsd:string ;
-    ont:nomeLocalizacao "Albania"^^xsd:string .
+    ont:nomeLocalizacao "Montenegro"^^xsd:string .
 
 ex:l339 a ont:Localizacao ;
     ont:idLocalizacao "l339"^^xsd:string ;
@@ -32216,31 +32225,31 @@ ex:l348 a ont:Localizacao ;
 
 ex:l349 a ont:Localizacao ;
     ont:idLocalizacao "l349"^^xsd:string ;
-    ont:nomeLocalizacao "northern-China"^^xsd:string .
+    ont:nomeLocalizacao "Romania"^^xsd:string .
 
 ex:l35 a ont:Localizacao ;
     ont:idLocalizacao "l35"^^xsd:string ;
-    ont:nomeLocalizacao "Baja-California"^^xsd:string .
+    ont:nomeLocalizacao "US"^^xsd:string .
 
 ex:l350 a ont:Localizacao ;
     ont:idLocalizacao "l350"^^xsd:string ;
-    ont:nomeLocalizacao "Greece"^^xsd:string .
+    ont:nomeLocalizacao "northern-China"^^xsd:string .
 
 ex:l352 a ont:Localizacao ;
     ont:idLocalizacao "l352"^^xsd:string ;
-    ont:nomeLocalizacao "Sudan"^^xsd:string .
+    ont:nomeLocalizacao "Areas-of-Niger"^^xsd:string .
 
 ex:l353 a ont:Localizacao ;
     ont:idLocalizacao "l353"^^xsd:string ;
-    ont:nomeLocalizacao "Mali"^^xsd:string .
+    ont:nomeLocalizacao "Libya"^^xsd:string .
 
 ex:l354 a ont:Localizacao ;
     ont:idLocalizacao "l354"^^xsd:string ;
-    ont:nomeLocalizacao "Morocco"^^xsd:string .
+    ont:nomeLocalizacao "Chad"^^xsd:string .
 
 ex:l355 a ont:Localizacao ;
     ont:idLocalizacao "l355"^^xsd:string ;
-    ont:nomeLocalizacao "Libya"^^xsd:string .
+    ont:nomeLocalizacao "Morocco"^^xsd:string .
 
 ex:l356 a ont:Localizacao ;
     ont:idLocalizacao "l356"^^xsd:string ;
@@ -32248,11 +32257,11 @@ ex:l356 a ont:Localizacao ;
 
 ex:l357 a ont:Localizacao ;
     ont:idLocalizacao "l357"^^xsd:string ;
-    ont:nomeLocalizacao "Areas-of-Niger"^^xsd:string .
+    ont:nomeLocalizacao "reintroduced-into-Tunisia"^^xsd:string .
 
 ex:l358 a ont:Localizacao ;
     ont:idLocalizacao "l358"^^xsd:string ;
-    ont:nomeLocalizacao "reintroduced-into-Tunisia"^^xsd:string .
+    ont:nomeLocalizacao "Mali"^^xsd:string .
 
 ex:l36 a ont:Localizacao ;
     ont:idLocalizacao "l36"^^xsd:string ;
@@ -32262,9 +32271,9 @@ ex:l361 a ont:Localizacao ;
     ont:idLocalizacao "l361"^^xsd:string ;
     ont:nomeLocalizacao "the-Moluccas"^^xsd:string .
 
-ex:l368 a ont:Localizacao ;
-    ont:idLocalizacao "l368"^^xsd:string ;
-    ont:nomeLocalizacao "Himalayas"^^xsd:string .
+ex:l37 a ont:Localizacao ;
+    ont:idLocalizacao "l37"^^xsd:string ;
+    ont:nomeLocalizacao "Southern-California-from-Santa-Barbara-County-south-to-northern-Baja-California"^^xsd:string .
 
 ex:l370 a ont:Localizacao ;
     ont:idLocalizacao "l370"^^xsd:string ;
@@ -32272,55 +32281,59 @@ ex:l370 a ont:Localizacao ;
 
 ex:l376 a ont:Localizacao ;
     ont:idLocalizacao "l376"^^xsd:string ;
-    ont:nomeLocalizacao "Artic-Ocean"^^xsd:string .
+    ont:nomeLocalizacao "North-Pacific-Ocean"^^xsd:string .
+
+ex:l378 a ont:Localizacao ;
+    ont:idLocalizacao "l378"^^xsd:string ;
+    ont:nomeLocalizacao "East-Africa"^^xsd:string .
 
 ex:l38 a ont:Localizacao ;
     ont:idLocalizacao "l38"^^xsd:string ;
-    ont:nomeLocalizacao "Southern-California-from-Santa-Barbara-County-south-to-northern-Baja-California"^^xsd:string .
+    ont:nomeLocalizacao "the-Santa-Catalina-Islands."^^xsd:string .
 
 ex:l380 a ont:Localizacao ;
     ont:idLocalizacao "l380"^^xsd:string ;
-    ont:nomeLocalizacao "western-Russia"^^xsd:string .
+    ont:nomeLocalizacao "northern-Africa"^^xsd:string .
 
 ex:l384 a ont:Localizacao ;
     ont:idLocalizacao "l384"^^xsd:string ;
-    ont:nomeLocalizacao "Southwestern-U.S."^^xsd:string .
+    ont:nomeLocalizacao "Northern-Mexico"^^xsd:string .
 
 ex:l387 a ont:Localizacao ;
     ont:idLocalizacao "l387"^^xsd:string ;
-    ont:nomeLocalizacao "England"^^xsd:string .
+    ont:nomeLocalizacao "Coasts-of-Ireland"^^xsd:string .
 
 ex:l392 a ont:Localizacao ;
     ont:idLocalizacao "l392"^^xsd:string ;
-    ont:nomeLocalizacao "Italy"^^xsd:string .
+    ont:nomeLocalizacao "Slovenia-with-introduced-populations-in-France"^^xsd:string .
 
 ex:l393 a ont:Localizacao ;
     ont:idLocalizacao "l393"^^xsd:string ;
-    ont:nomeLocalizacao "Herzegovina"^^xsd:string .
+    ont:nomeLocalizacao "Germany."^^xsd:string .
 
 ex:l394 a ont:Localizacao ;
     ont:idLocalizacao "l394"^^xsd:string ;
-    ont:nomeLocalizacao "Bosnia"^^xsd:string .
+    ont:nomeLocalizacao "Italy"^^xsd:string .
 
 ex:l395 a ont:Localizacao ;
     ont:idLocalizacao "l395"^^xsd:string ;
-    ont:nomeLocalizacao "Slovenia-with-introduced-populations-in-France"^^xsd:string .
+    ont:nomeLocalizacao "Bosnia"^^xsd:string .
 
 ex:l396 a ont:Localizacao ;
     ont:idLocalizacao "l396"^^xsd:string ;
-    ont:nomeLocalizacao "Germany."^^xsd:string .
+    ont:nomeLocalizacao "Dinaric-Alps-in-Croatia"^^xsd:string .
 
 ex:l4 a ont:Localizacao ;
     ont:idLocalizacao "l4"^^xsd:string ;
-    ont:nomeLocalizacao "Europe"^^xsd:string .
+    ont:nomeLocalizacao "sub-Saharan-Africa"^^xsd:string .
 
 ex:l403 a ont:Localizacao ;
     ont:idLocalizacao "l403"^^xsd:string ;
-    ont:nomeLocalizacao "Europe."^^xsd:string .
+    ont:nomeLocalizacao "northern-Italy"^^xsd:string .
 
 ex:l406 a ont:Localizacao ;
     ont:idLocalizacao "l406"^^xsd:string ;
-    ont:nomeLocalizacao "Indian-Ocean-islands-of-Christmas-Island"^^xsd:string .
+    ont:nomeLocalizacao "Cocos-Island"^^xsd:string .
 
 ex:l408 a ont:Localizacao ;
     ont:idLocalizacao "l408"^^xsd:string ;
@@ -32332,19 +32345,19 @@ ex:l409 a ont:Localizacao ;
 
 ex:l410 a ont:Localizacao ;
     ont:idLocalizacao "l410"^^xsd:string ;
-    ont:nomeLocalizacao "north-to-the-Iberian-peninsula"^^xsd:string .
+    ont:nomeLocalizacao "France"^^xsd:string .
 
 ex:l411 a ont:Localizacao ;
     ont:idLocalizacao "l411"^^xsd:string ;
-    ont:nomeLocalizacao "France"^^xsd:string .
+    ont:nomeLocalizacao "north-to-the-Iberian-peninsula"^^xsd:string .
 
 ex:l416 a ont:Localizacao ;
     ont:idLocalizacao "l416"^^xsd:string ;
-    ont:nomeLocalizacao "Western-Europe"^^xsd:string .
+    ont:nomeLocalizacao "Himalayan-mountains."^^xsd:string .
 
 ex:l42 a ont:Localizacao ;
     ont:idLocalizacao "l42"^^xsd:string ;
-    ont:nomeLocalizacao "worldwide"^^xsd:string .
+    ont:nomeLocalizacao "Antarctica"^^xsd:string .
 
 ex:l420 a ont:Localizacao ;
     ont:idLocalizacao "l420"^^xsd:string ;
@@ -32360,7 +32373,7 @@ ex:l422 a ont:Localizacao ;
 
 ex:l423 a ont:Localizacao ;
     ont:idLocalizacao "l423"^^xsd:string ;
-    ont:nomeLocalizacao "North-Korea"^^xsd:string .
+    ont:nomeLocalizacao "Uzbekistan"^^xsd:string .
 
 ex:l424 a ont:Localizacao ;
     ont:idLocalizacao "l424"^^xsd:string ;
@@ -32368,15 +32381,11 @@ ex:l424 a ont:Localizacao ;
 
 ex:l425 a ont:Localizacao ;
     ont:idLocalizacao "l425"^^xsd:string ;
-    ont:nomeLocalizacao "Uzbekistan"^^xsd:string .
+    ont:nomeLocalizacao "Laos"^^xsd:string .
 
 ex:l429 a ont:Localizacao ;
     ont:idLocalizacao "l429"^^xsd:string ;
     ont:nomeLocalizacao "the-Arctic"^^xsd:string .
-
-ex:l43 a ont:Localizacao ;
-    ont:idLocalizacao "l43"^^xsd:string ;
-    ont:nomeLocalizacao "Northern-Asia"^^xsd:string .
 
 ex:l430 a ont:Localizacao ;
     ont:idLocalizacao "l430"^^xsd:string ;
@@ -32390,13 +32399,9 @@ ex:l44 a ont:Localizacao ;
     ont:idLocalizacao "l44"^^xsd:string ;
     ont:nomeLocalizacao "Central-Asia"^^xsd:string .
 
-ex:l46 a ont:Localizacao ;
-    ont:idLocalizacao "l46"^^xsd:string ;
-    ont:nomeLocalizacao "United-States"^^xsd:string .
-
 ex:l5 a ont:Localizacao ;
     ont:idLocalizacao "l5"^^xsd:string ;
-    ont:nomeLocalizacao "Eurasia"^^xsd:string .
+    ont:nomeLocalizacao "western-Asia"^^xsd:string .
 
 ex:l50 a ont:Localizacao ;
     ont:idLocalizacao "l50"^^xsd:string ;
@@ -32404,11 +32409,11 @@ ex:l50 a ont:Localizacao ;
 
 ex:l51 a ont:Localizacao ;
     ont:idLocalizacao "l51"^^xsd:string ;
-    ont:nomeLocalizacao "Mexico"^^xsd:string .
+    ont:nomeLocalizacao "Middle-East"^^xsd:string .
 
 ex:l53 a ont:Localizacao ;
     ont:idLocalizacao "l53"^^xsd:string ;
-    ont:nomeLocalizacao "Southern-Asia"^^xsd:string .
+    ont:nomeLocalizacao "Russia"^^xsd:string .
 
 ex:l54 a ont:Localizacao ;
     ont:idLocalizacao "l54"^^xsd:string ;
@@ -32420,43 +32425,39 @@ ex:l55 a ont:Localizacao ;
 
 ex:l6 a ont:Localizacao ;
     ont:idLocalizacao "l6"^^xsd:string ;
-    ont:nomeLocalizacao "Asia"^^xsd:string .
-
-ex:l60 a ont:Localizacao ;
-    ont:idLocalizacao "l60"^^xsd:string ;
-    ont:nomeLocalizacao "Russia's-Far-East"^^xsd:string .
+    ont:nomeLocalizacao "Eurasia"^^xsd:string .
 
 ex:l63 a ont:Localizacao ;
     ont:idLocalizacao "l63"^^xsd:string ;
-    ont:nomeLocalizacao "Bermuda"^^xsd:string .
+    ont:nomeLocalizacao "North-Africa"^^xsd:string .
 
 ex:l64 a ont:Localizacao ;
     ont:idLocalizacao "l64"^^xsd:string ;
-    ont:nomeLocalizacao "New-Caledonia"^^xsd:string .
+    ont:nomeLocalizacao "the-Philippines"^^xsd:string .
 
 ex:l65 a ont:Localizacao ;
     ont:idLocalizacao "l65"^^xsd:string ;
-    ont:nomeLocalizacao "the-Solomon-Islands"^^xsd:string .
+    ont:nomeLocalizacao "Gibraltar"^^xsd:string .
 
 ex:l66 a ont:Localizacao ;
     ont:idLocalizacao "l66"^^xsd:string ;
-    ont:nomeLocalizacao "the-Canary-Islands"^^xsd:string .
+    ont:nomeLocalizacao "New-Caledonia"^^xsd:string .
 
 ex:l67 a ont:Localizacao ;
     ont:idLocalizacao "l67"^^xsd:string ;
-    ont:nomeLocalizacao "the-Philippines"^^xsd:string .
+    ont:nomeLocalizacao "Madeira"^^xsd:string .
 
 ex:l68 a ont:Localizacao ;
     ont:idLocalizacao "l68"^^xsd:string ;
-    ont:nomeLocalizacao "North-Africa"^^xsd:string .
+    ont:nomeLocalizacao "New-Zealand"^^xsd:string .
 
 ex:l69 a ont:Localizacao ;
     ont:idLocalizacao "l69"^^xsd:string ;
-    ont:nomeLocalizacao "Madeira"^^xsd:string .
+    ont:nomeLocalizacao "Bermuda"^^xsd:string .
 
 ex:l7 a ont:Localizacao ;
     ont:idLocalizacao "l7"^^xsd:string ;
-    ont:nomeLocalizacao "western-Asia"^^xsd:string .
+    ont:nomeLocalizacao "Europe"^^xsd:string .
 
 ex:l70 a ont:Localizacao ;
     ont:idLocalizacao "l70"^^xsd:string ;
@@ -32464,11 +32465,11 @@ ex:l70 a ont:Localizacao ;
 
 ex:l71 a ont:Localizacao ;
     ont:idLocalizacao "l71"^^xsd:string ;
-    ont:nomeLocalizacao "Gibraltar"^^xsd:string .
+    ont:nomeLocalizacao "Papua-New-Guinea"^^xsd:string .
 
 ex:l72 a ont:Localizacao ;
     ont:idLocalizacao "l72"^^xsd:string ;
-    ont:nomeLocalizacao "New-Zealand"^^xsd:string .
+    ont:nomeLocalizacao "the-Canary-Islands"^^xsd:string .
 
 ex:l73 a ont:Localizacao ;
     ont:idLocalizacao "l73"^^xsd:string ;
@@ -32476,31 +32477,31 @@ ex:l73 a ont:Localizacao ;
 
 ex:l76 a ont:Localizacao ;
     ont:idLocalizacao "l76"^^xsd:string ;
-    ont:nomeLocalizacao "Taiwan"^^xsd:string .
+    ont:nomeLocalizacao "Native-to-China"^^xsd:string .
 
 ex:l77 a ont:Localizacao ;
     ont:idLocalizacao "l77"^^xsd:string ;
-    ont:nomeLocalizacao "Native-to-China"^^xsd:string .
+    ont:nomeLocalizacao "Taiwan"^^xsd:string .
 
 ex:l78 a ont:Localizacao ;
     ont:idLocalizacao "l78"^^xsd:string ;
     ont:nomeLocalizacao "India"^^xsd:string .
 
+ex:l79 a ont:Localizacao ;
+    ont:idLocalizacao "l79"^^xsd:string ;
+    ont:nomeLocalizacao "Sub-Sahara-Africa"^^xsd:string .
+
 ex:l8 a ont:Localizacao ;
     ont:idLocalizacao "l8"^^xsd:string ;
     ont:nomeLocalizacao "Oceania"^^xsd:string .
 
-ex:l80 a ont:Localizacao ;
-    ont:idLocalizacao "l80"^^xsd:string ;
-    ont:nomeLocalizacao "Carolinas"^^xsd:string .
-
 ex:l84 a ont:Localizacao ;
     ont:idLocalizacao "l84"^^xsd:string ;
-    ont:nomeLocalizacao "central-United-States"^^xsd:string .
+    ont:nomeLocalizacao "Eastern"^^xsd:string .
 
 ex:l87 a ont:Localizacao ;
     ont:idLocalizacao "l87"^^xsd:string ;
-    ont:nomeLocalizacao "Southwest-United-States"^^xsd:string .
+    ont:nomeLocalizacao "Central-Mexico"^^xsd:string .
 
 ex:l89 a ont:Localizacao ;
     ont:idLocalizacao "l89"^^xsd:string ;
@@ -32508,7 +32509,7 @@ ex:l89 a ont:Localizacao ;
 
 ex:l9 a ont:Localizacao ;
     ont:idLocalizacao "l9"^^xsd:string ;
-    ont:nomeLocalizacao "North-America"^^xsd:string .
+    ont:nomeLocalizacao "Central-America"^^xsd:string .
 
 ex:l90 a ont:Localizacao ;
     ont:idLocalizacao "l90"^^xsd:string ;
@@ -32516,7 +32517,11 @@ ex:l90 a ont:Localizacao ;
 
 ex:l92 a ont:Localizacao ;
     ont:idLocalizacao "l92"^^xsd:string ;
-    ont:nomeLocalizacao "every-continent-except-Europe"^^xsd:string .
+    ont:nomeLocalizacao "Antartica"^^xsd:string .
+
+ex:l93 a ont:Localizacao ;
+    ont:idLocalizacao "l93"^^xsd:string ;
+    ont:nomeLocalizacao "Eastern-U.S."^^xsd:string .
 
 ex:l94 a ont:Localizacao ;
     ont:idLocalizacao "l94"^^xsd:string ;
@@ -32528,11 +32533,11 @@ ex:l96 a ont:Localizacao ;
 
 ex:l97 a ont:Localizacao ;
     ont:idLocalizacao "l97"^^xsd:string ;
-    ont:nomeLocalizacao "Philippines"^^xsd:string .
+    ont:nomeLocalizacao "Pacific-islands"^^xsd:string .
 
 ex:l99 a ont:Localizacao ;
     ont:idLocalizacao "l99"^^xsd:string ;
-    ont:nomeLocalizacao "south-to-Missouri"^^xsd:string .
+    ont:nomeLocalizacao "Georgia"^^xsd:string .
 
 ex:t1 a ont:Taxonomy ;
     ont:classe "Mammalia"^^xsd:string ;
@@ -48663,13 +48668,9 @@ ex:h999 a ont:Habitat ;
     ont:idHabitat "h999"^^xsd:string ;
     ont:nomeHabitat "Lowland tropical rainforest near water"^^xsd:string .
 
-ex:l102 a ont:Localizacao ;
-    ont:idLocalizacao "l102"^^xsd:string ;
-    ont:nomeLocalizacao "Australia:-Victoria"^^xsd:string .
-
-ex:l113 a ont:Localizacao ;
-    ont:idLocalizacao "l113"^^xsd:string ;
-    ont:nomeLocalizacao "Brazil"^^xsd:string .
+ex:l110 a ont:Localizacao ;
+    ont:idLocalizacao "l110"^^xsd:string ;
+    ont:nomeLocalizacao "Oceans-worldwide"^^xsd:string .
 
 ex:l117 a ont:Localizacao ;
     ont:idLocalizacao "l117"^^xsd:string ;
@@ -48683,65 +48684,57 @@ ex:l129 a ont:Localizacao ;
     ont:idLocalizacao "l129"^^xsd:string ;
     ont:nomeLocalizacao "Indochina"^^xsd:string .
 
-ex:l148 a ont:Localizacao ;
-    ont:idLocalizacao "l148"^^xsd:string ;
-    ont:nomeLocalizacao "Northwestern-Hawaiian-Islands"^^xsd:string .
+ex:l131 a ont:Localizacao ;
+    ont:idLocalizacao "l131"^^xsd:string ;
+    ont:nomeLocalizacao "El-Salvador"^^xsd:string .
 
-ex:l149 a ont:Localizacao ;
-    ont:idLocalizacao "l149"^^xsd:string ;
-    ont:nomeLocalizacao "sometimes-Maine"^^xsd:string .
+ex:l146 a ont:Localizacao ;
+    ont:idLocalizacao "l146"^^xsd:string ;
+    ont:nomeLocalizacao "Arctic-Oceans"^^xsd:string .
 
 ex:l152 a ont:Localizacao ;
     ont:idLocalizacao "l152"^^xsd:string ;
-    ont:nomeLocalizacao "Northern-Pacific"^^xsd:string .
+    ont:nomeLocalizacao "Bering-Sea"^^xsd:string .
 
-ex:l157 a ont:Localizacao ;
-    ont:idLocalizacao "l157"^^xsd:string ;
-    ont:nomeLocalizacao "Southern-oceans"^^xsd:string .
+ex:l158 a ont:Localizacao ;
+    ont:idLocalizacao "l158"^^xsd:string ;
+    ont:nomeLocalizacao "the-Americas"^^xsd:string .
 
 ex:l161 a ont:Localizacao ;
     ont:idLocalizacao "l161"^^xsd:string ;
-    ont:nomeLocalizacao "but-also-found-in-Canada"^^xsd:string .
+    ont:nomeLocalizacao "Native-to-Asia"^^xsd:string .
 
-ex:l172 a ont:Localizacao ;
-    ont:idLocalizacao "l172"^^xsd:string ;
-    ont:nomeLocalizacao "The-tropical-regions-of-Africa"^^xsd:string .
+ex:l168 a ont:Localizacao ;
+    ont:idLocalizacao "l168"^^xsd:string ;
+    ont:nomeLocalizacao "From-southern-Canada-through-northern-South-America"^^xsd:string .
+
+ex:l182 a ont:Localizacao ;
+    ont:idLocalizacao "l182"^^xsd:string ;
+    ont:nomeLocalizacao "China"^^xsd:string .
 
 ex:l185 a ont:Localizacao ;
     ont:idLocalizacao "l185"^^xsd:string ;
     ont:nomeLocalizacao "Oceanwide"^^xsd:string .
 
+ex:l188 a ont:Localizacao ;
+    ont:idLocalizacao "l188"^^xsd:string ;
+    ont:nomeLocalizacao "southern-Europe"^^xsd:string .
+
 ex:l191 a ont:Localizacao ;
     ont:idLocalizacao "l191"^^xsd:string ;
     ont:nomeLocalizacao "northern-South-America"^^xsd:string .
-
-ex:l193 a ont:Localizacao ;
-    ont:idLocalizacao "l193"^^xsd:string ;
-    ont:nomeLocalizacao "Indian-Oceans"^^xsd:string .
-
-ex:l201 a ont:Localizacao ;
-    ont:idLocalizacao "l201"^^xsd:string ;
-    ont:nomeLocalizacao "south-central-region-of-the-United-States"^^xsd:string .
 
 ex:l207 a ont:Localizacao ;
     ont:idLocalizacao "l207"^^xsd:string ;
     ont:nomeLocalizacao "Southern-Canada-to-South-America"^^xsd:string .
 
-ex:l21 a ont:Localizacao ;
-    ont:idLocalizacao "l21"^^xsd:string ;
-    ont:nomeLocalizacao "Everywhere-save-the-North"^^xsd:string .
-
 ex:l210 a ont:Localizacao ;
     ont:idLocalizacao "l210"^^xsd:string ;
     ont:nomeLocalizacao "south-eastern-Australia"^^xsd:string .
 
-ex:l212 a ont:Localizacao ;
-    ont:idLocalizacao "l212"^^xsd:string ;
-    ont:nomeLocalizacao "south-west-African-coast"^^xsd:string .
-
-ex:l215 a ont:Localizacao ;
-    ont:idLocalizacao "l215"^^xsd:string ;
-    ont:nomeLocalizacao "Montana"^^xsd:string .
+ex:l221 a ont:Localizacao ;
+    ont:idLocalizacao "l221"^^xsd:string ;
+    ont:nomeLocalizacao "Nicobar-Islands"^^xsd:string .
 
 ex:l233 a ont:Localizacao ;
     ont:idLocalizacao "l233"^^xsd:string ;
@@ -48751,33 +48744,45 @@ ex:l237 a ont:Localizacao ;
     ont:idLocalizacao "l237"^^xsd:string ;
     ont:nomeLocalizacao "Northern-Eurasia"^^xsd:string .
 
+ex:l245 a ont:Localizacao ;
+    ont:idLocalizacao "l245"^^xsd:string ;
+    ont:nomeLocalizacao "All-over-the-globe"^^xsd:string .
+
 ex:l246 a ont:Localizacao ;
     ont:idLocalizacao "l246"^^xsd:string ;
     ont:nomeLocalizacao "North-America-Southeast-Asia"^^xsd:string .
 
 ex:l25 a ont:Localizacao ;
     ont:idLocalizacao "l25"^^xsd:string ;
-    ont:nomeLocalizacao "Pacific-Oceans"^^xsd:string .
+    ont:nomeLocalizacao "Indian"^^xsd:string .
 
 ex:l256 a ont:Localizacao ;
     ont:idLocalizacao "l256"^^xsd:string ;
     ont:nomeLocalizacao "Caribbean-islands"^^xsd:string .
 
-ex:l267 a ont:Localizacao ;
-    ont:idLocalizacao "l267"^^xsd:string ;
-    ont:nomeLocalizacao "Turkey"^^xsd:string .
+ex:l266 a ont:Localizacao ;
+    ont:idLocalizacao "l266"^^xsd:string ;
+    ont:nomeLocalizacao "southeastern-United-States"^^xsd:string .
 
-ex:l272 a ont:Localizacao ;
-    ont:idLocalizacao "l272"^^xsd:string ;
-    ont:nomeLocalizacao "Komodo-National-Park"^^xsd:string .
+ex:l284 a ont:Localizacao ;
+    ont:idLocalizacao "l284"^^xsd:string ;
+    ont:nomeLocalizacao "Florida-(United-States)."^^xsd:string .
 
 ex:l293 a ont:Localizacao ;
     ont:idLocalizacao "l293"^^xsd:string ;
-    ont:nomeLocalizacao "New-York-state-to-as-far-south-as-central-Florida"^^xsd:string .
+    ont:nomeLocalizacao "from-southern-Illinois"^^xsd:string .
 
 ex:l297 a ont:Localizacao ;
     ont:idLocalizacao "l297"^^xsd:string ;
-    ont:nomeLocalizacao "the-Mediterranean."^^xsd:string .
+    ont:nomeLocalizacao "north"^^xsd:string .
+
+ex:l300 a ont:Localizacao ;
+    ont:idLocalizacao "l300"^^xsd:string ;
+    ont:nomeLocalizacao "Scandinavia"^^xsd:string .
+
+ex:l302 a ont:Localizacao ;
+    ont:idLocalizacao "l302"^^xsd:string ;
+    ont:nomeLocalizacao "Eastern-Australia"^^xsd:string .
 
 ex:l312 a ont:Localizacao ;
     ont:idLocalizacao "l312"^^xsd:string ;
@@ -48787,17 +48792,25 @@ ex:l313 a ont:Localizacao ;
     ont:idLocalizacao "l313"^^xsd:string ;
     ont:nomeLocalizacao "Southeastern-Africa"^^xsd:string .
 
-ex:l318 a ont:Localizacao ;
-    ont:idLocalizacao "l318"^^xsd:string ;
-    ont:nomeLocalizacao "Texas"^^xsd:string .
+ex:l32 a ont:Localizacao ;
+    ont:idLocalizacao "l32"^^xsd:string ;
+    ont:nomeLocalizacao "South-east-Asia"^^xsd:string .
 
-ex:l343 a ont:Localizacao ;
-    ont:idLocalizacao "l343"^^xsd:string ;
-    ont:nomeLocalizacao "Amazon-River-Basin"^^xsd:string .
+ex:l327 a ont:Localizacao ;
+    ont:idLocalizacao "l327"^^xsd:string ;
+    ont:nomeLocalizacao "Appalachian-Mountains-from-New-York-to-Alabama"^^xsd:string .
+
+ex:l33 a ont:Localizacao ;
+    ont:idLocalizacao "l33"^^xsd:string ;
+    ont:nomeLocalizacao "Aruba"^^xsd:string .
+
+ex:l337 a ont:Localizacao ;
+    ont:idLocalizacao "l337"^^xsd:string ;
+    ont:nomeLocalizacao "Iran"^^xsd:string .
 
 ex:l347 a ont:Localizacao ;
     ont:idLocalizacao "l347"^^xsd:string ;
-    ont:nomeLocalizacao "Romania"^^xsd:string .
+    ont:nomeLocalizacao "Greece"^^xsd:string .
 
 ex:l363 a ont:Localizacao ;
     ont:idLocalizacao "l363"^^xsd:string ;
@@ -48807,17 +48820,17 @@ ex:l364 a ont:Localizacao ;
     ont:idLocalizacao "l364"^^xsd:string ;
     ont:nomeLocalizacao "primarily-North"^^xsd:string .
 
-ex:l37 a ont:Localizacao ;
-    ont:idLocalizacao "l37"^^xsd:string ;
-    ont:nomeLocalizacao "the-Santa-Catalina-Islands."^^xsd:string .
+ex:l366 a ont:Localizacao ;
+    ont:idLocalizacao "l366"^^xsd:string ;
+    ont:nomeLocalizacao "Eastern-Madagascar"^^xsd:string .
+
+ex:l368 a ont:Localizacao ;
+    ont:idLocalizacao "l368"^^xsd:string ;
+    ont:nomeLocalizacao "Himalayas"^^xsd:string .
 
 ex:l372 a ont:Localizacao ;
     ont:idLocalizacao "l372"^^xsd:string ;
     ont:nomeLocalizacao "Africa-&-Asia"^^xsd:string .
-
-ex:l378 a ont:Localizacao ;
-    ont:idLocalizacao "l378"^^xsd:string ;
-    ont:nomeLocalizacao "East-Africa"^^xsd:string .
 
 ex:l397 a ont:Localizacao ;
     ont:idLocalizacao "l397"^^xsd:string ;
@@ -48833,35 +48846,39 @@ ex:l401 a ont:Localizacao ;
 
 ex:l419 a ont:Localizacao ;
     ont:idLocalizacao "l419"^^xsd:string ;
-    ont:nomeLocalizacao "Laos"^^xsd:string .
+    ont:nomeLocalizacao "North-Korea"^^xsd:string .
+
+ex:l43 a ont:Localizacao ;
+    ont:idLocalizacao "l43"^^xsd:string ;
+    ont:nomeLocalizacao "Northern-Asia"^^xsd:string .
 
 ex:l431 a ont:Localizacao ;
     ont:idLocalizacao "l431"^^xsd:string ;
     ont:nomeLocalizacao "northern-United-States-in-the-spring"^^xsd:string .
 
+ex:l46 a ont:Localizacao ;
+    ont:idLocalizacao "l46"^^xsd:string ;
+    ont:nomeLocalizacao "United-States"^^xsd:string .
+
 ex:l49 a ont:Localizacao ;
     ont:idLocalizacao "l49"^^xsd:string ;
-    ont:nomeLocalizacao "Middle-East"^^xsd:string .
+    ont:nomeLocalizacao "Mexico"^^xsd:string .
 
-ex:l74 a ont:Localizacao ;
-    ont:idLocalizacao "l74"^^xsd:string ;
-    ont:nomeLocalizacao "Britain"^^xsd:string .
+ex:l60 a ont:Localizacao ;
+    ont:idLocalizacao "l60"^^xsd:string ;
+    ont:nomeLocalizacao "Russia's-Far-East"^^xsd:string .
 
 ex:l75 a ont:Localizacao ;
     ont:idLocalizacao "l75"^^xsd:string ;
     ont:nomeLocalizacao "Vietnam"^^xsd:string .
 
-ex:l79 a ont:Localizacao ;
-    ont:idLocalizacao "l79"^^xsd:string ;
-    ont:nomeLocalizacao "Sub-Sahara-Africa"^^xsd:string .
+ex:l80 a ont:Localizacao ;
+    ont:idLocalizacao "l80"^^xsd:string ;
+    ont:nomeLocalizacao "Carolinas"^^xsd:string .
 
 ex:l86 a ont:Localizacao ;
     ont:idLocalizacao "l86"^^xsd:string ;
-    ont:nomeLocalizacao "Central-Mexico"^^xsd:string .
-
-ex:l93 a ont:Localizacao ;
-    ont:idLocalizacao "l93"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern-U.S."^^xsd:string .
+    ont:nomeLocalizacao "Southwest-United-States"^^xsd:string .
 
 ex:h1013 a ont:Habitat ;
     ont:idHabitat "h1013"^^xsd:string ;
@@ -49071,25 +49088,21 @@ ex:l109 a ont:Localizacao ;
     ont:idLocalizacao "l109"^^xsd:string ;
     ont:nomeLocalizacao "Newfoundland"^^xsd:string .
 
-ex:l110 a ont:Localizacao ;
-    ont:idLocalizacao "l110"^^xsd:string ;
-    ont:nomeLocalizacao "Oceans-worldwide"^^xsd:string .
-
 ex:l118 a ont:Localizacao ;
     ont:idLocalizacao "l118"^^xsd:string ;
     ont:nomeLocalizacao "the-Southern-Ocean"^^xsd:string .
+
+ex:l120 a ont:Localizacao ;
+    ont:idLocalizacao "l120"^^xsd:string ;
+    ont:nomeLocalizacao "Critically-Endangered"^^xsd:string .
 
 ex:l124 a ont:Localizacao ;
     ont:idLocalizacao "l124"^^xsd:string ;
     ont:nomeLocalizacao "South-Asia"^^xsd:string .
 
-ex:l131 a ont:Localizacao ;
-    ont:idLocalizacao "l131"^^xsd:string ;
-    ont:nomeLocalizacao "Belize"^^xsd:string .
-
-ex:l158 a ont:Localizacao ;
-    ont:idLocalizacao "l158"^^xsd:string ;
-    ont:nomeLocalizacao "the-Americas"^^xsd:string .
+ex:l127 a ont:Localizacao ;
+    ont:idLocalizacao "l127"^^xsd:string ;
+    ont:nomeLocalizacao "everywhere-except-South-America"^^xsd:string .
 
 ex:l160 a ont:Localizacao ;
     ont:idLocalizacao "l160"^^xsd:string ;
@@ -49103,18 +49116,6 @@ ex:l175 a ont:Localizacao ;
     ont:idLocalizacao "l175"^^xsd:string ;
     ont:nomeLocalizacao "Everywhere"^^xsd:string .
 
-ex:l182 a ont:Localizacao ;
-    ont:idLocalizacao "l182"^^xsd:string ;
-    ont:nomeLocalizacao "China"^^xsd:string .
-
-ex:l188 a ont:Localizacao ;
-    ont:idLocalizacao "l188"^^xsd:string ;
-    ont:nomeLocalizacao "Americas"^^xsd:string .
-
-ex:l198 a ont:Localizacao ;
-    ont:idLocalizacao "l198"^^xsd:string ;
-    ont:nomeLocalizacao "southern-parts-of-Africa"^^xsd:string .
-
 ex:l209 a ont:Localizacao ;
     ont:idLocalizacao "l209"^^xsd:string ;
     ont:nomeLocalizacao "Across-Europe"^^xsd:string .
@@ -49127,61 +49128,33 @@ ex:l242 a ont:Localizacao ;
     ont:idLocalizacao "l242"^^xsd:string ;
     ont:nomeLocalizacao "Southern-Europe"^^xsd:string .
 
-ex:l245 a ont:Localizacao ;
-    ont:idLocalizacao "l245"^^xsd:string ;
-    ont:nomeLocalizacao "All-over-the-globe"^^xsd:string .
-
 ex:l255 a ont:Localizacao ;
     ont:idLocalizacao "l255"^^xsd:string ;
     ont:nomeLocalizacao "across-sub-Saharan-Africa"^^xsd:string .
+
+ex:l262 a ont:Localizacao ;
+    ont:idLocalizacao "l262"^^xsd:string ;
+    ont:nomeLocalizacao "Iceland"^^xsd:string .
 
 ex:l273 a ont:Localizacao ;
     ont:idLocalizacao "l273"^^xsd:string ;
     ont:nomeLocalizacao "The-Americas"^^xsd:string .
 
-ex:l274 a ont:Localizacao ;
-    ont:idLocalizacao "l274"^^xsd:string ;
-    ont:nomeLocalizacao "Southern-United-States"^^xsd:string .
-
-ex:l284 a ont:Localizacao ;
-    ont:idLocalizacao "l284"^^xsd:string ;
-    ont:nomeLocalizacao "Florida-(United-States)."^^xsd:string .
-
 ex:l290 a ont:Localizacao ;
     ont:idLocalizacao "l290"^^xsd:string ;
     ont:nomeLocalizacao "southern-USA"^^xsd:string .
-
-ex:l300 a ont:Localizacao ;
-    ont:idLocalizacao "l300"^^xsd:string ;
-    ont:nomeLocalizacao "Scandinavia"^^xsd:string .
-
-ex:l302 a ont:Localizacao ;
-    ont:idLocalizacao "l302"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern-Australia"^^xsd:string .
 
 ex:l303 a ont:Localizacao ;
     ont:idLocalizacao "l303"^^xsd:string ;
     ont:nomeLocalizacao "most-of-Europe"^^xsd:string .
 
-ex:l32 a ont:Localizacao ;
-    ont:idLocalizacao "l32"^^xsd:string ;
-    ont:nomeLocalizacao "South-east-Asia"^^xsd:string .
-
-ex:l327 a ont:Localizacao ;
-    ont:idLocalizacao "l327"^^xsd:string ;
-    ont:nomeLocalizacao "Appalachian-Mountains-from-New-York-to-Alabama"^^xsd:string .
-
-ex:l33 a ont:Localizacao ;
-    ont:idLocalizacao "l33"^^xsd:string ;
-    ont:nomeLocalizacao "Aruba"^^xsd:string .
-
-ex:l337 a ont:Localizacao ;
-    ont:idLocalizacao "l337"^^xsd:string ;
-    ont:nomeLocalizacao "Iran"^^xsd:string .
-
 ex:l341 a ont:Localizacao ;
     ont:idLocalizacao "l341"^^xsd:string ;
     ont:nomeLocalizacao "A-number-of-south-east-Asian-islands"^^xsd:string .
+
+ex:l343 a ont:Localizacao ;
+    ont:idLocalizacao "l343"^^xsd:string ;
+    ont:nomeLocalizacao "Amazon-River-Basin"^^xsd:string .
 
 ex:l346 a ont:Localizacao ;
     ont:idLocalizacao "l346"^^xsd:string ;
@@ -49195,25 +49168,33 @@ ex:l362 a ont:Localizacao ;
     ont:idLocalizacao "l362"^^xsd:string ;
     ont:nomeLocalizacao "Places-of-origin-are-Mexico"^^xsd:string .
 
-ex:l366 a ont:Localizacao ;
-    ont:idLocalizacao "l366"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern-Madagascar"^^xsd:string .
+ex:l365 a ont:Localizacao ;
+    ont:idLocalizacao "l365"^^xsd:string ;
+    ont:nomeLocalizacao "Across-the-southern-hemisphere"^^xsd:string .
 
-ex:l382 a ont:Localizacao ;
-    ont:idLocalizacao "l382"^^xsd:string ;
-    ont:nomeLocalizacao "Argentina"^^xsd:string .
+ex:l39 a ont:Localizacao ;
+    ont:idLocalizacao "l39"^^xsd:string ;
+    ont:nomeLocalizacao "Global"^^xsd:string .
 
 ex:l415 a ont:Localizacao ;
     ont:idLocalizacao "l415"^^xsd:string ;
-    ont:nomeLocalizacao "Himalayan-mountains."^^xsd:string .
+    ont:nomeLocalizacao "Western-Europe"^^xsd:string .
 
 ex:l52 a ont:Localizacao ;
     ont:idLocalizacao "l52"^^xsd:string ;
-    ont:nomeLocalizacao "Russia"^^xsd:string .
+    ont:nomeLocalizacao "Southern-Asia"^^xsd:string .
 
 ex:l57 a ont:Localizacao ;
     ont:idLocalizacao "l57"^^xsd:string ;
     ont:nomeLocalizacao "Galapagos-Islands"^^xsd:string .
+
+ex:l74 a ont:Localizacao ;
+    ont:idLocalizacao "l74"^^xsd:string ;
+    ont:nomeLocalizacao "Britain"^^xsd:string .
+
+ex:l85 a ont:Localizacao ;
+    ont:idLocalizacao "l85"^^xsd:string ;
+    ont:nomeLocalizacao "northern-part-of-South-America"^^xsd:string .
 
 ex:l88 a ont:Localizacao ;
     ont:idLocalizacao "l88"^^xsd:string ;
@@ -49221,11 +49202,7 @@ ex:l88 a ont:Localizacao ;
 
 ex:l95 a ont:Localizacao ;
     ont:idLocalizacao "l95"^^xsd:string ;
-    ont:nomeLocalizacao "Pacific-islands"^^xsd:string .
-
-ex:l98 a ont:Localizacao ;
-    ont:idLocalizacao "l98"^^xsd:string ;
-    ont:nomeLocalizacao "North-America-from-Manitoba-east-to-Quebec"^^xsd:string .
+    ont:nomeLocalizacao "Philippines"^^xsd:string .
 
 ex:c17 a ont:Cor ;
     ont:idCor "c17"^^xsd:string ;
@@ -49347,29 +49324,45 @@ ex:l111 a ont:Localizacao ;
     ont:idLocalizacao "l111"^^xsd:string ;
     ont:nomeLocalizacao "southwest-Florida"^^xsd:string .
 
+ex:l119 a ont:Localizacao ;
+    ont:idLocalizacao "l119"^^xsd:string ;
+    ont:nomeLocalizacao "Eastern-Asia"^^xsd:string .
+
 ex:l12 a ont:Localizacao ;
     ont:idLocalizacao "l12"^^xsd:string ;
     ont:nomeLocalizacao "Southeastern-Asia"^^xsd:string .
 
-ex:l120 a ont:Localizacao ;
-    ont:idLocalizacao "l120"^^xsd:string ;
-    ont:nomeLocalizacao "Vulnerable"^^xsd:string .
-
-ex:l127 a ont:Localizacao ;
-    ont:idLocalizacao "l127"^^xsd:string ;
-    ont:nomeLocalizacao "everywhere-except-South-America"^^xsd:string .
+ex:l125 a ont:Localizacao ;
+    ont:idLocalizacao "l125"^^xsd:string ;
+    ont:nomeLocalizacao "America"^^xsd:string .
 
 ex:l163 a ont:Localizacao ;
     ont:idLocalizacao "l163"^^xsd:string ;
     ont:nomeLocalizacao "Western-part-of-the-United-States"^^xsd:string .
 
+ex:l171 a ont:Localizacao ;
+    ont:idLocalizacao "l171"^^xsd:string ;
+    ont:nomeLocalizacao "Most-of-the-United-States"^^xsd:string .
+
 ex:l183 a ont:Localizacao ;
     ont:idLocalizacao "l183"^^xsd:string ;
     ont:nomeLocalizacao "Borneo"^^xsd:string .
 
+ex:l184 a ont:Localizacao ;
+    ont:idLocalizacao "l184"^^xsd:string ;
+    ont:nomeLocalizacao "Eastern-Africa"^^xsd:string .
+
 ex:l192 a ont:Localizacao ;
     ont:idLocalizacao "l192"^^xsd:string ;
     ont:nomeLocalizacao "Central-America-east-of-the-Rocky-Mountains"^^xsd:string .
+
+ex:l198 a ont:Localizacao ;
+    ont:idLocalizacao "l198"^^xsd:string ;
+    ont:nomeLocalizacao "southern-parts-of-Africa"^^xsd:string .
+
+ex:l203 a ont:Localizacao ;
+    ont:idLocalizacao "l203"^^xsd:string ;
+    ont:nomeLocalizacao "Throughout-Japan"^^xsd:string .
 
 ex:l214 a ont:Localizacao ;
     ont:idLocalizacao "l214"^^xsd:string ;
@@ -49379,25 +49372,25 @@ ex:l243 a ont:Localizacao ;
     ont:idLocalizacao "l243"^^xsd:string ;
     ont:nomeLocalizacao "Northern-United-States"^^xsd:string .
 
-ex:l247 a ont:Localizacao ;
-    ont:idLocalizacao "l247"^^xsd:string ;
-    ont:nomeLocalizacao "Yangtze-River-basin"^^xsd:string .
-
 ex:l258 a ont:Localizacao ;
     ont:idLocalizacao "l258"^^xsd:string ;
     ont:nomeLocalizacao "southern-Asia"^^xsd:string .
 
-ex:l262 a ont:Localizacao ;
-    ont:idLocalizacao "l262"^^xsd:string ;
-    ont:nomeLocalizacao "Iceland"^^xsd:string .
+ex:l269 a ont:Localizacao ;
+    ont:idLocalizacao "l269"^^xsd:string ;
+    ont:nomeLocalizacao "Much-of-the-Western-Hemisphere"^^xsd:string .
 
 ex:l27 a ont:Localizacao ;
     ont:idLocalizacao "l27"^^xsd:string ;
-    ont:nomeLocalizacao "Extinct-in-the-Wild"^^xsd:string .
+    ont:nomeLocalizacao "Hawaii"^^xsd:string .
 
 ex:l270 a ont:Localizacao ;
     ont:idLocalizacao "l270"^^xsd:string ;
     ont:nomeLocalizacao "the-Arabian-Peninsula"^^xsd:string .
+
+ex:l274 a ont:Localizacao ;
+    ont:idLocalizacao "l274"^^xsd:string ;
+    ont:nomeLocalizacao "Southern-United-States"^^xsd:string .
 
 ex:l276 a ont:Localizacao ;
     ont:idLocalizacao "l276"^^xsd:string ;
@@ -49409,35 +49402,35 @@ ex:l277 a ont:Localizacao ;
 
 ex:l291 a ont:Localizacao ;
     ont:idLocalizacao "l291"^^xsd:string ;
-    ont:nomeLocalizacao "Washington-State"^^xsd:string .
+    ont:nomeLocalizacao "Oregon"^^xsd:string .
 
 ex:l315 a ont:Localizacao ;
     ont:idLocalizacao "l315"^^xsd:string ;
     ont:nomeLocalizacao "Not-Listed"^^xsd:string .
 
-ex:l344 a ont:Localizacao ;
-    ont:idLocalizacao "l344"^^xsd:string ;
-    ont:nomeLocalizacao "Finland"^^xsd:string .
+ex:l335 a ont:Localizacao ;
+    ont:idLocalizacao "l335"^^xsd:string ;
+    ont:nomeLocalizacao "including-the-Indian-subcontinent"^^xsd:string .
 
 ex:l359 a ont:Localizacao ;
     ont:idLocalizacao "l359"^^xsd:string ;
     ont:nomeLocalizacao "Every-continent-except-Antarctica"^^xsd:string .
 
-ex:l365 a ont:Localizacao ;
-    ont:idLocalizacao "l365"^^xsd:string ;
-    ont:nomeLocalizacao "Across-the-southern-hemisphere"^^xsd:string .
-
 ex:l373 a ont:Localizacao ;
     ont:idLocalizacao "l373"^^xsd:string ;
     ont:nomeLocalizacao "southeast-Asia"^^xsd:string .
 
-ex:l39 a ont:Localizacao ;
-    ont:idLocalizacao "l39"^^xsd:string ;
-    ont:nomeLocalizacao "Global"^^xsd:string .
+ex:l375 a ont:Localizacao ;
+    ont:idLocalizacao "l375"^^xsd:string ;
+    ont:nomeLocalizacao "Artic-Ocean"^^xsd:string .
+
+ex:l382 a ont:Localizacao ;
+    ont:idLocalizacao "l382"^^xsd:string ;
+    ont:nomeLocalizacao "Argentina"^^xsd:string .
 
 ex:l402 a ont:Localizacao ;
     ont:idLocalizacao "l402"^^xsd:string ;
-    ont:nomeLocalizacao "northern-Italy"^^xsd:string .
+    ont:nomeLocalizacao "Europe."^^xsd:string .
 
 ex:l45 a ont:Localizacao ;
     ont:idLocalizacao "l45"^^xsd:string ;
@@ -49447,9 +49440,9 @@ ex:l47 a ont:Localizacao ;
     ont:idLocalizacao "l47"^^xsd:string ;
     ont:nomeLocalizacao "Alaska"^^xsd:string .
 
-ex:l85 a ont:Localizacao ;
-    ont:idLocalizacao "l85"^^xsd:string ;
-    ont:nomeLocalizacao "northern-part-of-South-America"^^xsd:string .
+ex:l98 a ont:Localizacao ;
+    ont:idLocalizacao "l98"^^xsd:string ;
+    ont:nomeLocalizacao "North-America-from-Manitoba-east-to-Quebec"^^xsd:string .
 
 ex:h1036 a ont:Habitat ;
     ont:idHabitat "h1036"^^xsd:string ;
@@ -49495,17 +49488,9 @@ ex:l107 a ont:Localizacao ;
     ont:idLocalizacao "l107"^^xsd:string ;
     ont:nomeLocalizacao "Southeastern-United-States"^^xsd:string .
 
-ex:l119 a ont:Localizacao ;
-    ont:idLocalizacao "l119"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern-Asia"^^xsd:string .
-
 ex:l122 a ont:Localizacao ;
     ont:idLocalizacao "l122"^^xsd:string ;
     ont:nomeLocalizacao "Southeast-U.S."^^xsd:string .
-
-ex:l125 a ont:Localizacao ;
-    ont:idLocalizacao "l125"^^xsd:string ;
-    ont:nomeLocalizacao "America"^^xsd:string .
 
 ex:l140 a ont:Localizacao ;
     ont:idLocalizacao "l140"^^xsd:string ;
@@ -49515,10 +49500,6 @@ ex:l144 a ont:Localizacao ;
     ont:idLocalizacao "l144"^^xsd:string ;
     ont:nomeLocalizacao "Western-Asia"^^xsd:string .
 
-ex:l171 a ont:Localizacao ;
-    ont:idLocalizacao "l171"^^xsd:string ;
-    ont:nomeLocalizacao "Most-of-the-United-States"^^xsd:string .
-
 ex:l174 a ont:Localizacao ;
     ont:idLocalizacao "l174"^^xsd:string ;
     ont:nomeLocalizacao "Colombia"^^xsd:string .
@@ -49527,17 +49508,13 @@ ex:l176 a ont:Localizacao ;
     ont:idLocalizacao "l176"^^xsd:string ;
     ont:nomeLocalizacao "Off-the-U.S."^^xsd:string .
 
-ex:l184 a ont:Localizacao ;
-    ont:idLocalizacao "l184"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern-Africa"^^xsd:string .
+ex:l187 a ont:Localizacao ;
+    ont:idLocalizacao "l187"^^xsd:string ;
+    ont:nomeLocalizacao "Arctic-Circle"^^xsd:string .
 
 ex:l190 a ont:Localizacao ;
     ont:idLocalizacao "l190"^^xsd:string ;
     ont:nomeLocalizacao "Western-North-America"^^xsd:string .
-
-ex:l203 a ont:Localizacao ;
-    ont:idLocalizacao "l203"^^xsd:string ;
-    ont:nomeLocalizacao "Throughout-Japan"^^xsd:string .
 
 ex:l230 a ont:Localizacao ;
     ont:idLocalizacao "l230"^^xsd:string ;
@@ -49547,9 +49524,13 @@ ex:l234 a ont:Localizacao ;
     ont:idLocalizacao "l234"^^xsd:string ;
     ont:nomeLocalizacao "Northern-Africa"^^xsd:string .
 
-ex:l236 a ont:Localizacao ;
-    ont:idLocalizacao "l236"^^xsd:string ;
-    ont:nomeLocalizacao "British-Virgin-Islands"^^xsd:string .
+ex:l239 a ont:Localizacao ;
+    ont:idLocalizacao "l239"^^xsd:string ;
+    ont:nomeLocalizacao "Semi-permanent-pool-or-pond"^^xsd:string .
+
+ex:l247 a ont:Localizacao ;
+    ont:idLocalizacao "l247"^^xsd:string ;
+    ont:nomeLocalizacao "Yangtze-River-basin"^^xsd:string .
 
 ex:l252 a ont:Localizacao ;
     ont:idLocalizacao "l252"^^xsd:string ;
@@ -49559,17 +49540,17 @@ ex:l257 a ont:Localizacao ;
     ont:idLocalizacao "l257"^^xsd:string ;
     ont:nomeLocalizacao "Tropical-Regions"^^xsd:string .
 
-ex:l269 a ont:Localizacao ;
-    ont:idLocalizacao "l269"^^xsd:string ;
-    ont:nomeLocalizacao "Much-of-the-Western-Hemisphere"^^xsd:string .
-
-ex:l278 a ont:Localizacao ;
-    ont:idLocalizacao "l278"^^xsd:string ;
-    ont:nomeLocalizacao "Nepal"^^xsd:string .
+ex:l263 a ont:Localizacao ;
+    ont:idLocalizacao "l263"^^xsd:string ;
+    ont:nomeLocalizacao "Australian-waters-mostly"^^xsd:string .
 
 ex:l281 a ont:Localizacao ;
     ont:idLocalizacao "l281"^^xsd:string ;
-    ont:nomeLocalizacao "southern-Canada"^^xsd:string .
+    ont:nomeLocalizacao "Panama"^^xsd:string .
+
+ex:l309 a ont:Localizacao ;
+    ont:idLocalizacao "l309"^^xsd:string ;
+    ont:nomeLocalizacao "Portugal"^^xsd:string .
 
 ex:l319 a ont:Localizacao ;
     ont:idLocalizacao "l319"^^xsd:string ;
@@ -49579,13 +49560,9 @@ ex:l320 a ont:Localizacao ;
     ont:idLocalizacao "l320"^^xsd:string ;
     ont:nomeLocalizacao "south-west-Australia"^^xsd:string .
 
-ex:l335 a ont:Localizacao ;
-    ont:idLocalizacao "l335"^^xsd:string ;
-    ont:nomeLocalizacao "including-the-Indian-subcontinent"^^xsd:string .
-
-ex:l375 a ont:Localizacao ;
-    ont:idLocalizacao "l375"^^xsd:string ;
-    ont:nomeLocalizacao "North-Pacific-Ocean"^^xsd:string .
+ex:l344 a ont:Localizacao ;
+    ont:idLocalizacao "l344"^^xsd:string ;
+    ont:nomeLocalizacao "Finland"^^xsd:string .
 
 ex:c12 a ont:Cor ;
     ont:idCor "c12"^^xsd:string ;
@@ -49613,7 +49590,7 @@ ex:h992 a ont:Habitat ;
 
 ex:l105 a ont:Localizacao ;
     ont:idLocalizacao "l105"^^xsd:string ;
-    ont:nomeLocalizacao "-Asia"^^xsd:string .
+    ont:nomeLocalizacao "the-Middle-East"^^xsd:string .
 
 ex:l18 a ont:Localizacao ;
     ont:idLocalizacao "l18"^^xsd:string ;
@@ -49623,29 +49600,29 @@ ex:l181 a ont:Localizacao ;
     ont:idLocalizacao "l181"^^xsd:string ;
     ont:nomeLocalizacao "Indo-Malaysia"^^xsd:string .
 
-ex:l187 a ont:Localizacao ;
-    ont:idLocalizacao "l187"^^xsd:string ;
-    ont:nomeLocalizacao "Arctic-Circle"^^xsd:string .
-
 ex:l195 a ont:Localizacao ;
     ont:idLocalizacao "l195"^^xsd:string ;
-    ont:nomeLocalizacao "Bolivia"^^xsd:string .
+    ont:nomeLocalizacao "Ecuador"^^xsd:string .
 
-ex:l239 a ont:Localizacao ;
-    ont:idLocalizacao "l239"^^xsd:string ;
-    ont:nomeLocalizacao "Semi-permanent-pool-or-pond"^^xsd:string .
+ex:l236 a ont:Localizacao ;
+    ont:idLocalizacao "l236"^^xsd:string ;
+    ont:nomeLocalizacao "British-Virgin-Islands"^^xsd:string .
 
-ex:l263 a ont:Localizacao ;
-    ont:idLocalizacao "l263"^^xsd:string ;
-    ont:nomeLocalizacao "USA"^^xsd:string .
+ex:l259 a ont:Localizacao ;
+    ont:idLocalizacao "l259"^^xsd:string ;
+    ont:nomeLocalizacao "Northern-India"^^xsd:string .
 
 ex:l265 a ont:Localizacao ;
     ont:idLocalizacao "l265"^^xsd:string ;
     ont:nomeLocalizacao "though-it-is-an-invasive-species-in-some-parts-of-the-United-States"^^xsd:string .
 
-ex:l309 a ont:Localizacao ;
-    ont:idLocalizacao "l309"^^xsd:string ;
-    ont:nomeLocalizacao "Spain"^^xsd:string .
+ex:l278 a ont:Localizacao ;
+    ont:idLocalizacao "l278"^^xsd:string ;
+    ont:nomeLocalizacao "Nepal"^^xsd:string .
+
+ex:l311 a ont:Localizacao ;
+    ont:idLocalizacao "l311"^^xsd:string ;
+    ont:nomeLocalizacao "southern-Madagascar"^^xsd:string .
 
 ex:l316 a ont:Localizacao ;
     ont:idLocalizacao "l316"^^xsd:string ;
@@ -49659,17 +49636,13 @@ ex:l326 a ont:Localizacao ;
     ont:idLocalizacao "l326"^^xsd:string ;
     ont:nomeLocalizacao "Korea"^^xsd:string .
 
+ex:l374 a ont:Localizacao ;
+    ont:idLocalizacao "l374"^^xsd:string ;
+    ont:nomeLocalizacao "Western-United-States"^^xsd:string .
+
 ex:l383 a ont:Localizacao ;
     ont:idLocalizacao "l383"^^xsd:string ;
-    ont:nomeLocalizacao "Northern-Mexico"^^xsd:string .
-
-ex:l405 a ont:Localizacao ;
-    ont:idLocalizacao "l405"^^xsd:string ;
-    ont:nomeLocalizacao "Cocos-Island"^^xsd:string .
-
-ex:l426 a ont:Localizacao ;
-    ont:idLocalizacao "l426"^^xsd:string ;
-    ont:nomeLocalizacao "Europa"^^xsd:string .
+    ont:nomeLocalizacao "Southwestern-U.S."^^xsd:string .
 
 ex:c24 a ont:Cor ;
     ont:idCor "c24"^^xsd:string ;
@@ -49689,7 +49662,7 @@ ex:h486 a ont:Habitat ;
 
 ex:l115 a ont:Localizacao ;
     ont:idLocalizacao "l115"^^xsd:string ;
-    ont:nomeLocalizacao "central"^^xsd:string .
+    ont:nomeLocalizacao "southern-Africa"^^xsd:string .
 
 ex:l166 a ont:Localizacao ;
     ont:idLocalizacao "l166"^^xsd:string ;
@@ -49703,49 +49676,37 @@ ex:l241 a ont:Localizacao ;
     ont:idLocalizacao "l241"^^xsd:string ;
     ont:nomeLocalizacao "western-Europe"^^xsd:string .
 
-ex:l259 a ont:Localizacao ;
-    ont:idLocalizacao "l259"^^xsd:string ;
-    ont:nomeLocalizacao "Northern-India"^^xsd:string .
-
 ex:l308 a ont:Localizacao ;
     ont:idLocalizacao "l308"^^xsd:string ;
     ont:nomeLocalizacao "Deserts"^^xsd:string .
 
-ex:l311 a ont:Localizacao ;
-    ont:idLocalizacao "l311"^^xsd:string ;
-    ont:nomeLocalizacao "southern-Madagascar"^^xsd:string .
-
 ex:l34 a ont:Localizacao ;
     ont:idLocalizacao "l34"^^xsd:string ;
-    ont:nomeLocalizacao "US"^^xsd:string .
+    ont:nomeLocalizacao "Baja-California"^^xsd:string .
 
-ex:l374 a ont:Localizacao ;
-    ont:idLocalizacao "l374"^^xsd:string ;
-    ont:nomeLocalizacao "Western-United-States"^^xsd:string .
+ex:l405 a ont:Localizacao ;
+    ont:idLocalizacao "l405"^^xsd:string ;
+    ont:nomeLocalizacao "Indian-Ocean-islands-of-Christmas-Island"^^xsd:string .
 
 ex:l413 a ont:Localizacao ;
     ont:idLocalizacao "l413"^^xsd:string ;
     ont:nomeLocalizacao "Gulf-Coast"^^xsd:string .
 
+ex:l426 a ont:Localizacao ;
+    ont:idLocalizacao "l426"^^xsd:string ;
+    ont:nomeLocalizacao "Europa"^^xsd:string .
+
 ex:l433 a ont:Localizacao ;
     ont:idLocalizacao "l433"^^xsd:string ;
     ont:nomeLocalizacao "North-Atlantic-Ocean"^^xsd:string .
 
-ex:l48 a ont:Localizacao ;
-    ont:idLocalizacao "l48"^^xsd:string ;
-    ont:nomeLocalizacao "Worldwide"^^xsd:string .
-
-ex:l61 a ont:Localizacao ;
-    ont:idLocalizacao "l61"^^xsd:string ;
-    ont:nomeLocalizacao "Southeast-Asia"^^xsd:string .
+ex:l56 a ont:Localizacao ;
+    ont:idLocalizacao "l56"^^xsd:string ;
+    ont:nomeLocalizacao "Cuba"^^xsd:string .
 
 ex:l81 a ont:Localizacao ;
     ont:idLocalizacao "l81"^^xsd:string ;
     ont:nomeLocalizacao "Central-Africa"^^xsd:string .
-
-ex:l83 a ont:Localizacao ;
-    ont:idLocalizacao "l83"^^xsd:string ;
-    ont:nomeLocalizacao "Eastern"^^xsd:string .
 
 ex:c22 a ont:Cor ;
     ont:idCor "c22"^^xsd:string ;
@@ -49753,7 +49714,7 @@ ex:c22 a ont:Cor ;
 
 ex:l141 a ont:Localizacao ;
     ont:idLocalizacao "l141"^^xsd:string ;
-    ont:nomeLocalizacao "Arctic"^^xsd:string .
+    ont:nomeLocalizacao "Least-Concern"^^xsd:string .
 
 ex:l232 a ont:Localizacao ;
     ont:idLocalizacao "l232"^^xsd:string ;
@@ -49763,33 +49724,41 @@ ex:l244 a ont:Localizacao ;
     ont:idLocalizacao "l244"^^xsd:string ;
     ont:nomeLocalizacao "near-the-beach"^^xsd:string .
 
+ex:l254 a ont:Localizacao ;
+    ont:idLocalizacao "l254"^^xsd:string ;
+    ont:nomeLocalizacao "Western"^^xsd:string .
+
 ex:l379 a ont:Localizacao ;
     ont:idLocalizacao "l379"^^xsd:string ;
-    ont:nomeLocalizacao "northern-Africa"^^xsd:string .
+    ont:nomeLocalizacao "western-Russia"^^xsd:string .
 
-ex:l390 a ont:Localizacao ;
-    ont:idLocalizacao "l390"^^xsd:string ;
-    ont:nomeLocalizacao "Tropical-forest-in-New-Britain"^^xsd:string .
+ex:l48 a ont:Localizacao ;
+    ont:idLocalizacao "l48"^^xsd:string ;
+    ont:nomeLocalizacao "Worldwide"^^xsd:string .
 
-ex:l56 a ont:Localizacao ;
-    ont:idLocalizacao "l56"^^xsd:string ;
-    ont:nomeLocalizacao "Cuba"^^xsd:string .
+ex:l61 a ont:Localizacao ;
+    ont:idLocalizacao "l61"^^xsd:string ;
+    ont:nomeLocalizacao "Southeast-Asia"^^xsd:string .
 
 ex:l62 a ont:Localizacao ;
     ont:idLocalizacao "l62"^^xsd:string ;
-    ont:nomeLocalizacao "Papua-New-Guinea"^^xsd:string .
+    ont:nomeLocalizacao "the-Solomon-Islands"^^xsd:string .
+
+ex:l83 a ont:Localizacao ;
+    ont:idLocalizacao "l83"^^xsd:string ;
+    ont:nomeLocalizacao "central-United-States"^^xsd:string .
 
 ex:h1015 a ont:Habitat ;
     ont:idHabitat "h1015"^^xsd:string ;
     ont:nomeHabitat "Maple"^^xsd:string .
 
+ex:l130 a ont:Localizacao ;
+    ont:idLocalizacao "l130"^^xsd:string ;
+    ont:nomeLocalizacao "Western-mountainous-regions-of-North-America"^^xsd:string .
+
 ex:l167 a ont:Localizacao ;
     ont:idLocalizacao "l167"^^xsd:string ;
     ont:nomeLocalizacao "eastern"^^xsd:string .
-
-ex:l20 a ont:Localizacao ;
-    ont:idLocalizacao "l20"^^xsd:string ;
-    ont:nomeLocalizacao "Australia"^^xsd:string .
 
 ex:l204 a ont:Localizacao ;
     ont:idLocalizacao "l204"^^xsd:string ;
@@ -49799,17 +49768,17 @@ ex:l249 a ont:Localizacao ;
     ont:idLocalizacao "l249"^^xsd:string ;
     ont:nomeLocalizacao "Data-Deficient"^^xsd:string .
 
-ex:l254 a ont:Localizacao ;
-    ont:idLocalizacao "l254"^^xsd:string ;
-    ont:nomeLocalizacao "Western"^^xsd:string .
+ex:l279 a ont:Localizacao ;
+    ont:idLocalizacao "l279"^^xsd:string ;
+    ont:nomeLocalizacao "Seychelles"^^xsd:string .
 
 ex:l314 a ont:Localizacao ;
     ont:idLocalizacao "l314"^^xsd:string ;
     ont:nomeLocalizacao "Extinct"^^xsd:string .
 
-ex:l371 a ont:Localizacao ;
-    ont:idLocalizacao "l371"^^xsd:string ;
-    ont:nomeLocalizacao "everywhere-except-Antarctica"^^xsd:string .
+ex:l390 a ont:Localizacao ;
+    ont:idLocalizacao "l390"^^xsd:string ;
+    ont:nomeLocalizacao "Tropical-forest-in-New-Britain"^^xsd:string .
 
 ex:l398 a ont:Localizacao ;
     ont:idLocalizacao "l398"^^xsd:string ;
@@ -49821,10 +49790,6 @@ ex:l128 a ont:Localizacao ;
     ont:idLocalizacao "l128"^^xsd:string ;
     ont:nomeLocalizacao "Zoos"^^xsd:string .
 
-ex:l130 a ont:Localizacao ;
-    ont:idLocalizacao "l130"^^xsd:string ;
-    ont:nomeLocalizacao "Western-mountainous-regions-of-North-America"^^xsd:string .
-
 ex:l16 a ont:Localizacao ;
     ont:idLocalizacao "l16"^^xsd:string ;
     ont:nomeLocalizacao "Central-Arizona-south-to-northern-Mexico"^^xsd:string .
@@ -49833,21 +49798,9 @@ ex:l165 a ont:Localizacao ;
     ont:idLocalizacao "l165"^^xsd:string ;
     ont:nomeLocalizacao "southern-United-States-coast"^^xsd:string .
 
-ex:l279 a ont:Localizacao ;
-    ont:idLocalizacao "l279"^^xsd:string ;
-    ont:nomeLocalizacao "Seychelles"^^xsd:string .
-
-ex:l338 a ont:Localizacao ;
-    ont:idLocalizacao "l338"^^xsd:string ;
-    ont:nomeLocalizacao "Korean-Peninsula"^^xsd:string .
-
-ex:l342 a ont:Localizacao ;
-    ont:idLocalizacao "l342"^^xsd:string ;
-    ont:nomeLocalizacao "South-Central-Africa"^^xsd:string .
-
-ex:l385 a ont:Localizacao ;
-    ont:idLocalizacao "l385"^^xsd:string ;
-    ont:nomeLocalizacao "Timor"^^xsd:string .
+ex:l20 a ont:Localizacao ;
+    ont:idLocalizacao "l20"^^xsd:string ;
+    ont:nomeLocalizacao "Australia"^^xsd:string .
 
 ex:l219 a ont:Localizacao ;
     ont:idLocalizacao "l219"^^xsd:string ;
@@ -49857,13 +49810,29 @@ ex:l301 a ont:Localizacao ;
     ont:idLocalizacao "l301"^^xsd:string ;
     ont:nomeLocalizacao "Mountains-of-Vietnam-Laos-border"^^xsd:string .
 
-ex:l325 a ont:Localizacao ;
-    ont:idLocalizacao "l325"^^xsd:string ;
-    ont:nomeLocalizacao "Cosmopolitan"^^xsd:string .
+ex:l338 a ont:Localizacao ;
+    ont:idLocalizacao "l338"^^xsd:string ;
+    ont:nomeLocalizacao "Korean-Peninsula"^^xsd:string .
+
+ex:l342 a ont:Localizacao ;
+    ont:idLocalizacao "l342"^^xsd:string ;
+    ont:nomeLocalizacao "South-Central-Africa"^^xsd:string .
+
+ex:l371 a ont:Localizacao ;
+    ont:idLocalizacao "l371"^^xsd:string ;
+    ont:nomeLocalizacao "everywhere-except-Antarctica"^^xsd:string .
+
+ex:l385 a ont:Localizacao ;
+    ont:idLocalizacao "l385"^^xsd:string ;
+    ont:nomeLocalizacao "Timor"^^xsd:string .
+
+ex:l260 a ont:Localizacao ;
+    ont:idLocalizacao "l260"^^xsd:string ;
+    ont:nomeLocalizacao "Arctic-Ocean"^^xsd:string .
 
 ex:l351 a ont:Localizacao ;
     ont:idLocalizacao "l351"^^xsd:string ;
-    ont:nomeLocalizacao "Chad"^^xsd:string .
+    ont:nomeLocalizacao "Sudan"^^xsd:string .
 
 ex:l369 a ont:Localizacao ;
     ont:idLocalizacao "l369"^^xsd:string ;
@@ -49873,17 +49842,9 @@ ex:l400 a ont:Localizacao ;
     ont:idLocalizacao "l400"^^xsd:string ;
     ont:nomeLocalizacao "south-India"^^xsd:string .
 
-ex:l41 a ont:Localizacao ;
-    ont:idLocalizacao "l41"^^xsd:string ;
-    ont:nomeLocalizacao "Antarctica"^^xsd:string .
-
 ex:l412 a ont:Localizacao ;
     ont:idLocalizacao "l412"^^xsd:string ;
     ont:nomeLocalizacao "United-States-east-of-the-Mississippi-River"^^xsd:string .
-
-ex:l427 a ont:Localizacao ;
-    ont:idLocalizacao "l427"^^xsd:string ;
-    ont:nomeLocalizacao "Fossils-found-in-oceans-across-the-world"^^xsd:string .
 
 ex:l428 a ont:Localizacao ;
     ont:idLocalizacao "l428"^^xsd:string ;
@@ -49897,17 +49858,25 @@ ex:l253 a ont:Localizacao ;
     ont:idLocalizacao "l253"^^xsd:string ;
     ont:nomeLocalizacao "All-continents-besides-Antarctica"^^xsd:string .
 
-ex:l260 a ont:Localizacao ;
-    ont:idLocalizacao "l260"^^xsd:string ;
-    ont:nomeLocalizacao "Arctic-Ocean"^^xsd:string .
+ex:l325 a ont:Localizacao ;
+    ont:idLocalizacao "l325"^^xsd:string ;
+    ont:nomeLocalizacao "Cosmopolitan"^^xsd:string .
 
 ex:l389 a ont:Localizacao ;
     ont:idLocalizacao "l389"^^xsd:string ;
     ont:nomeLocalizacao "Andean-South-America"^^xsd:string .
 
-ex:l159 a ont:Localizacao ;
-    ont:idLocalizacao "l159"^^xsd:string ;
-    ont:nomeLocalizacao "transplanted-elsewhere"^^xsd:string .
+ex:l41 a ont:Localizacao ;
+    ont:idLocalizacao "l41"^^xsd:string ;
+    ont:nomeLocalizacao "worldwide"^^xsd:string .
+
+ex:l427 a ont:Localizacao ;
+    ont:idLocalizacao "l427"^^xsd:string ;
+    ont:nomeLocalizacao "Fossils-found-in-oceans-across-the-world"^^xsd:string .
+
+ex:l186 a ont:Localizacao ;
+    ont:idLocalizacao "l186"^^xsd:string ;
+    ont:nomeLocalizacao "Southern-Africa"^^xsd:string .
 
 ex:l213 a ont:Localizacao ;
     ont:idLocalizacao "l213"^^xsd:string ;
@@ -49921,33 +49890,33 @@ ex:l261 a ont:Localizacao ;
     ont:idLocalizacao "l261"^^xsd:string ;
     ont:nomeLocalizacao "Deep-sea"^^xsd:string .
 
-ex:l328 a ont:Localizacao ;
-    ont:idLocalizacao "l328"^^xsd:string ;
-    ont:nomeLocalizacao "Kosovo"^^xsd:string .
-
 ex:l391 a ont:Localizacao ;
     ont:idLocalizacao "l391"^^xsd:string ;
-    ont:nomeLocalizacao "Dinaric-Alps-in-Croatia"^^xsd:string .
+    ont:nomeLocalizacao "Herzegovina"^^xsd:string .
+
+ex:l407 a ont:Localizacao ;
+    ont:idLocalizacao "l407"^^xsd:string ;
+    ont:nomeLocalizacao "into-the-Arctic-Circle"^^xsd:string .
 
 ex:l417 a ont:Localizacao ;
     ont:idLocalizacao "l417"^^xsd:string ;
     ont:nomeLocalizacao "northern-Mexico"^^xsd:string .
 
-ex:l186 a ont:Localizacao ;
-    ont:idLocalizacao "l186"^^xsd:string ;
-    ont:nomeLocalizacao "Southern-Africa"^^xsd:string .
+ex:l159 a ont:Localizacao ;
+    ont:idLocalizacao "l159"^^xsd:string ;
+    ont:nomeLocalizacao "transplanted-elsewhere"^^xsd:string .
 
 ex:l208 a ont:Localizacao ;
     ont:idLocalizacao "l208"^^xsd:string ;
     ont:nomeLocalizacao "Around-the-world"^^xsd:string .
 
+ex:l328 a ont:Localizacao ;
+    ont:idLocalizacao "l328"^^xsd:string ;
+    ont:nomeLocalizacao "possibly-in-northern-Greece"^^xsd:string .
+
 ex:l381 a ont:Localizacao ;
     ont:idLocalizacao "l381"^^xsd:string ;
     ont:nomeLocalizacao "eastern-Africa"^^xsd:string .
-
-ex:l407 a ont:Localizacao ;
-    ont:idLocalizacao "l407"^^xsd:string ;
-    ont:nomeLocalizacao "into-the-Arctic-Circle"^^xsd:string .
 
 ex:l82 a ont:Localizacao ;
     ont:idLocalizacao "l82"^^xsd:string ;
@@ -49955,7 +49924,7 @@ ex:l82 a ont:Localizacao ;
 
 ex:l155 a ont:Localizacao ;
     ont:idLocalizacao "l155"^^xsd:string ;
-    ont:nomeLocalizacao "The-Southern-Hemisphere"^^xsd:string .
+    ont:nomeLocalizacao "North-Pacific"^^xsd:string .
 
 ex:l200 a ont:Localizacao ;
     ont:idLocalizacao "l200"^^xsd:string ;
@@ -49969,6 +49938,10 @@ ex:l202 a ont:Localizacao ;
     ont:idLocalizacao "l202"^^xsd:string ;
     ont:nomeLocalizacao "Originated-in-Syria"^^xsd:string .
 
+ex:l386 a ont:Localizacao ;
+    ont:idLocalizacao "l386"^^xsd:string ;
+    ont:nomeLocalizacao "England"^^xsd:string .
+
 ex:l404 a ont:Localizacao ;
     ont:idLocalizacao "l404"^^xsd:string ;
     ont:nomeLocalizacao "not-extinct"^^xsd:string .
@@ -49977,25 +49950,21 @@ ex:l59 a ont:Localizacao ;
     ont:idLocalizacao "l59"^^xsd:string ;
     ont:nomeLocalizacao "North"^^xsd:string .
 
-ex:l227 a ont:Localizacao ;
-    ont:idLocalizacao "l227"^^xsd:string ;
-    ont:nomeLocalizacao "Arizona"^^xsd:string .
-
-ex:l386 a ont:Localizacao ;
-    ont:idLocalizacao "l386"^^xsd:string ;
-    ont:nomeLocalizacao "Coasts-of-Ireland"^^xsd:string .
-
-ex:l388 a ont:Localizacao ;
-    ont:idLocalizacao "l388"^^xsd:string ;
-    ont:nomeLocalizacao "Desert"^^xsd:string .
-
 ex:l91 a ont:Localizacao ;
     ont:idLocalizacao "l91"^^xsd:string ;
-    ont:nomeLocalizacao "Antartica"^^xsd:string .
+    ont:nomeLocalizacao "every-continent-except-Europe"^^xsd:string .
+
+ex:l227 a ont:Localizacao ;
+    ont:idLocalizacao "l227"^^xsd:string ;
+    ont:nomeLocalizacao "New-Mexico"^^xsd:string .
 
 ex:l126 a ont:Localizacao ;
     ont:idLocalizacao "l126"^^xsd:string ;
     ont:nomeLocalizacao "the-Caribbean"^^xsd:string .
+
+ex:l388 a ont:Localizacao ;
+    ont:idLocalizacao "l388"^^xsd:string ;
+    ont:nomeLocalizacao "Desert"^^xsd:string .
 
 ex:l334 a ont:Localizacao ;
     ont:idLocalizacao "l334"^^xsd:string ;
@@ -50021,13 +49990,17 @@ ex:l321 a ont:Localizacao ;
     ont:idLocalizacao "l321"^^xsd:string ;
     ont:nomeLocalizacao "Tropical-Oceans"^^xsd:string .
 
+ex:l336 a ont:Localizacao ;
+    ont:idLocalizacao "l336"^^xsd:string ;
+    ont:nomeLocalizacao "Warmer-areas-around-the-world"^^xsd:string .
+
 ex:l367 a ont:Localizacao ;
     ont:idLocalizacao "l367"^^xsd:string ;
     ont:nomeLocalizacao "West-Indies"^^xsd:string .
 
-ex:l336 a ont:Localizacao ;
-    ont:idLocalizacao "l336"^^xsd:string ;
-    ont:nomeLocalizacao "Warmer-areas-around-the-world"^^xsd:string .
+ex:l251 a ont:Localizacao ;
+    ont:idLocalizacao "l251"^^xsd:string ;
+    ont:nomeLocalizacao "Oceans-across-the-world"^^xsd:string .
 
 ex:l199 a ont:Localizacao ;
     ont:idLocalizacao "l199"^^xsd:string ;
@@ -50036,10 +50009,6 @@ ex:l199 a ont:Localizacao ;
 ex:l248 a ont:Localizacao ;
     ont:idLocalizacao "l248"^^xsd:string ;
     ont:nomeLocalizacao "Oceans-near-Australia"^^xsd:string .
-
-ex:l251 a ont:Localizacao ;
-    ont:idLocalizacao "l251"^^xsd:string ;
-    ont:nomeLocalizacao "Oceans-across-the-world"^^xsd:string .
 
 ex:c27 a ont:Cor ;
     ont:idCor "c27"^^xsd:string ;
@@ -50055,7 +50024,7 @@ ex:l414 a ont:Localizacao ;
 
 ex:l322 a ont:Localizacao ;
     ont:idLocalizacao "l322"^^xsd:string ;
-    ont:nomeLocalizacao "Venezuela"^^xsd:string .
+    ont:nomeLocalizacao "Guyana"^^xsd:string .
 
 ex:l399 a ont:Localizacao ;
     ont:idLocalizacao "l399"^^xsd:string ;
