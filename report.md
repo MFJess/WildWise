@@ -3,9 +3,9 @@
 ## RPCW 2023/2024
 
 ### Autores:
-Jéssica Fernandes a93318
+Jéssica Fernandes - A93318
 
-Vitor Lelis pg54273
+Vitor Lelis - PG54273
 
 
 ## 1. Introdução
@@ -224,4 +224,32 @@ Decidimos que seria necessário criar queries SPARQL para conseguir as seguintes
 
 ### 2.4. Implementação da App
 
-## 3. Considerações Finais
+Para a criação da App, optou-se por utilizar tecnologias como Python e o sua *framework* Flask. O objetivo da aplicação foi representar visualmente o resultado das queries de uma forma que fosse fácil de compreender e navegar.
+
+Além de se criar diferentes páginas para cada tipo de consulta, foi também desenvolvida uma página de formulário que permite a adição de um novo elemento à ontologia, permitindo a sua expansão sem perder a coesão.
+
+O funcionamento da aplicação consiste em realizar queries ao servidor do `GraphDB` e, a partir do resultado, preencher um template HTML com as informações corretas sobre a consulta atual.
+
+### 2.5. Testar a Aplicação
+
+Para testar a aplicação, é necessário primeiro instalar os módulos necessários, garantir que a ontologia esteja num repositório no `GraphDB`, mudar para a diretoria correta e finalmente executar a aplicação. Os passos são os seguintes:
+
+1. Instale os módulos:
+```bash
+pip install -r requirements.txt
+# OU
+pip3 install -r requirements.txt
+```
+2. Crie um Docker Container local do `GraphDB` e faça-o correr em `localhost` na porta `7200`;
+
+3. Dentro da aplicação do `GraphDB`, crie um repositório chamado `animals` e importe o ficheiro `animals.ttl`. Este ficheiro contém a ontologia criada para a aplicação.
+
+4. Navegue para a diretoria da aplicação:
+```bash
+cd app/
+```
+
+5. Execute a aplicação:
+```bash
+python3 app.py
+```
