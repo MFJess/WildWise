@@ -114,6 +114,30 @@ WHERE {{
 }}
 '''
 
+# Todas as dietas
+def all_diets(): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT DISTINCT ?diets
+WHERE {{
+  ?a a ont:Animal.
+  ?a ont:dieta ?diets .
+}}
+'''
+
+# Animais com certa dieta
+def animal_diets(diet): return f'''
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
+
+SELECT ?idAnimal ?nome
+WHERE {{
+  ?a a ont:Animal.
+  ?a ont:dieta '{diet}'.
+  ?a ont:idAnimal ?idAnimal .
+  ?a ont:nomeAnimal ?nome.
+}}
+'''
+
 #############################
 ######### TAXONOMIA #########
 #############################

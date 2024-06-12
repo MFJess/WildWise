@@ -402,6 +402,43 @@ def cor(cor):
                                                        "tag": cor})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
+    
+#----------------------Dietas----------------------
+
+# Dietas
+@app.route('/dietas')
+def dietas():
+    sparql_query = all_diets()
+
+    resposta = requests.get(graphdb_endpoint,
+                            params={"query": sparql_query}, 
+                            headers={'Accept': 'application/sparql-results+json'})
+    
+    if resposta.status_code == 200:
+        dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['diets']['value'])
+        return render_template('dietas.html', data = {"data": data_formatada, 
+                                                       "dados": dados_sorted})
+    else:
+        return render_template('empty.html', data = {"data": data_formatada})
+    
+# Dieta Unica
+@app.route('/dietas/<dieta>')
+def dieta(dieta):
+    sparql_query = animal_diets(dieta)
+
+    resposta = requests.get(graphdb_endpoint,
+                            params={"query": sparql_query}, 
+                            headers={'Accept': 'application/sparql-results+json'})
+    
+    if resposta.status_code == 200:
+        dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
+        return render_template('animais.html', data = {"data": data_formatada, 
+                                                       "dados": dados_sorted,
+                                                       "tag": dieta})
+    else:
+        return render_template('empty.html', data = {"data": data_formatada})
 
 ###############AUMENTAR################### 
 
