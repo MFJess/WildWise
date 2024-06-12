@@ -16,13 +16,14 @@ WHERE {{
 
 # Características base e taxonómicas de um animal de id especificado
 def animal_characteristics(id): return f'''PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
-SELECT ?idAnimal ?nome ?comprimento ?altura ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
+SELECT ?idAnimal ?nome ?comprimento ?altura ?peso ?gestacao ?incubacao ?tempoVida ?dieta ?presas ?predadores ?nrEspecies ?tipoPele ?nomeCientifico ?reino ?familia ?ordem ?phylum ?classe ?genus
 WHERE {{
   ?animal ont:idAnimal '{id}'.
     OPTIONAL {{ ?animal ont:idAnimal ?idAnimal. }}
     OPTIONAL {{ ?animal ont:nomeAnimal ?nome. }}
     OPTIONAL {{ ?animal ont:comprimento ?comprimento. }}
     OPTIONAL {{ ?animal ont:altura ?altura. }}
+    OPTIONAL {{ ?animal ont:peso ?peso. }}
     OPTIONAL {{ ?animal ont:incubacao ?incubacao. }}
     OPTIONAL {{ ?animal ont:tempoVida ?tempoVida. }}
     OPTIONAL {{ ?animal ont:dieta ?dieta. }}
