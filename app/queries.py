@@ -286,7 +286,7 @@ WHERE {{
 '''
 
 def animal_insert(id,name, taxo): return f'''
-PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34#>
+PREFIX ont:<http://rpcw.di.uminho.pt/2024/4/untitled-ontology-34/>
 
 INSERT DATA{{
   ont:{id} a ont:Animal ;
