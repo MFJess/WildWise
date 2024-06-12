@@ -23,11 +23,6 @@ def index():
   
 ###############CONSULTA###################
 
-# Consulta
-@app.route('/consulta')
-def consulta():
-    return render_template('consulta.html', data = {"data": data_formatada})
-
 #----------------------Animais----------------------
 
 # Animais
@@ -41,8 +36,9 @@ def animais():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": "Todos"})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -87,8 +83,9 @@ def reinos():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['reinos']['value'])
         return render_template('reinos.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -103,8 +100,9 @@ def reino(reino):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": reino})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -122,8 +120,9 @@ def filos():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['phylums']['value'])
         return render_template('filos.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -138,8 +137,9 @@ def filo(filo):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": filo})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -157,8 +157,9 @@ def classes():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['classes']['value'])
         return render_template('classes.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -173,8 +174,9 @@ def classe(classe):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": classe})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -192,8 +194,9 @@ def ordens():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['ordens']['value'])
         return render_template('ordens.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -208,8 +211,9 @@ def ordem(ordem):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": ordem})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -227,8 +231,9 @@ def familias():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['families']['value'])
         return render_template('familias.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -243,8 +248,9 @@ def familia(familia):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": familia})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -262,8 +268,9 @@ def generos():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['genus']['value'])
         return render_template('generos.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -278,8 +285,9 @@ def genero(genero):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": genero})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -297,8 +305,9 @@ def localizacoes():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['localizacoes']['value'])
         return render_template('locais.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -313,8 +322,9 @@ def localizacao(local):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": local})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -332,8 +342,9 @@ def habitats():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['habitats']['value'])
         return render_template('habitats.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -348,8 +359,9 @@ def habitat(habitat):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": habitat})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
@@ -367,8 +379,9 @@ def cores():
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['cores']['value'])
         return render_template('cores.html', data = {"data": data_formatada, 
-                                                       "dados": dados})
+                                                       "dados": dados_sorted})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
     
@@ -383,8 +396,9 @@ def cor(cor):
     
     if resposta.status_code == 200:
         dados = resposta.json()['results']['bindings']
+        dados_sorted = sorted(dados, key=lambda item: item['nome']['value'])
         return render_template('animais.html', data = {"data": data_formatada, 
-                                                       "dados": dados,
+                                                       "dados": dados_sorted,
                                                        "tag": cor})
     else:
         return render_template('empty.html', data = {"data": data_formatada})
